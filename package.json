@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/react-cytoscapejs": "^1.2.5",
+    "cytoscape": "^3.32.0",
+    "cytoscape-cose-bilkent": "^4.1.0",
     "react": "^19.1.0",
+    "react-cytoscapejs": "^2.0.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
