@@ -1,4 +1,4 @@
-import type { ElementsDefinition } from 'cytoscape';
+import type { ElementsDefinition, NodeSingular } from 'cytoscape';
 
 /* ---------- 接口 ---------- */
 
@@ -12,6 +12,12 @@ export interface SkillNode {
   label: string;
 }
 
+
+export interface FoundNode {
+  id: string;
+  label: string;
+  node: NodeSingular;
+}
 /* ---------- 对外函数 ---------- */
 
 export async function loadIndexGraph(): Promise<ElementsDefinition> {
@@ -31,13 +37,13 @@ function categoriesToElements(allCategories: CategoryNode[]): ElementsDefinition
   /* 1️⃣ root */
   nodes.push({
     data: { id: 'root', label: 'ISCED Root' },
+    classes: 'level-0 root-node',
     position: { x: 0, y: 0 },
-    locked: true
   });
   posMap['root'] = { x: 0, y: 0 };
 
   /* 2️⃣ 一级环 (Broad fields - id.length === 2) */
-  const MAIN_R = 800; // Radius for the first level ring
+  const MAIN_R = 2200; // Radius for the first level ring
 
   // Filter and sort Level 1 nodes (Broad Fields)
   const broadFieldLevelNodes = allCategories
@@ -53,13 +59,13 @@ function categoriesToElements(allCategories: CategoryNode[]): ElementsDefinition
 
   broadFieldLevelNodes.forEach((nodeData, i) => {
     const angle = (2 * Math.PI * i) / NUM_BROAD_FIELDS;
-    const x = MAIN_R * Math.cos(angle);
-    const y = MAIN_R * Math.sin(angle);
+    const x = MAIN_R * (i % 2 + 1.5) * Math.cos(angle);
+    const y = MAIN_R * (i % 2 + 1.5) * Math.sin(angle);
 
     nodes.push({
       data: { id: nodeData.id, label: nodeData.label },
+      classes: 'level-1',
       position: { x, y },
-      locked: true // Lock Level 1 nodes in their circular positions
     });
     edges.push({ data: { id: `root-${nodeData.id}`, source: 'root', target: nodeData.id } });
     posMap[nodeData.id] = { x, y };
@@ -81,7 +87,7 @@ function categoriesToElements(allCategories: CategoryNode[]): ElementsDefinition
 
   /* 3️⃣ 二级节点 (Narrow fields - 3 位 id) */
   // Use radii similar to your original code for outward fanning
-  const SECOND_R_FAN = 400; // Radius of the fan for L2 nodes from their L1 parent (was 500 in original prompt, adjust as needed)
+  const SECOND_R_FAN = 900; // Radius of the fan for L2 nodes from their L1 parent
 
   Object.entries(level2Groups).forEach(([level1ParentId, group]) => {
     const level1ParentPos = posMap[level1ParentId];
@@ -98,16 +104,17 @@ function categoriesToElements(allCategories: CategoryNode[]): ElementsDefinition
 
     group.sort((a,b) => a.id.localeCompare(b.id)); // Sort children for consistent fan layout
     group.forEach((level2Node, idx) => {
-      const pos = fanOut(level1ParentPos, rootPos, idx, group.length, SECOND_R_FAN);
+      const pos = fanOut(level1ParentPos, rootPos, idx, group.length, SECOND_R_FAN, Math.PI * 1.2);
       nodes.push({
+        classes: 'level-2',
         data: { ...level2Node, hasChildren: !!level2Node.childFile },
-        position: pos
+        position: pos,
       });
       edges.push({
         data: {
           id: `${level1ParentId}-${level2Node.id}`,
           source: level1ParentId,
-          target: level2Node.id
+          target: level2Node.id,
         }
       });
       posMap[level2Node.id] = pos;
@@ -115,7 +122,7 @@ function categoriesToElements(allCategories: CategoryNode[]): ElementsDefinition
   });
 
   /* 4️⃣ 三级节点 (Detailed fields - 4 位 id) */
-  const THIRD_R_FAN = 150; // Radius of the fan for L3 nodes from their L2 parent (was 300 in original prompt, adjust as needed)
+  const THIRD_R_FAN = 250; // Radius of the fan for L3 nodes from their L2 parent (was 300 in original prompt, adjust as needed)
 
   Object.entries(level3Groups).forEach(([level2ParentId, group]) => {
     const level2ParentPos = posMap[level2ParentId];
@@ -142,9 +149,10 @@ function categoriesToElements(allCategories: CategoryNode[]): ElementsDefinition
 
       group.sort((a,b) => a.id.localeCompare(b.id)); // Sort children
       group.forEach((level3Node, idx) => {
-        const pos = fanOut(level2ParentPos, directionSourceForL3, idx, group.length, THIRD_R_FAN);
+        const pos = fanOut(level2ParentPos, directionSourceForL3, idx, group.length, THIRD_R_FAN, Math.PI / 2);
         nodes.push({
           data: { ...level3Node, hasChildren: !!level3Node.childFile },
+          classes: 'level-3',
           position: pos
         });
         edges.push({
@@ -159,8 +167,9 @@ function categoriesToElements(allCategories: CategoryNode[]): ElementsDefinition
     } else { // level1GrandparentPos exists
         group.sort((a,b) => a.id.localeCompare(b.id)); // Sort children
         group.forEach((level3Node, idx) => {
-            const pos = fanOut(level2ParentPos, level1GrandparentPos, idx, group.length, THIRD_R_FAN);
-            nodes.push({
+            const pos = fanOut(level2ParentPos, level1GrandparentPos, idx, group.length, THIRD_R_FAN, Math.PI * 1.6);
+          nodes.push({
+                classes: 'level-3',
                 data: { ...level3Node, hasChildren: !!level3Node.childFile },
                 position: pos
             });
@@ -195,7 +204,8 @@ function fanOut(
   directionSourcePosition: { x: number; y: number },
   idx: number,
   total: number,
-  radius: number
+  radius: number,
+  fanAngle: number = Math.PI / 4
 ) {
   // Calculate the base angle: This is the angle of the vector from directionSourcePosition to parentPosition.
   // The fan will spread outwards along this axis.
@@ -204,7 +214,7 @@ function fanOut(
     parentPosition.x - directionSourcePosition.x
   );
 
-  const spread = Math.PI / 3; // 60° fan spread. Adjust as needed (e.g., Math.PI / 2 for 90°).
+  const spread = fanAngle;
 
   let angle;
   if (total === 1) {
