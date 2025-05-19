@@ -3,14 +3,14 @@
 This project aims to visualize all human occupations and educational fields using the official  
 [**ISCED-F 2013** classification](public/international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf)  
 from UNESCO (International Standard Classification of Education – Fields of Education and Training).
-
+![Web_screenshot](public/tree_example.jpg)
 [中文版README](README_ZH.md)
 ---
 
 ## What is This?
 
 - A **visual skill tree** that shows the global structure of knowledge and occupational domains.
-- Based on the ISCED-F hierarchy: from **broad fields (0–9)** to **detailed subfields**.
+- Based on the ISCED-F hierarchy: from **broad fields (0–10)** to **detailed subfields**.
 - Designed to be **community-driven**: detailed nodes are manually contributed by users.
 - Built in **TypeScript** (my first time using it!) — most of the code was generated with the help of AI.
 

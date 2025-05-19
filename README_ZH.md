@@ -3,13 +3,13 @@
 本项目旨在基于联合国教科文组织（UNESCO）发布的  
 [《ISCED-F 2013 教育和培训领域详细分类说明（2015）》](public/international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf)  
 构建一个可视化的全球职业与知识技能树。
-
+![Web_screenshot](public/tree_example.jpg)
 ---
 
 ## 项目简介
 
 - 将 ISCED-F 的知识体系转化为可视化的技能树结构
-- 包含从 **大类（0~9）** 到 **详细小类** 的完整结构
+- 包含从 **大类（0~10）** 到 **详细小类** 的完整结构
 - **鼓励社区共建**：每个小类中的细节信息需手动补全
 - 使用 **TypeScript 编写**（是我第一次用 TypeScript，很多是让 AI 帮我生成的）
 
