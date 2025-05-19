@@ -123,16 +123,19 @@ export const App: React.FC = () => {
    * @param {cytoscape.Core} cyInstance - The Cytoscape core instance.
    * @param {number} [padding=600] - The padding around the target element(s) when fitting the view.
    */
-  const focusNode = useCallback((targetNode: NodeSingular | NodeCollection, cyInstance: cytoscape.Core, padding = 600) => {
+  const focusNode = useCallback((targetNode: cytoscape.NodeSingular | cytoscape.NodeCollection, cyInstance: cytoscape.Core, padding = 600) => {
     clearAnimations();
     animationTimeoutRef.current = window.setTimeout(() => {
-        if (cyInstance && !cyInstance.destroyed() && targetNode.length > 0 && !targetNode.removed()) {
-            cyInstance.animate({
-                fit: { eles: targetNode, padding: padding },
-                duration: 500, // Animation duration
-                easing: 'ease-out-quad' // Animation easing
-            });
-        }
+      // Filter out removed elements from targetNode before checking its length and using it
+      const elementsToFit = targetNode.filter((el: cytoscape.NodeSingular) => !el.removed());
+
+      if (cyInstance && !cyInstance.destroyed() && elementsToFit.length > 0) {
+        cyInstance.animate({
+          fit: { eles: elementsToFit, padding: padding }, // Use the filtered collection
+          duration: 500, // Animation duration
+          easing: 'ease-out-quad' // Animation easing
+        });
+      }
     }, 0); // Timeout of 0 ms to ensure it runs after current execution stack
   }, [clearAnimations]);
 
@@ -209,10 +212,10 @@ export const App: React.FC = () => {
 
     if (searchTerm) {
       // Filter nodes whose label includes the search term (case-insensitive)
-      const foundNodesCollection = cy.nodes().filter((n: NodeSingular) => {
-        const label = n.data('label') as string | undefined;
-        return label && label.toLowerCase().includes(searchTerm.toLowerCase());
-      });
+    const foundNodesCollection = cy.nodes().filter((n: cytoscape.NodeSingular) => {
+      const label = n.data('label') as string | undefined;
+      return !!(label && label.toLowerCase().includes(searchTerm.toLowerCase()));
+    });
 
       cy.nodes().deselect().removeClass('highlighted');
       setIsDetailPanelVisible(false);
