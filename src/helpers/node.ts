@@ -8,8 +8,20 @@ export interface CategoryNode {
   childFile?: string;
 }
 export interface SkillNode {
-  id: string;
-  label: string;
+  name: string;
+  description?: string;
+  wiki?: string;
+  resources?: string[];
+}
+
+export interface CytoscapeChildSkillNodeData {
+  id: string;           // Generated unique ID for this Cytoscape node
+  label: string;        // Derived from SkillNode.name
+  description?: string;
+  wiki?: string;
+  resources?: string[];
+  parentId: string;     // The ID of the CategoryNode that was clicked to load these
+  isChildSkill?: boolean; // Flag to identify these nodes, optional
 }
 
 
@@ -21,7 +33,7 @@ export interface FoundNode {
 /* ---------- 对外函数 ---------- */
 
 export async function loadIndexGraph(): Promise<ElementsDefinition> {
-  const res = await fetch('/data/isced-index.json');
+  const res = await fetch('/data/en/isced-index.json');
   if (!res.ok) throw new Error('无法加载顶层分类数据');
   const allCategories: CategoryNode[] = await res.json();
   return categoriesToElements(allCategories);
@@ -36,7 +48,7 @@ function categoriesToElements(allCategories: CategoryNode[]): ElementsDefinition
 
   /* 1️⃣ root */
   nodes.push({
-    data: { id: 'root', label: 'ISCED Root' },
+    data: { id: 'r', label: 'ISCED Root' },
     classes: 'level-0 root-node',
     position: { x: 0, y: 0 },
   });
@@ -67,7 +79,7 @@ function categoriesToElements(allCategories: CategoryNode[]): ElementsDefinition
       classes: 'level-1',
       position: { x, y },
     });
-    edges.push({ data: { id: `root-${nodeData.id}`, source: 'root', target: nodeData.id } });
+    edges.push({ data: { id: `r-${nodeData.id}`, source: 'r', target: nodeData.id } });
     posMap[nodeData.id] = { x, y };
   });
 
@@ -235,33 +247,68 @@ function fanOut(
 
 export async function loadChildGraph(
   parentId: string,
-  childFile: string
+  parentPos: { x: number; y: number }, // Position of the clicked parent node
+  grandParentPos: { x: number; y: number }
 ): Promise<ElementsDefinition> {
-  const res = await fetch(`/data/${childFile}`);
-  if (!res.ok) throw new Error(`无法加载子文件 ${childFile}`);
-  const json: {
-    nodes: SkillNode[];
-    edges?: { source: string; target: string }[];
-  } = await res.json();
-  return childGraphToElements(json, parentId);
+  const res = await fetch(`/data/en/${parentId}.json`); // Assumes filename is parentId.json
+  if (!res.ok) {
+    throw new Error(`Could not load child data from file: ${parentId}.json. Status: ${res.status}`);
+  }
+  const loadedSkills: SkillNode[] = await res.json();
+  return childGraphToElements(loadedSkills, parentId, parentPos, grandParentPos);
 }
 
 function childGraphToElements(
-  data: { nodes: SkillNode[]; edges?: { source: string; target: string }[] },
-  parentId: string
+  skillsArray: SkillNode[],
+  parentId: string,
+  parentPos: { x: number; y: number }, // Position of the parent node
+  grandParentPos: { x: number; y: number }
 ): ElementsDefinition {
-  const nodes = data.nodes.map((n) => ({
-    data: n,
-    position: { x: Math.random() * 200 - 100, y: Math.random() * 200 - 100 } // Random position for child graph nodes
-  }));
+  const nodes: { data: CytoscapeChildSkillNodeData; position: { x: number; y: number }; group: 'nodes' }[] = [];
+  const edges: { data: { id: string; source: string; target: string }; group: 'edges' }[] = [];
 
-  const edges = (data.edges ?? []).map((e) => ({
-    data: {
-      id: `${parentId}-${e.source}-${e.target}`.replace(/[^A-Za-z0-9_-]/g, '_'),
-      source: e.source,
-      target: e.target
-    }
-  }));
+  // Parameters for the fanOut function
+  const radiusForFanOut = 120; // Distance of child nodes from the parent node
+  const spreadAngleForFanOut = Math.PI * 1.2; // Spread angle for the fan 
+                                            // Adjust as needed based on number of children
+
+  skillsArray.forEach((skill, index) => {
+    const sanitizedName = skill.name.replace(/[^A-Za-z0-9_.-]/g, '_').toLowerCase();
+    const newNodeId = `${parentId}-${sanitizedName}-${index}`;
+
+    // Calculate position using fanOut
+    const newPosition = fanOut(
+      parentPos,
+      grandParentPos,
+      index,
+      skillsArray.length,
+      radiusForFanOut,
+      spreadAngleForFanOut
+    );
+
+    nodes.push({
+      group: 'nodes',
+      data: {
+        id: newNodeId,
+        label: skill.name,
+        description: skill.description,
+        wiki: skill.wiki,
+        resources: skill.resources,
+        parentId: parentId,
+        isChildSkill: true,
+      },
+      position: newPosition, // Use the calculated position
+    });
+
+    edges.push({
+      group: 'edges',
+      data: {
+        id: `edge-${parentId}-to-${newNodeId}`,
+        source: parentId,
+        target: newNodeId,
+      },
+    });
+  });
 
   return { nodes, edges };
 }

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Computer software use",
+    "description": "Covers the general use and operational skills of various computer software applications, such as office suites, graphics editing software, and specialized domain-specific software.",
+    "wiki": "https://en.wikipedia.org/wiki/Application_software",
+    "resources": [
+      "https://www.gcflearnfree.org/topics/computers/",
+      "https://www.microsoft.com/en-us/education/products/office",
+      "https://www.adobe.com/creativecloud/all-apps.html"
+    ]
+  },
+  {
+    "name": "Computer use",
+    "description": "Refers to the fundamental skills in using computer hardware and operating systems, including file management, system settings, basic troubleshooting, and understanding computer principles.",
+    "wiki": "https://en.wikipedia.org/wiki/Computer_literacy",
+    "resources": [
+      "https://edu.gcfglobal.org/en/computerbasics/",
+      "https://www.digitallearn.org/courses/getting-started-computer"
+    ]
+  },
+  {
+    "name": "Internet use",
+    "description": "The ability to effectively and safely use the internet for information retrieval, communication, online transactions, and social interaction, including browser usage, search engine optimization, and cybersecurity awareness.",
+    "wiki": "https://en.wikipedia.org/wiki/Internet_skills",
+    "resources": [
+      "https://edu.gcfglobal.org/en/internetbasics/",
+      "https://www.google.com/search/howsearchworks/"
+    ]
+  },
+  {
+    "name": "Use of software for calculating (spreadsheets)",
+    "description": "Focuses on using spreadsheet software (e.g., Microsoft Excel, Google Sheets) for data calculation, analysis, visualization, and management.",
+    "wiki": "https://en.wikipedia.org/wiki/Spreadsheet",
+    "resources": [
+      "https://support.microsoft.com/en-us/excel",
+      "https://support.google.com/a/users/answer/9282959?hl=zh",
+      "https://www.excel-easy.com/"
+    ]
+  },
+  {
+    "name": "Use of software for data processing",
+    "description": "Involves skills in using various software tools for data collection, cleaning, transformation, analysis, and storage, potentially including database software, statistical analysis software, or ETL tools.",
+    "wiki": "https://en.wikipedia.org/wiki/Data_processing",
+    "resources": [
+      "https://www.mysql.com/",
+      "https://www.r-project.org/",
+      "https://www.python.org/ (for data science libraries like Pandas, NumPy)"
+    ]
+  },
+  {
+    "name": "Use of software for desktop publishing",
+    "description": "Refers to using desktop publishing software (e.g., Adobe InDesign, Microsoft Publisher) to create and typeset professional-quality documents such as flyers, brochures, books, and magazines.",
+    "wiki": "https://en.wikipedia.org/wiki/Desktop_publishing",
+    "resources": [
+      "https://www.adobe.com/products/indesign.html",
+      "https://www.microsoft.com/en-us/microsoft-365/publisher",
+      "https://www.canva.com/"
+    ]
+  },
+  {
+    "name": "Use of software for word processing",
+    "description": "Focuses on using word processing software (e.g., Microsoft Word, Google Docs) to create, edit, format, and manage text documents.",
+    "wiki": "https://en.wikipedia.org/wiki/Word_processor",
+    "resources": [
+      "https://support.microsoft.com/en-us/word",
+      "https://support.google.com/a/users/answer/9282573?hl=zh",
+      "https://edu.gcfglobal.org/en/word/"
+    ]
+  }
+]

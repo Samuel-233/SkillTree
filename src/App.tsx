@@ -70,38 +70,67 @@ export const App: React.FC = () => {
   }, [clearAnimations]);
 
   const handleNodeClick = useCallback(async (event: cytoscape.EventObject) => {
-    if (!cyRef.current) return;
+    if (!cyRef.current) return; // Assuming cyRef is your Cytoscape instance reference
     const cy = cyRef.current;
     const node = event.target as NodeSingular;
-    const data = node.data() as SkillNode & { childFile?: string; expanded?: boolean };
+    const nodeId = node.data('id') as string; // Get node ID
+    const isExpanded = node.data('expanded') as boolean | undefined; // Get expanded status
+    const parentNode = node.incomers().nodes()[0];
+    const parentNodePos = parentNode ? parentNode.position() : { x: 0, y: 0 };
 
-    clearAnimations();
-    cy.nodes().deselect().removeClass('highlighted');
-    node.select().addClass('highlighted');
-    // setSearchResults([]); // Optional: clear search results on direct node click
+    // Assuming clearAnimations and focusNode are defined elsewhere in your App.tsx
+    clearAnimations(); // Example: helper function to stop ongoing animations
+    cy.nodes().deselect().removeClass('highlighted'); // Example: clear previous selections
+    node.select().addClass('highlighted'); // Example: highlight current node
 
-    if (data.childFile && !data.expanded) {
-      const childElements = await loadChildGraph(data.id, data.childFile);
-      node.data('expanded', true);
-      setElements(prevElements =>
-        CytoscapeComponent.normalizeElements([
-          ...prevElements,
-          ...childElements.nodes.filter(n => !prevElements.find(e => e.data.id === n.data.id)),
-          ...childElements.edges.filter(e => !prevElements.find(el => el.data.id === e.data.id))
-        ])
-      );
-      focusNode(node, cy);
+    // New logic: Check if the node ID is 4 characters long and the node is not already expanded
+    if (nodeId && nodeId.length === 4 && !isExpanded) {
+      try {
+        // Call loadChildGraph with the parentId (nodeId) and the constructed childFileName
+        // The loadChildGraph function provided in your prompt expects these two arguments.
+        const childElements = await loadChildGraph(nodeId, node.position(), parentNodePos);
+
+        node.data('expanded', true); // Mark the node as expanded in its data store
+
+        // Assuming setElements is your state setter for graph elements
+        setElements(prevElements => {
+          // Filter out duplicate nodes and edges before adding
+          const existingNodeIds = new Set(prevElements.filter(el => el.group === 'nodes').map(el => el.data.id));
+          const existingEdgeIds = new Set(prevElements.filter(el => el.group === 'edges').map(el => el.data.id));
+
+          const newNodes = childElements.nodes.filter(n => !existingNodeIds.has(n.data.id));
+          const newEdges = childElements.edges.filter(e => e.data.id && !existingEdgeIds.has(e.data.id)); // Ensure new edges have an ID for filtering
+
+          // It's good practice to use CytoscapeComponent.normalizeElements or ensure elements are in the correct format
+          return CytoscapeComponent.normalizeElements([
+            ...prevElements,
+            ...newNodes,
+            ...newEdges
+          ]);
+        });
+
+        focusNode(node, cy); // Focus on the parent node after loading children
+      } catch (error) {
+        console.error(`Failed to load child graph for node ${nodeId} using file ${childFileName}:`, error);
+        // Optional: handle the error, e.g., by showing a notification to the user
+        // or resetting node.data('expanded') to false if you want to allow retrying.
+        // node.data('expanded', false);
+      }
     } else {
+      // If the node ID is not 4 characters long, or if it's already expanded,
+      // or if any other condition isn't met, just focus the node.
       focusNode(node, cy);
     }
-  }, [clearAnimations, focusNode]);
+    // Add dependencies for useCallback. These would include any external functions or state setters used.
+    // e.g., [clearAnimations, focusNode, setElements]
+  }, [clearAnimations, focusNode, setElements]);
 
   const handleFitGraph = useCallback(() => {
     if (cyRef.current) {
       clearAnimations();
       cyRef.current.nodes().deselect().removeClass('highlighted');
       focusNode(cyRef.current.elements(), cyRef.current, 50);
-      setSearchResults([]);
+      // setSearchResults([]);
     }
   }, [clearAnimations, focusNode]);
 
@@ -120,7 +149,7 @@ export const App: React.FC = () => {
 
       if (foundNodesCollection.length > 0) {
         const newSearchResults: FoundNode[] = foundNodesCollection.map((theNode: NodeSingular) => {
-            const labelValue = theNode.data('label');
+            const labelValue = theNode.data('id') + ' - ' + theNode.data('label');
             return {
               id: theNode.id(),
               label: typeof labelValue === 'string' ? labelValue : String(labelValue || ''),
