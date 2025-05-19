@@ -1,4 +1,5 @@
 import type { ElementsDefinition, NodeSingular, NodeDataDefinition } from 'cytoscape';
+import { getPath } from './utils';
 // import { availableLanguages, type LanguageCode } from '../config'; // Assuming this is correctly pathed if used directly here, otherwise passed as arg.
 
 /* ---------- Interfaces ---------- */
@@ -52,14 +53,7 @@ export interface FoundNode {
   label: string;       // Display label of the found node (often id + name)
   node: NodeSingular;  // The Cytoscape node object itself
 }
-function getPath(fileName: string): string {
-  let baseUrl = import.meta.env.BASE_URL;
-  // 确保 baseUrl 以 / 结尾 (如果不是根路径 '/')
-  if (baseUrl !== '/' && !baseUrl.endsWith('/')) {
-    baseUrl += '/';
-  }
-  return `${baseUrl}${fileName}`;
-}
+
 
 
 /* ---------- Exported Functions ---------- */

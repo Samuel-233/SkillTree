@@ -10,6 +10,7 @@ import { SearchPanel } from './components/SearchPanel';
 import { SettingsMenu } from './components/SettingPanel';
 import { SkillDetailPanel } from './components/SkillDetailPanel';
 import { availableLanguages, type LanguageCode } from './config';
+import { getPath } from './helpers/utils';
 import './App.css';
 
 /**
@@ -77,7 +78,7 @@ export const App: React.FC = () => {
     });
 
     // Fetch and set the stylesheet for the current language, or use default
-    fetch(`/data/${currentLanguage}/cy-style.json`)
+    fetch(getPath(`data/${currentLanguage}/cy-style.json`))
       .then(res => res.json())
       .then(styleJson => setStylesheet(styleJson))
       .catch(() => setStylesheet(defaultCytoscapeStyles));
