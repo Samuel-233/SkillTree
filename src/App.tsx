@@ -3,15 +3,17 @@ import CytoscapeComponent from 'react-cytoscapejs';
 import cytoscape from 'cytoscape';
 import type { ElementDefinition, NodeSingular, NodeCollection, Stylesheet } from 'cytoscape';
 // @ts-ignore
-import coseBilkent from 'cytoscape-cose-bilkent'; // If you use this layout
-import { loadIndexGraph, loadChildGraph, type SkillNode , type FoundNode} from './helpers/node';
-import { SearchPanel } from './components/SearchPanel.tsx'; // Import the new component
-import { SettingsMenu } from './components/setting.tsx';
+import coseBilkent from 'cytoscape-cose-bilkent';
+import { loadIndexGraph, loadChildGraph, type CytoscapeChildSkillNodeData, type FoundNode } from './helpers/node';
+import { SearchPanel } from './components/SearchPanel';
+import { SettingsMenu } from './components/SettingPanel';
+import { SkillDetailPanel } from './components/SkillDetailPanel';
 import { availableLanguages, type LanguageCode } from './config';
-import './App.css'; // Import the CSS file
+import './App.css';
 
-
-// Default Cytoscape styles (this is for Cytoscape elements, not HTML)
+/**
+ * Default styles for the Cytoscape graph.
+ */
 const defaultCytoscapeStyles: Stylesheet[] = [
   { selector: 'node', style: { label: 'data(label)', 'background-color': '#6FB1FC', 'width': 'mapData(id.length, 4, 2, 20, 50)', 'height': 'mapData(id.length, 4, 2, 20, 50)', 'font-size': 'mapData(id.length, 4, 2, 8, 16)'} },
   { selector: 'edge', style: { 'target-arrow-shape': 'triangle', 'target-arrow-color': '#ccc', 'line-color': '#ccc', 'width': 1 } },
@@ -21,75 +23,105 @@ const defaultCytoscapeStyles: Stylesheet[] = [
 
 const LOCAL_STORAGE_LANGUAGE_KEY = 'graphAppLanguage';
 
+/**
+ * Main application component that renders the skill graph and associated UI elements.
+ * It manages graph elements, user interactions, search functionality, language settings,
+ * and detail display for selected skills.
+ */
 export const App: React.FC = () => {
+  // State for graph elements (nodes and edges)
   const [elements, setElements] = useState<ElementDefinition[]>([]);
+  // State for graph stylesheet
   const [stylesheet, setStylesheet] = useState<Stylesheet[]>([]);
+  // Ref to the Cytoscape core instance
   const cyRef = useRef<cytoscape.Core | null>(null);
+  // Ref for managing animation timeouts
   const animationTimeoutRef = useRef<number | null>(null);
 
+  // State for search functionality
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [searchResults, setSearchResults] = useState<FoundNode[]>([]);
 
-  // Initialize currentLanguage from localStorage or default to 'en'
+  // State for skill detail panel
+  const [selectedSkillDetail, setSelectedSkillDetail] = useState<CytoscapeChildSkillNodeData | null>(null);
+  const [isDetailPanelVisible, setIsDetailPanelVisible] = useState<boolean>(false);
+
+  // State for the current application language
   const [currentLanguage, setCurrentLanguage] = useState<LanguageCode>(() => {
     const savedLanguage = localStorage.getItem(LOCAL_STORAGE_LANGUAGE_KEY);
-    // Ensure the saved language is one of the available languages
     if (savedLanguage && availableLanguages.some(lang => lang.code === savedLanguage)) {
       return savedLanguage as LanguageCode;
     }
     return 'en'; // Default language
   });
 
+  // Register cose-bilkent layout extension with Cytoscape
+  cytoscape.use(coseBilkent);
 
-  cytoscape.use(coseBilkent); // Make sure to register layout extensions
-
+  /**
+   * Effect hook to load the initial index graph data and stylesheet when the
+   * current language changes. It also handles fitting the graph to the viewport.
+   */
   useEffect(() => {
     console.log(`Loading index graph for language: ${currentLanguage}`);
-    // Pass currentLanguage to loadIndexGraph
     loadIndexGraph(currentLanguage).then(({ nodes, edges }) => {
       if (cyRef.current) {
-        cyRef.current.elements().remove(); // Clear old elements before adding new ones
+        cyRef.current.elements().remove(); // Clear previous elements
       }
       const newElements = CytoscapeComponent.normalizeElements([...nodes, ...edges]);
       setElements(newElements);
 
-      // Fit graph after new elements are set and graph instance is available
-      // Use a timeout to ensure Cytoscape has processed new elements
-      setTimeout(() => {
-        if (cyRef.current && cyRef.current.elements().length > 0) {
-          cyRef.current.fit(undefined, 50);
-        }
-      }, 0);
-
+      if (cyRef.current) {
+        const cy = cyRef.current;
+        // Delay fit to ensure elements are rendered
+        const fitTimeoutId = setTimeout(() => {
+          if (cy && !cy.destroyed() && cy.elements().length > 0) {
+            cy.fit(undefined, 50); // Fit with 50px padding
+          }
+        }, 100);
+        // Optional: Cleanup timeout on unmount or re-run
+        // return () => clearTimeout(fitTimeoutId);
+      } else {
+        console.warn("cyRef not available for initial fit immediately after setting elements.");
+      }
     }).catch(error => {
         console.error(`Error loading index graph for language ${currentLanguage}:`, error);
     });
 
+    // Fetch and set the stylesheet for the current language, or use default
     fetch(`/data/${currentLanguage}/cy-style.json`)
       .then(res => res.json())
       .then(styleJson => setStylesheet(styleJson))
       .catch(() => setStylesheet(defaultCytoscapeStyles));
-  }, [currentLanguage]); // Re-run this effect when currentLanguage changes
+  }, [currentLanguage]);
 
-
+  /**
+   * Handles changes to the application language.
+   * Updates localStorage, resets relevant states (elements, search, details),
+   * and sets the new current language to trigger data reloading.
+   * @param {LanguageCode} newLanguage - The new language code selected by the user.
+   */
   const handleLanguageChange = (newLanguage: LanguageCode) => {
     if (newLanguage !== currentLanguage) {
       console.log(`Language changed to: ${newLanguage}`);
-      localStorage.setItem(LOCAL_STORAGE_LANGUAGE_KEY, newLanguage); // Save to localStorage
+      localStorage.setItem(LOCAL_STORAGE_LANGUAGE_KEY, newLanguage);
       
-      // Clear elements and search state immediately for responsiveness
       setElements([]); 
       setSearchResults([]);
       setSearchTerm('');
-      // Expanded states are on node data, will be reset when new elements load
+      setIsDetailPanelVisible(false);
+      setSelectedSkillDetail(null);
       
-      setCurrentLanguage(newLanguage); // This will trigger the useEffect above
+      setCurrentLanguage(newLanguage);
     }
   };
 
+  /**
+   * Clears any ongoing Cytoscape animations and animation timeouts.
+   */
   const clearAnimations = useCallback(() => {
     if (cyRef.current) {
-      cyRef.current.stop(true, true);
+      cyRef.current.stop(true, true); // Stop animations immediately
     }
     if (animationTimeoutRef.current) {
       clearTimeout(animationTimeoutRef.current);
@@ -97,125 +129,135 @@ export const App: React.FC = () => {
     }
   }, []);
 
+  /**
+   * Focuses the view on a target node or collection of nodes with animation.
+   * @param {NodeSingular | NodeCollection} targetNode - The Cytoscape node or collection to focus on.
+   * @param {cytoscape.Core} cyInstance - The Cytoscape core instance.
+   * @param {number} [padding=600] - The padding around the target element(s) when fitting the view.
+   */
   const focusNode = useCallback((targetNode: NodeSingular | NodeCollection, cyInstance: cytoscape.Core, padding = 600) => {
     clearAnimations();
     animationTimeoutRef.current = window.setTimeout(() => {
         if (cyInstance && !cyInstance.destroyed() && targetNode.length > 0 && !targetNode.removed()) {
             cyInstance.animate({
                 fit: { eles: targetNode, padding: padding },
-                duration: 500,
-                easing: 'ease-out-quad'
+                duration: 500, // Animation duration
+                easing: 'ease-out-quad' // Animation easing
             });
         }
-    }, 0);
+    }, 0); // Timeout of 0 ms to ensure it runs after current execution stack
   }, [clearAnimations]);
 
+  /**
+   * Handles click events on graph nodes.
+   * If a child skill node is clicked, it displays its details.
+   * If a category node (expandable) is clicked, it loads and displays its child graph.
+   * Otherwise, it selects and focuses on the clicked node.
+   * @param {cytoscape.EventObject} event - The Cytoscape event object for the tap.
+   */
   const handleNodeClick = useCallback(async (event: cytoscape.EventObject) => {
-    if (!cyRef.current) return; // Assuming cyRef is your Cytoscape instance reference
+    if (!cyRef.current) return;
     const cy = cyRef.current;
     const node = event.target as NodeSingular;
-    const nodeId = node.data('id') as string; // Get node ID
-    const isExpanded = node.data('expanded') as boolean | undefined; // Get expanded status
-    const parentNode = node.incomers().nodes()[0];
-    const parentNodePos = parentNode ? parentNode.position() : { x: 0, y: 0 };
+    const nodeData = node.data();
 
-    // Assuming clearAnimations and focusNode are defined elsewhere in your App.tsx
-    clearAnimations(); // Example: helper function to stop ongoing animations
-    cy.nodes().deselect().removeClass('highlighted'); // Example: clear previous selections
-    node.select().addClass('highlighted'); // Example: highlight current node
+    clearAnimations();
 
-    // New logic: Check if the node ID is 4 characters long and the node is not already expanded
-    if (nodeId && nodeId.length === 4 && !isExpanded) {
+    cy.nodes().deselect().removeClass('highlighted'); // Deselect and unhighlight all nodes first
+    node.select().addClass('highlighted'); // Select and highlight the clicked node
+
+    if (nodeData.isChildSkill) {
+      // Clicked on a specific skill node
+      setSelectedSkillDetail(nodeData as CytoscapeChildSkillNodeData);
+      setIsDetailPanelVisible(true);
+      // Optional: focus on skill node with smaller padding
+      // focusNode(node, cy, 300); 
+    } else if (nodeData.id && nodeData.id.length === 4 && !nodeData.expanded) {
+      // Clicked on an expandable category node (e.g., length 4 ID) that isn't expanded yet
+      setIsDetailPanelVisible(false);
+      setSelectedSkillDetail(null);
       try {
-        // Call loadChildGraph with the parentId (nodeId) and the constructed childFileName
-        // The loadChildGraph function provided in your prompt expects these two arguments.
-        const childElements = await loadChildGraph(nodeId, node.position(), parentNodePos, currentLanguage);
-
-        node.data('expanded', true); // Mark the node as expanded in its data store
-
-        // Assuming setElements is your state setter for graph elements
-        setElements(prevElements => {
-          // Filter out duplicate nodes and edges before adding
-          const existingNodeIds = new Set(prevElements.filter(el => el.group === 'nodes').map(el => el.data.id));
-          const existingEdgeIds = new Set(prevElements.filter(el => el.group === 'edges').map(el => el.data.id));
-
-          const newNodes = childElements.nodes.filter(n => !existingNodeIds.has(n.data.id));
-          const newEdges = childElements.edges.filter(e => e.data.id && !existingEdgeIds.has(e.data.id)); // Ensure new edges have an ID for filtering
-
-          // It's good practice to use CytoscapeComponent.normalizeElements or ensure elements are in the correct format
-          return CytoscapeComponent.normalizeElements([
-            ...prevElements,
-            ...newNodes,
-            ...newEdges
-          ]);
-        });
-
-        focusNode(node, cy); // Focus on the parent node after loading children
+        const parentNodePos = node.incomers().nodes()[0]?.position() || { x: 0, y: 0 }; // Position of parent for layout
+        const childElements = await loadChildGraph(nodeData.id, node.position(), parentNodePos, currentLanguage);
+        node.data('expanded', true); // Mark node as expanded
+        // Add new child elements to the graph
+        setElements(prevElements => CytoscapeComponent.normalizeElements([...prevElements, ...childElements.nodes, ...childElements.edges]));
+        focusNode(node, cy); // Focus on the expanded parent node
       } catch (error) {
-        console.error(`Failed to load child graph for node ${nodeId}`, error);
-        focusNode(node, cy);
-        // Optional: handle the error, e.g., by showing a notification to the user
-        // or resetting node.data('expanded') to false if you want to allow retrying.
-        // node.data('expanded', false);
+        console.error(`Failed to load child graph for node ${nodeData.id}`, error);
+        focusNode(node, cy); // Still focus on node even if child loading fails
       }
     } else {
-      // If the node ID is not 4 characters long, or if it's already expanded,
-      // or if any other condition isn't met, just focus the node.
+      // Clicked on other types of nodes (root, already expanded, etc.)
+      setIsDetailPanelVisible(false);
+      setSelectedSkillDetail(null);
       focusNode(node, cy);
     }
-    // Add dependencies for useCallback. These would include any external functions or state setters used.
-    // e.g., [clearAnimations, focusNode, setElements]
   }, [currentLanguage, clearAnimations, focusNode, setElements]);
 
+  /**
+   * Handles the action to fit the entire graph into the viewport.
+   * Clears selections and closes the detail panel.
+   */
   const handleFitGraph = useCallback(() => {
     if (cyRef.current) {
       clearAnimations();
       cyRef.current.nodes().deselect().removeClass('highlighted');
-      focusNode(cyRef.current.elements(), cyRef.current, 50);
-      // setSearchResults([]);
+      setIsDetailPanelVisible(false);
+      setSelectedSkillDetail(null);
+      // Fit all elements with a small padding
+      focusNode(cyRef.current.elements(), cyRef.current, 50); 
     }
   }, [clearAnimations, focusNode]);
 
+  /**
+   * Performs a search for nodes based on the current searchTerm.
+   * Highlights found nodes and focuses the view on them.
+   */
   const performSearch = useCallback(() => {
     if (!cyRef.current) return;
     const cy = cyRef.current;
     clearAnimations();
 
     if (searchTerm) {
+      // Filter nodes whose label includes the search term (case-insensitive)
       const foundNodesCollection = cy.nodes().filter((n: NodeSingular) => {
         const label = n.data('label') as string | undefined;
         return label && label.toLowerCase().includes(searchTerm.toLowerCase());
       });
 
       cy.nodes().deselect().removeClass('highlighted');
+      setIsDetailPanelVisible(false);
+      setSelectedSkillDetail(null);
 
       if (foundNodesCollection.length > 0) {
-        const newSearchResults: FoundNode[] = foundNodesCollection.map((theNode: NodeSingular) => {
-            const labelValue = theNode.data('id') + ' - ' + theNode.data('label');
-            return {
-              id: theNode.id(),
-              label: typeof labelValue === 'string' ? labelValue : String(labelValue || ''),
-              node: theNode
-            };
-          });
+        const newSearchResults: FoundNode[] = foundNodesCollection.map((theNode: NodeSingular) => ({
+            id: theNode.id(),
+            label: `${theNode.data('id')} - ${theNode.data('label') || ''}`,
+            node: theNode
+          }));
         setSearchResults(newSearchResults);
-        foundNodesCollection.addClass('highlighted');
-        focusNode(foundNodesCollection, cy, 100);
+        foundNodesCollection.addClass('highlighted'); // Highlight found nodes
+        focusNode(foundNodesCollection, cy, 100); // Focus on the collection of found nodes
       } else {
         setSearchResults([]);
-        // Consider using a more user-friendly notification than alert
-        // For example, a small message inline with the search panel
         console.warn('Node not found via search.');
       }
     } else {
+      // If search term is empty, clear results and highlights
       setSearchResults([]);
       cy.nodes().removeClass('highlighted');
     }
   }, [searchTerm, clearAnimations, focusNode]);
 
+  /**
+   * Handles changes in the search input field.
+   * Updates the searchTerm state. If the input is cleared, it also clears search results and highlights.
+   * @param {React.ChangeEvent<HTMLInputElement>} event - The input change event.
+   */
   const handleSearchInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value);
-    if (!event.target.value) {
+    if (!event.target.value) { // If search term is cleared
         setSearchResults([]);
         if (cyRef.current) {
             clearAnimations();
@@ -224,28 +266,42 @@ export const App: React.FC = () => {
     }
   };
 
+  /**
+   * Handles key press events in the search input field.
+   * Triggers search if the 'Enter' key is pressed.
+   * @param {React.KeyboardEvent<HTMLInputElement>} event - The keyboard event.
+   */
   const handleSearchKeyPress = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === 'Enter') {
       performSearch();
     }
   };
 
+  /**
+   * Handles clicks on items in the search results list.
+   * Selects, highlights, and focuses on the corresponding node in the graph.
+   * @param {FoundNode} foundNode - The search result item that was clicked.
+   */
   const handleSearchResultClick = useCallback((foundNode: FoundNode) => {
-    if (cyRef.current && !foundNode.node.removed()) {
+    if (cyRef.current && !foundNode.node.removed()) { // Check if node still exists
       clearAnimations();
       cyRef.current.nodes().deselect().removeClass('highlighted');
+      setIsDetailPanelVisible(false); 
+      setSelectedSkillDetail(null);
       foundNode.node.select().addClass('highlighted');
       focusNode(foundNode.node, cyRef.current);
-      // Optionally, keep search results or clear them:
-      // setSearchResults([]);
     }
   }, [clearAnimations, focusNode]);
 
+  /**
+   * Effect hook for component cleanup.
+   * Clears any active animations or timeouts when the component unmounts.
+   */
   useEffect(() => {
-    return () => { // Cleanup on unmount
+    return () => { // Cleanup function
       clearAnimations();
     };
-  }, [clearAnimations]);
+  }, [clearAnimations]); // Depends on clearAnimations callback
 
   return (
     <div className="app-container">
@@ -259,23 +315,35 @@ export const App: React.FC = () => {
         onSearchResultClick={handleSearchResultClick}
       />
       <CytoscapeComponent
-        elements={elements} // elements should be already normalized if using setElements correctly
-        className="cytoscape-container" // Use className for the wrapper div
-        // The `style` prop for CytoscapeComponent itself can't be a className,
-        // but its internal div can be styled via its parent or Cytoscape's direct options if needed.
-        // The className here will style the div that react-cytoscapejs renders.
+        elements={elements}
+        className="cytoscape-container"
         cy={(cy) => {
-          cyRef.current = cy;
-          cy.on('tap', 'node', handleNodeClick);
+          cyRef.current = cy; // Store Cytoscape instance
+          cy.on('tap', 'node', handleNodeClick); // Register node tap handler
+          // Initial fit is handled by the useEffect hook dependent on currentLanguage
         }}
-        stylesheet={stylesheet.length ? stylesheet : defaultCytoscapeStyles}
-        // layout={{ name: 'cose-bilkent', idealEdgeLength: 100, nodeRepulsion: 4500 }} // Example layout options
+        stylesheet={stylesheet.length ? stylesheet : defaultCytoscapeStyles} // Use fetched or default styles
       />
       <SettingsMenu
         currentLanguage={currentLanguage}
         availableLanguages={availableLanguages}
         onLanguageChange={handleLanguageChange}
       />
+      <SkillDetailPanel
+        skillData={selectedSkillDetail}
+        isVisible={isDetailPanelVisible}
+        onClose={() => {
+            setIsDetailPanelVisible(false);
+            setSelectedSkillDetail(null); // Clear details on close
+            // Optional: If a skill was selected, attempt to deselect/unhighlight it
+            // if(cyRef.current && selectedSkillDetail) {
+            //     const skillNode = cyRef.current.getElementById(selectedSkillDetail.id);
+            //     if(skillNode.length > 0 && skillNode.selected()){
+            //         // skillNode.deselect().removeClass('highlighted'); 
+            //     }
+            // }
+        }}
+      />  
     </div>
   );
 };
