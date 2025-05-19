@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Biology",
+    "description": "Within Natural Sciences, Mathematics and Statistics, specifically Biological and related sciences, Biology is the study of the structure, function, reproduction, growth, evolution, and behaviour of all living organisms.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Botany",
+    "description": "A branch of Biology focusing on the study of plants, including their structure, genetics, ecology, distribution, classification, and economic importance.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cell biology",
+    "description": "The study of cell structure and function, which is fundamental to understanding life, as part of Biology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Entomology",
+    "description": "The scientific study of insects, a branch of zoology, which itself is part of Biology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Genetics",
+    "description": "The study of genes, genetic variation, and heredity in living organisms, a core field within Biology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Mycology",
+    "description": "The branch of Biology concerned with the study of fungi, including their genetic and biochemical properties.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Zoology",
+    "description": "The branch of Biology that studies the animal kingdom, including the structure, embryology, evolution, classification, habits, and distribution of all animals.",
+    "wiki": "",
+    "resources": []
+  }
+]

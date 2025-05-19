@@ -1,127 +1,38 @@
 [
   {
-    "name": "Computer software use",
-    "description": "Covers the general use and operational skills of various computer software applications, such as office suites, graphics editing software, and specialized domain-specific software.",
-    "wiki": "https://en.wikipedia.org/wiki/Application_software",
-    "resources": [
-      {
-        "link": "https://www.gcflearnfree.org/topics/computers/",
-        "description": "Resource for Computer software use 1"
-      },
-      {
-        "link": "https://www.microsoft.com/en-us/education/products/office",
-        "description": "Resource for Computer software use 2"
-      },
-      {
-        "link": "https://www.adobe.com/creativecloud/all-apps.html",
-        "description": "Resource for Computer software use 3"
-      }
-    ]
-  },
-  {
     "name": "Computer use",
-    "description": "Refers to the fundamental skills in using computer hardware and operating systems, including file management, system settings, basic troubleshooting, and understanding computer principles.",
-    "wiki": "https://en.wikipedia.org/wiki/Computer_literacy",
-    "resources": [
-      {
-        "link": "https://edu.gcfglobal.org/en/computerbasics/",
-        "description": "Resource for Computer use 1"
-      },
-      {
-        "link": "https://www.digitallearn.org/courses/getting-started-computer",
-        "description": "Resource for Computer use 2"
-      }
-    ]
+    "description": "Within Information and Communication Technologies (ICTs), Computer use involves the study of utilizing computers and various computer software and applications for different purposes. These programmes are generally of short duration.",
+    "wiki": "",
+    "resources": []
   },
   {
-    "name": "Internet use",
-    "description": "The ability to effectively and safely use the internet for information retrieval, communication, online transactions, and social interaction, including browser usage, search engine optimization, and cybersecurity awareness.",
-    "wiki": "https://en.wikipedia.org/wiki/Internet_skills",
-    "resources": [
-      {
-        "link": "https://edu.gcfglobal.org/en/internetbasics/",
-        "description": "Resource for Internet use 1"
-      },
-      {
-        "link": "https://www.google.com/search/howsearchworks/",
-        "description": "Resource for Internet use 2"
-      }
-    ]
-  },
-  {
-    "name": "Use of software for calculating (spreadsheets)",
-    "description": "Focuses on using spreadsheet software (e.g., Microsoft Excel, Google Sheets) for data calculation, analysis, visualization, and management.",
-    "wiki": "https://en.wikipedia.org/wiki/Spreadsheet",
-    "resources": [
-      {
-        "link": "https://support.microsoft.com/en-us/excel",
-        "description": "Resource for Use of software for calculating (spreadsheets) 1"
-      },
-      {
-        "link": "https://support.google.com/a/users/answer/9282959?hl=en",
-        "description": "Resource for Use of software for calculating (spreadsheets) 2"
-      },
-      {
-        "link": "https://www.excel-easy.com/",
-        "description": "Resource for Use of software for calculating (spreadsheets) 3"
-      }
-    ]
+    "name": "Use of software for calculating (spread sheets)",
+    "description": "Focuses on the practical application of spreadsheet software for tasks such as calculation, data analysis, and visualization, as part of general Computer use skills.",
+    "wiki": "",
+    "resources": []
   },
   {
     "name": "Use of software for data processing",
-    "description": "Involves skills in using various software tools for data collection, cleaning, transformation, analysis, and storage, potentially including database software, statistical analysis software, or ETL tools.",
-    "wiki": "https://en.wikipedia.org/wiki/Data_processing",
-    "resources": [
-      {
-        "link": "https://www.mysql.com/",
-        "description": "Resource for Use of software for data processing 1"
-      },
-      {
-        "link": "https://www.r-project.org/",
-        "description": "Resource for Use of software for data processing 2"
-      },
-      {
-        "link": "https://www.python.org/",
-        "description": "Resource for Use of software for data processing 3 (for data science libraries like Pandas, NumPy)"
-      }
-    ]
+    "description": "Covers the skills needed to use software for various data processing tasks including input, manipulation, and output of data, within the scope of Computer use.",
+    "wiki": "",
+    "resources": []
   },
   {
-    "name": "Use of software for desktop publishing",
-    "description": "Refers to using desktop publishing software (e.g., Adobe InDesign, Microsoft Publisher) to create and typeset professional-quality documents such as flyers, brochures, books, and magazines.",
-    "wiki": "https://en.wikipedia.org/wiki/Desktop_publishing",
-    "resources": [
-      {
-        "link": "https://www.adobe.com/products/indesign.html",
-        "description": "Resource for Use of software for desktop publishing 1"
-      },
-      {
-        "link": "https://www.microsoft.com/en-us/microsoft-365/publisher",
-        "description": "Resource for Use of software for desktop publishing 2"
-      },
-      {
-        "link": "https://www.canva.com/",
-        "description": "Resource for Use of software for desktop publishing 3"
-      }
-    ]
+    "name": "Use of software for desk top publishing",
+    "description": "Involves learning to use desktop publishing software to create and format documents for print or digital distribution, a specific skill in Computer use.",
+    "wiki": "",
+    "resources": []
   },
   {
     "name": "Use of software for word processing",
-    "description": "Focuses on using word processing software (e.g., Microsoft Word, Google Docs) to create, edit, format, and manage text documents.",
-    "wiki": "https://en.wikipedia.org/wiki/Word_processor",
-    "resources": [
-      {
-        "link": "https://support.microsoft.com/en-us/word",
-        "description": "Resource for Use of software for word processing 1"
-      },
-      {
-        "link": "https://support.google.com/a/users/answer/9282573?hl=en",
-        "description": "Resource for Use of software for word processing 2"
-      },
-      {
-        "link": "https://edu.gcfglobal.org/en/word/",
-        "description": "Resource for Use of software for word processing 3"
-      }
-    ]
+    "description": "Focuses on the effective use of word processing software for creating, editing, and formatting text documents, a fundamental aspect of Computer use.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Use of Internet",
+    "description": "Covers the skills required for navigating, searching, and utilizing the Internet for information, communication, and other online activities, an essential part of Computer use.",
+    "wiki": "",
+    "resources": []
   }
 ]

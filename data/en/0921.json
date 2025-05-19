@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Care of elderly and of disabled adults",
+    "description": "Under Health and Welfare / Welfare, this field is the study of non-medical care for elderly individuals and disabled adults, focusing on their daily living needs and well-being.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Care of the elderly",
+    "description": "Providing non-medical support and assistance to older adults to help them with daily activities and maintain their quality of life, a core part of Care of elderly and of disabled adults.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Non-medical care of disabled adults",
+    "description": "Assisting adults with disabilities in their daily living, focusing on personal care and support rather than medical treatment, within Care of elderly and of disabled adults.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Personal care of adults",
+    "description": "Providing assistance with personal hygiene, mobility, and other daily tasks for adults who require support, including the elderly and disabled, as part of Care of elderly and of disabled adults.",
+    "wiki": "",
+    "resources": []
+  }
+]

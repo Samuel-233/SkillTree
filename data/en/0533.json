@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Physics",
+    "description": "Within Physical sciences (under Natural Sciences), Physics is the study of the properties and interactions of matter and energy. It includes the study of astronomy and space science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Astronomy",
+    "description": "The branch of science that deals with celestial objects, space, and the physical universe as a whole, often considered part of Physics.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Astrophysics",
+    "description": "The branch of astronomy concerned with the physical nature of stars and other celestial bodies, and the application of the laws and theories of physics to the interpretation of astronomical observations.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Chemical physics",
+    "description": "A subdiscipline of chemistry and physics that investigates physicochemical phenomena using techniques from atomic and molecular physics and condensed matter physics.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical physics",
+    "description": "The application of physics concepts, theories, and methods to medicine or healthcare, a specialized area of Physics.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Optics",
+    "description": "The branch of physics which involves the behaviour and properties of light, including its interactions with matter and the construction of instruments that use or detect it.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Space science",
+    "description": "Encompasses all of the scientific disciplines that involve space exploration and study natural phenomena and physical bodies occurring in outer space, such as space medicine and astrobiology, closely related to Physics.",
+    "wiki": "",
+    "resources": []
+  }
+]

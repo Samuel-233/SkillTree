@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Information and Communication Technologies not elsewhere classified",
+    "description": "This residual category within Information and Communication Technologies (ICTs) is for IT studies that do not fit into the detailed fields of Computer use (0611), Database and network design and administration (0612), or Software and applications development and analysis (0613). An example is Artificial intelligence.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Artificial intelligence",
+    "description": "A branch of computer science dealing with the simulation of intelligent behavior in computers, classified under ICTs not elsewhere classified if not part of a more specific program.",
+    "wiki": "",
+    "resources": []
+  }
+]

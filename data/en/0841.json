@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Veterinary",
+    "description": "Under Agriculture, Forestry, Fisheries and Veterinary, Veterinary science is the study of preventing, diagnosing, and treating diseases and injuries in animals, and their general care. It includes caring for sick or injured animals in veterinary clinics and providing assistance to veterinary scientists. The science of animal reproduction is also included.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Animal health care",
+    "description": "The provision of medical and preventive care to animals to maintain their health and well-being, a core aspect of Veterinary science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Animal reproduction (science)",
+    "description": "The scientific study of the reproductive processes in animals, including techniques for breeding and managing fertility, part of Veterinary science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Artificial insemination (of animals)",
+    "description": "A technique used in animal reproduction where semen is deliberately introduced into a female's cervix or uterine cavity for the purpose of achieving a pregnancy, studied within Veterinary science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Veterinary assisting",
+    "description": "Providing support to veterinarians in clinical practice, including animal handling, sample collection, and administrative tasks, a role within the Veterinary field.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Veterinary medicine",
+    "description": "The branch of medicine that deals with the prevention, diagnosis, and treatment of disease, disorder, and injury in animals, central to Veterinary science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Veterinary nursing",
+    "description": "Providing nursing care to animals under the direction of a veterinarian, including monitoring patients, administering treatments, and assisting in procedures, a key role in Veterinary science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Veterinary science",
+    "description": "The broad scientific field concerned with animal health, disease, and welfare, encompassing veterinary medicine and related disciplines.",
+    "wiki": "",
+    "resources": []
+  }
+]

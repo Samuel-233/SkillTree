@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Medicine",
+    "description": "Under Health, this detailed field is the study of principles and procedures used in preventing, diagnosing, caring for, and treating illness, disease, and injury in humans, and the maintenance of general health. It principally consists of training for physicians/doctors.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Anaesthetics",
+    "description": "The branch of medicine concerned with the administration of anaesthetics to induce loss of sensation during surgical or other medical procedures, a specialization within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Forensic medicine",
+    "description": "The application of medical knowledge to legal questions, particularly in relation to crime and death investigation, a field within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Forensic pathology",
+    "description": "A sub-specialty of pathology that focuses on determining the cause of death by examining a corpse, often in legal cases, related to Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "General medicine",
+    "description": "The branch of medicine that deals with the diagnosis and nonsurgical treatment of diseases of the internal organs, a broad area within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Gerontology",
+    "description": "The comprehensive study of aging and the problems of older adults, including medical, social, and psychological aspects, relevant to Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Gynaecology",
+    "description": "The branch of medicine that deals with the functions and diseases specific to women and girls, especially those affecting the reproductive system, a specialization within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical science",
+    "description": "The broad field of scientific study related to human health, disease, and the practice of medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical training",
+    "description": "The education and practical experience required to become a medical professional, particularly a physician, the core of Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Paediatrics",
+    "description": "The branch of medicine dealing with children and their diseases, a specialization within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Psychiatry",
+    "description": "The branch of medicine focused on the diagnosis, treatment and prevention of mental, emotional and behavioral disorders, a specialization within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Surgery",
+    "description": "The branch of medicine that deals with the physical manipulation of a bodily structure to diagnose, prevent, or cure an ailment, a major field within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Training of physicians/doctors",
+    "description": "The comprehensive education and practical training programs that prepare individuals to practice as physicians or doctors, the essence of the Medicine field.",
+    "wiki": "",
+    "resources": []
+  }
+]

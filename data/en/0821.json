@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Forestry",
+    "description": "Under Agriculture, Forestry, Fisheries and Veterinary, Forestry is the science and craft of creating, managing, using, conserving, and repairing forests, woodlands, and associated resources for human and environmental benefits. It also includes the study of hunting and trapping.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Charcoal burning",
+    "description": "The process of producing charcoal by heating wood in the absence of air, a traditional forest product technique within Forestry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Forest keeping",
+    "description": "The management and maintenance of forest areas, ensuring their health and productivity, a part of Forestry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Forest product techniques",
+    "description": "Methods and technologies used in harvesting, processing, and utilizing products from forests, studied within Forestry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Hunting and trapping",
+    "description": "The practice of pursuing, capturing, or killing wild animals for food, recreation, or trade, included in the broader field of Forestry when related to forest management and wildlife.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Logging",
+    "description": "The process of cutting, processing, and moving trees to a location for transport, a key activity in Forestry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Tree felling",
+    "description": "The act of cutting down trees, a fundamental operation in Forestry and logging.",
+    "wiki": "",
+    "resources": []
+  }
+]

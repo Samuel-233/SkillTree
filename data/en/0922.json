@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Child care and youth services",
+    "description": "A field in Welfare focused on the study of the development and non-medical care of children and youths. It includes recreation and leisure activities as a social service for school children and young adults.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Child care",
+    "description": "Providing supervision and non-medical care for children, typically in daycare centers, preschools (non-educational focus), or homes, a core component of Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Child recreation programmes",
+    "description": "Organized activities and programmes designed to provide recreation and leisure opportunities for children, part of Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Day care",
+    "description": "Supervision and care provided for children or other dependents during the day, often while parents are working, a key service within Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Non-medical care of disabled children",
+    "description": "Providing support and assistance for children with disabilities in their daily living and development, focusing on non-medical aspects, within Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Youth services",
+    "description": "Programmes and activities aimed at supporting the development, well-being, and engagement of young people, a part of Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Youth worker programmes",
+    "description": "Training for individuals who work with young people in various settings, providing guidance, support, and organizing activities, within Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  }
+]

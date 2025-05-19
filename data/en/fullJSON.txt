@@ -1,0 +1,4485 @@
+%0011
+[
+  {
+    "name": "Basic programmes and qualifications",
+    "description": "Within Generic Programmes and Qualifications, Basic programmes and qualifications are designed to provide participants with fundamental skills in reading, writing, and arithmetic, along with an elementary understanding of other subjects such as history, geography, natural science, social science, art, and music. These programmes are normally offered at primary and lower secondary levels, but can include broad, non-specialised programmes at upper secondary level. [cite: 31, 32, 33]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Broad generic (non-specialised) programmes and qualifications",
+    "description": "These are Basic programmes and qualifications that are broad and non-specialised, often found at the upper secondary level, providing a general education without a specific subject emphasis. [cite: 33]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "General programmes and qualifications with no specific subject emphasis",
+    "description": "Falling under Basic programmes and qualifications, these are general programmes typically at the primary or lower secondary level that do not focus on a particular subject area. [cite: 31, 32, 34]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Programmes and qualifications at primary level",
+    "description": "These are Basic programmes and qualifications specifically delivered at the primary education level, focusing on fundamental skills and elementary understanding of various subjects. [cite: 31, 32, 34]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0021
+[
+  {
+    "name": "Literacy and numeracy",
+    "description": "As part of Generic Programmes and Qualifications, Literacy and numeracy programmes are primarily designed for adults to acquire or improve fundamental skills in reading, writing, and arithmetic. [cite: 39, 40]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Basic remedial programmes for youth or adults",
+    "description": "These are Literacy and numeracy programmes aimed at providing remedial education in fundamental reading, writing, and arithmetic skills for youth or adults. [cite: 39, 41]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Literacy",
+    "description": "This focuses on the skill of reading and writing, taught as part of Literacy and numeracy programmes, predominantly for adults. [cite: 39, 40, 41]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Numeracy",
+    "description": "This focuses on fundamental arithmetic skills, taught as part of Literacy and numeracy programmes, predominantly for adults. [cite: 39, 40, 41]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0031
+[
+  {
+    "name": "Personal skills",
+    "description": "Within Generic Programmes and Qualifications, Personal skills development refers to programmes focusing on enhancing an individual's mental, social, and other capacities through key competencies and transferable skills, not covered elsewhere in basic education or literacy/numeracy. [cite: 42]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Argumentation and presentation",
+    "description": "A component of Personal skills development, focusing on developing abilities in constructing arguments and delivering presentations. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Assertiveness training",
+    "description": "A Personal skills programme aimed at developing self-confidence and the ability to express oneself clearly and respectfully. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Communication skills",
+    "description": "Programmes under Personal skills development designed to improve interpersonal and general communication abilities. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Co-operation",
+    "description": "Focuses on developing the ability to work effectively with others, as part of Personal skills development. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Development of behavioural capacities",
+    "description": "Personal skills programmes aimed at enhancing various behavioural aspects of an individual. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Development of mental skills",
+    "description": "Personal skills programmes targeting the improvement of cognitive and mental abilities. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Job-seeking programmes",
+    "description": "These are Personal skills programmes that equip individuals with skills and strategies for finding employment. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Parenting courses",
+    "description": "Courses under Personal skills development that provide guidance and skills for effective parenting. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Public speaking",
+    "description": "A Personal skills programme focused on developing the ability to speak effectively in public. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Self-esteem skills",
+    "description": "Programmes within Personal skills development aimed at building and enhancing self-esteem. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Social competence",
+    "description": "Focuses on developing skills for effective social interaction, as part of Personal skills development. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Time management",
+    "description": "A Personal skills programme teaching techniques for organizing and using time effectively. [cite: 43]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0111
+[
+  {
+    "name": "Education science",
+    "description": "In the broad field of Education, Education science is the systematic study of the learning process and the theories, methods, and techniques of imparting knowledge to others. [cite: 48, 49]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Curriculum studies",
+    "description": "A component of Education science focusing on the design, development, and implementation of educational curricula. [cite: 49]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Didactics",
+    "description": "Part of Education science concerned with the theory and practical application of teaching and learning methods. [cite: 49]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Educational assessment, testing and measurement",
+    "description": "This area of Education science deals with the methods and tools used to evaluate student learning and educational programme effectiveness. [cite: 49]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Educational evaluation and research",
+    "description": "Within Education science, this involves systematic inquiry and assessment of educational programmes, policies, and outcomes. [cite: 49]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Paedagogical sciences",
+    "description": "Encompasses the theories and principles of teaching and education, forming a core part of Education science. [cite: 49]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0112
+[
+  {
+    "name": "Training for pre-school teachers",
+    "description": "Within the field of Education, this involves the study of theories, methods, and practices for teaching children up to 7 years of age in formal pre-primary or early childhood educational settings. [cite: 50, 51]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Early childhood teaching (within formal school settings)",
+    "description": "This refers to the practical application of teaching methods for young children in formal educational environments, as covered in Training for pre-school teachers. [cite: 51]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Pre-primary teacher training",
+    "description": "Specific training programmes designed to prepare educators for teaching at the pre-primary level, a key component of Training for pre-school teachers. [cite: 51]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0113
+[
+  {
+    "name": "Teacher training without subject specialisation",
+    "description": "In the field of Education, this is the study of theories, methods, and practices for equipping teachers to provide children (approx. 5-15 years) with fundamental skills (reading, writing, maths) and a basic understanding of other subjects, laying a foundation for lifelong learning. [cite: 52, 53]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Class teacher training",
+    "description": "Training focused on preparing teachers to manage and teach a class across multiple subjects, typically at the primary or elementary level, falling under Teacher training without subject specialisation. [cite: 55]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Indigenous teacher training",
+    "description": "Specialized teacher training programmes that may not have a specific subject focus but are tailored to indigenous contexts, included within Teacher training without subject specialisation. [cite: 55]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Primary teaching",
+    "description": "Focuses on the methods and practices of teaching at the primary school level, a core area of Teacher training without subject specialisation. [cite: 55]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Teacher training for children with special needs",
+    "description": "This involves training teachers to educate children with special educational needs, and is included in Teacher training without subject specialisation if a specific subject is not the focus. [cite: 53, 55]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0114
+[
+  {
+    "name": "Teacher training with subject specialisation",
+    "description": "Within Education, this involves studying the theories, methods, and practice of teaching a specific subject, predominantly at secondary or higher education levels. Programmes often combine pedagogical studies with the subject matter to be taught. [cite: 58, 59]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Teacher training - arts and crafts",
+    "description": "Specialized teacher training for instructing students in arts and crafts subjects. [cite: 59]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Teacher training commercial subjects",
+    "description": "Training for teachers specializing in commercial or business-related subjects. [cite: 59]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Teacher training - music",
+    "description": "Specialized teacher training for instructing students in music. [cite: 59]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Teacher training - nursing",
+    "description": "Training for individuals who will teach nursing subjects. [cite: 59]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Teacher training - physical training",
+    "description": "Specialized teacher training for instructing students in physical education and sports. [cite: 59]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Teacher training - second languages",
+    "description": "Training for teachers specializing in teaching second or foreign languages. [cite: 59]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Teacher training - specific theoretical subjects, e.g. English, mathematics, history",
+    "description": "Training for teachers focusing on specific academic disciplines like English, mathematics, or history. [cite: 60]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Teacher training - technical subjects",
+    "description": "Specialized teacher training for instructing students in technical subjects. [cite: 60]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Teacher training - vocational subjects",
+    "description": "Training for teachers specializing in vocational subjects and skills. [cite: 60]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Training of driving instructors",
+    "description": "Programmes designed to train individuals to become certified driving instructors. [cite: 60]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Training of trainers",
+    "description": "General programmes for training individuals to become trainers, often with a subject specialization. [cite: 60]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0211
+[
+  {
+    "name": "Audio-visual techniques and media production",
+    "description": "Within the Arts and Humanities broad field, specifically under Arts, this involves the study of techniques and skills for producing various media such as books, newspapers, radio or TV programmes, films, videos, recorded music, and graphic reproductions. It includes methods of colour reproduction, photography, and computer graphics. [cite: 64, 65, 66]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Animation",
+    "description": "A component of Audio-visual techniques and media production focused on creating moving images and visual effects using various techniques, often for film, television, games, or interactive media. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Bookbinding",
+    "description": "The craft and techniques involved in physically assembling and binding books, as part of Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Camera operating",
+    "description": "Skills and techniques for operating cameras in the production of film, video, or television, within Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Compositing (printing)",
+    "description": "In the context of printing within Audio-visual techniques and media production, this refers to the process of arranging type and visual elements for printing. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer game production",
+    "description": "The study and practice of creating computer games, encompassing design, development, and technical aspects, under Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer type-setting",
+    "description": "The use of computers to set type for print media, a skill within Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Film and video production",
+    "description": "The comprehensive process of creating films and videos, from concept to final product, as part of Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Graphic design",
+    "description": "The art and practice of planning and projecting ideas and experiences with visual and textual content, often for print or digital media, within Audio-visual techniques and media production. [cite: 65, 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Graphic reproduction",
+    "description": "Techniques and processes for reproducing graphic images, a key aspect of Audio-visual techniques and media production. [cite: 65, 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Illustration",
+    "description": "Creating visual representations to clarify or adorn textual content, used in various media produced under Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Interactive media design",
+    "description": "The design of media that responds to user actions, such as websites or interactive installations, falling under Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Media techniques",
+    "description": "The various technical methods and skills used in the production of different forms of media, as studied in Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Multimedia production",
+    "description": "The creation of content that uses a combination of different content forms such as text, audio, images, animation, video and interactive content, a part of Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Photography",
+    "description": "The art, application, and practice of creating durable images by recording light, studied within Audio-visual techniques and media production. [cite: 65, 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Pre-press operations",
+    "description": "The processes and procedures that occur between the creation of a print layout and the final printing, a stage in Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Print finishing and binding",
+    "description": "The final stages in the printing process, including cutting, folding, assembling, and binding printed materials, as part of Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Printing",
+    "description": "The process of reproducing text and images using a master form or template, a core technique in Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Publishing design, lay-out",
+    "description": "The design and arrangement of content (text and images) for publications like books and magazines, a skill within Audio-visual techniques and media production. [cite: 66, 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Radio and TV production",
+    "description": "The process of creating content for radio and television broadcast, covered under Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Recorded music production",
+    "description": "The process of developing, creating, and refining recorded music for public presentation, as part of Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Sound techniques",
+    "description": "The technical methods and skills related to recording, manipulating, and reproducing sound, used in Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Type-setting",
+    "description": "The process of arranging type for printing, a fundamental skill in Audio-visual techniques and media production. [cite: 67]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0212
+[
+  {
+    "name": "Fashion, interior and industrial design",
+    "description": "Within the Arts, this field is the study of creatively combining line, form, and materials in designing and constructing items like fashion garments, industrial products, and interiors. [cite: 69, 70]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Costume design",
+    "description": "The creation of clothing and accessories for performers in theatre, film, or television, a specialization within Fashion, interior and industrial design. [cite: 70]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Design of industrial products",
+    "description": "Focuses on the artistic and functional design of manufactured goods, a part of Fashion, interior and industrial design. [cite: 70]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Fashion design",
+    "description": "The art of applying design, aesthetics, and natural beauty to clothing and accessories, a core component of Fashion, interior and industrial design. [cite: 70]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Interior architecture",
+    "description": "The design of interior spaces, focusing on architectural aspects, structural elements, and space planning, as part of Fashion, interior and industrial design. [cite: 70]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Interior design",
+    "description": "The art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space, within Fashion, interior and industrial design. [cite: 70]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Stage designing",
+    "description": "The creation of scenery, props, and overall visual environment for theatre, film, or television productions, a part of Fashion, interior and industrial design. [cite: 70]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Window dressing",
+    "description": "The art of arranging goods in a shop window to attract customers, a specialized area of design under Fashion, interior and industrial design. [cite: 70]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0213
+[
+  {
+    "name": "Fine arts",
+    "description": "Belonging to the Arts, Fine arts is the study of visual forms of creative expression, encompassing theory, history, techniques, performance, and production in areas such as painting and sculpture. [cite: 73, 74]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Art theory",
+    "description": "The study of the philosophical and theoretical underpinnings of art, a component of Fine arts. [cite: 74]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Calligraphy",
+    "description": "The art of beautiful handwriting, considered a visual art form within Fine arts. [cite: 74]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Etching",
+    "description": "A printmaking technique using acid to incise a design into a metal plate, studied as part of Fine arts. [cite: 74]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Fine art printmaking",
+    "description": "The creation of artworks by printing, normally on paper, but also on other surfaces, a discipline within Fine arts. [cite: 74]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "History of art",
+    "description": "The academic study of the history and development of the visual arts, an integral part of Fine arts. [cite: 74]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Painting",
+    "description": "The practice of applying paint, pigment, color or other medium to a solid surface, a primary discipline in Fine arts. [cite: 74]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Philosophy of art",
+    "description": "A branch of philosophy that explores the nature of art, including concepts such as interpretation, representation, expression, and form, studied within Fine arts. [cite: 74]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Sculpture",
+    "description": "The art of making two- or three-dimensional representative or abstract forms, especially by carving stone or wood or by casting metal or plaster, a key area of Fine arts. [cite: 74]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0214
+[
+  {
+    "name": "Handicrafts",
+    "description": "Within the Arts, Handicrafts is the study of techniques and skills in creating decorative or functional objects by hand or with simple tools, covering crafts like jewellery, pottery, weaving, and woodcarving. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ceramics",
+    "description": "The art and techniques of making objects from clay and firing them at high temperatures, a traditional handicraft. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Crafts, folk arts and artisan",
+    "description": "Encompasses a broad range of traditional and contemporary handmade objects, reflecting cultural heritage and skilled artisanship, as studied in Handicrafts. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Decorative metal crafts",
+    "description": "The creation of decorative objects from metal using various handicraft techniques. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Indigenous crafts",
+    "description": "Traditional crafts and artistic practices of indigenous peoples, studied as part of Handicrafts. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Embroidery",
+    "description": "The handicraft of decorating fabric or other materials using a needle to apply thread or yarn. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Floristry (flower arranging)",
+    "description": "The art and craft of arranging flowers and plant materials for decorative purposes, considered a handicraft. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Glass arts and craft",
+    "description": "The creation of artistic or functional objects from glass using handicraft techniques like blowing or fusing. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Goldsmithing",
+    "description": "The handicraft of working with gold and other precious metals to create jewellery and other objects. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Jewellery",
+    "description": "The design and creation of personal ornaments, such as necklaces, rings, or bracelets, typically made from or containing jewels and precious metal, as a handicraft. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Making of musical instruments (not industrial)",
+    "description": "The handicraft of constructing musical instruments by hand or with simple tools, distinct from large-scale industrial production. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Musical instruments (repairing and tuning)",
+    "description": "The skilled craft of repairing and tuning musical instruments, often by hand, as part of Handicrafts. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Silversmithing",
+    "description": "The handicraft of making objects from silver. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Stone carving (craft)",
+    "description": "The handicraft of shaping stone to create artistic or functional forms. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Weaving (craft)",
+    "description": "The handicraft of forming fabric by interlacing threads or yarns, distinct from industrial weaving. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Woodcarving",
+    "description": "The handicraft of shaping wood by cutting with a knife or other sharp tool to create figures or designs. [cite: 78]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0215
+[
+  {
+    "name": "Music and performing arts",
+    "description": "Under the Arts, this field is the study of principles and techniques associated with performance involving music, speech, movement, mime, characterisation, improvisation, and stagecraft. It includes the study of music and performing arts history and theory. [cite: 79, 80, 81]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Acting and directing",
+    "description": "The study and practice of performing roles in plays, films, etc., and the art of guiding and instructing actors in a performance, within Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ballet",
+    "description": "A classical dance form demanding grace and precision and employing formalized steps and gestures set in intricate, flowing patterns, studied in Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Choreography",
+    "description": "The art or practice of designing sequences of movements of physical bodies (or their depictions) in which motion, form, or both are specified, a key part of Music and performing arts, especially dance. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Circus",
+    "description": "A form of performing arts involving a variety of skilled acts such as acrobatics, clowning, and animal training. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Composition (music)",
+    "description": "The art and technique of creating original pieces of music, a discipline within Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Conducting (music)",
+    "description": "The art of directing a musical performance, such as by an orchestra or choir, by way of visible gestures, studied in Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Creative and performance art",
+    "description": "Encompasses various artistic expressions that are performed live or created with a focus on the act of creation itself, a broad category within Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dance",
+    "description": "The art of movement of the body, usually rhythmically and to music, using prescribed or improvised steps and gestures, a major component of Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Drama",
+    "description": "The study and practice of theatrical performance, including acting, directing, and playwriting, within Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "History of film and theatre",
+    "description": "The academic study of the historical development of film and theatrical performances, part of Music and performing arts. [cite: 80, 81]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "History of music",
+    "description": "The scholarly study of the historical development of music, including its styles, composers, and cultural contexts, within Music and performing arts. [cite: 80, 81]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Music",
+    "description": "The art of sound in time that expresses ideas and emotions in significant forms through the elements of rhythm, melody, harmony, and color, a central focus of Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Music conducting",
+    "description": "Synonymous with 'Conducting (music)', referring to the direction of musical ensembles, within Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Musicology",
+    "description": "The scholarly study of music, including its history, theory, and cultural aspects, a discipline within Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Theatre/Theatre sciences",
+    "description": "The study of all aspects of theatre, including performance, production, history, and theory, as part of Music and performing arts. [cite: 80]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0221
+[
+  {
+    "name": "Religion and theology",
+    "description": "Within Arts and Humanities (except languages), this field is the study of religious beliefs, concepts, symbols, expressions, texts of spirituality, and the nature of the divine. [cite: 84]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Religious history",
+    "description": "The study of the historical development of religions, their traditions, and their impact on societies, a component of Religion and theology. [cite: 84]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Study of sacred books",
+    "description": "The critical examination and interpretation of texts considered sacred within various religious traditions, as part of Religion and theology. [cite: 84]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Study of different religions",
+    "description": "Comparative or individual study of various world religions, their beliefs, practices, and histories, within Religion and theology. [cite: 84]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Theology",
+    "description": "The systematic study of the nature of the divine and, more broadly, of religious belief, a core discipline in Religion and theology. [cite: 84]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0222
+[
+  {
+    "name": "History and archaeology",
+    "description": "Under Humanities (except languages), History is the study of past events, particularly the political, social, and economic development of societies, while Archaeology is the study of ancient civilizations through material remains. This field also includes the history of medicine, science, and ideas. [cite: 88, 89, 90]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Archaeology",
+    "description": "The study of human history and prehistory through the excavation of sites and the analysis of artefacts and other physical remains, a key component of History and archaeology. [cite: 89, 90]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cultural history",
+    "description": "The study of the cultural practices, beliefs, and expressions of past societies, within the broader field of History and archaeology. [cite: 90]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Folklore studies",
+    "description": "The study of traditional beliefs, customs, and stories of a community, passed through the generations by word of mouth, as part of History and archaeology. [cite: 90]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "History",
+    "description": "The study of past events, societies, and their development, a central discipline in History and archaeology. [cite: 88, 90]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "History of literature",
+    "description": "The historical study of literary works and their development over time, classified under History and archaeology when not combined with the study of a specific language. [cite: 90]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "History of medicine",
+    "description": "The study of the historical development of medical knowledge, practices, and institutions, included in History and archaeology. [cite: 88, 90]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "History of science and ideas",
+    "description": "The study of the historical development of scientific thought, theories, and broader intellectual concepts, part of History and archaeology. [cite: 88, 90]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "History of technology",
+    "description": "The study of the historical development of technology and its impact on society, within History and archaeology. [cite: 90]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0223
+[
+  {
+    "name": "Philosophy and ethics",
+    "description": "Falling under Humanities (except languages), this field involves the study of fundamental questions about existence, knowledge, values, reason, mind, and language, as well as moral principles. [cite: 97]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ethics",
+    "description": "A branch of philosophy that involves systematizing, defending, and recommending concepts of right and wrong conduct, a core component of Philosophy and ethics. [cite: 97]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Logic",
+    "description": "The study of reasoning and valid inference, a fundamental area within Philosophy and ethics. [cite: 97]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Morals",
+    "description": "The study of principles concerning the distinction between right and wrong or good and bad behaviour, closely related to ethics within Philosophy and ethics. [cite: 97]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Philosophy",
+    "description": "The systematic study of general and fundamental questions concerning existence, knowledge, values, reason, mind, and language, the central discipline in Philosophy and ethics. [cite: 97]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0231
+[
+  {
+    "name": "Language acquisition",
+    "description": "Within the Arts and Humanities / Languages domain, Language acquisition is the study of the structure and composition of languages when taught as second or foreign languages (i.e., for non-native speakers). It can include related culture, literature, linguistics, and phonetics if tied to the specific language being acquired. Classical languages are also included here. [cite: 99, 100, 101]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Classical languages",
+    "description": "The study of ancient languages such as Latin or Classical Greek, treated as foreign languages for acquisition purposes within Language acquisition. [cite: 100, 102]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Exogenous languages",
+    "description": "The study of foreign languages, i.e., languages not native to the speaker or the region, as part of Language acquisition. [cite: 102]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Foreign languages",
+    "description": "The study and learning of languages other than one's native tongue, a core component of Language acquisition. [cite: 99, 102]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Interpretation",
+    "description": "The skill and practice of orally translating speech from one language to another, studied within Language acquisition. [cite: 102, 103]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Phonetics",
+    "description": "The study of speech sounds, their production, and perception, often included in Language acquisition programmes when related to a specific language being learned. [cite: 99, 102]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Second languages, for example English as a second language",
+    "description": "The study of a language by non-native speakers in an environment where that language is spoken, a focus of Language acquisition. [cite: 99, 102]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Sign language",
+    "description": "The study and acquisition of languages that use manual communication and body language to convey meaning, included in Language acquisition. [cite: 102]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Sign language interpreting",
+    "description": "The skill of facilitating communication between users of spoken language and users of sign language, studied within Language acquisition. [cite: 102]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Translation",
+    "description": "The process of rendering written text from one language into another, a skill developed in Language acquisition programmes. [cite: 102, 103]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0232
+[
+  {
+    "name": "Literature and linguistics",
+    "description": "Within Arts and Humanities / Languages, Literature and linguistics is the study of language(s) intended for native, fluent, or competent speakers. It includes the study of related literature and linguistics, and may cover the structure and composition of the language. [cite: 105, 106]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Creative writing",
+    "description": "The practice of writing imaginative texts, such as fiction, poetry, or drama, often studied in one's native language within Literature and linguistics. [cite: 106]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "First language",
+    "description": "The study of one's native language, its literature, and linguistics, a core component of Literature and linguistics. [cite: 106, 107]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Indigenous languages",
+    "description": "The study of languages native to a particular region or spoken by indigenous peoples, typically for fluent or competent speakers, within Literature and linguistics. [cite: 106]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Linguistics",
+    "description": "The scientific study of language and its structure, including aspects like phonology, morphology, syntax, semantics, and pragmatics, especially when not tied to acquiring a specific foreign language, falling under Literature and linguistics. [cite: 106, 109]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Literature",
+    "description": "The study of written works, especially those considered of superior or lasting artistic merit, often in one's native language or in a comparative context, a key part of Literature and linguistics. [cite: 106, 109]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "\"Mother tongue\" languages",
+    "description": "Synonymous with 'First language', referring to the study of one's native language and its literature, within Literature and linguistics. [cite: 106, 107]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Native first languages",
+    "description": "The study of languages that are the first languages of the speakers, including their structure, literature, and linguistics, as part of Literature and linguistics. [cite: 106]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0311
+[
+  {
+    "name": "Economics",
+    "description": "Within Social Sciences, Journalism and Information / Social and behavioural sciences, Economics is the study of economic policy, economic theory, and economic decision-making, including production, distribution, and consumption of goods and services. [cite: 115, 116]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Econometrics",
+    "description": "The application of statistical methods to economic data to give empirical content to economic relationships, a specialized area within Economics. [cite: 116]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Economic history",
+    "description": "The study of how economic phenomena evolved in the past, a branch of Economics. [cite: 116]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Political economics",
+    "description": "The study of production and trade and their relations with law, custom, and government, as well as with the distribution of national income and wealth, an interdisciplinary field related to Economics. [cite: 116]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0312
+[
+  {
+    "name": "Political sciences and civics",
+    "description": "Under Social and behavioural sciences, this field is the study of government, political principles, political behaviour, and political systems, as well as the rights and duties of citizens. [cite: 119, 120]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Civics",
+    "description": "The study of the rights and obligations of citizens in society, a core component of Political sciences and civics. [cite: 120]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Human rights",
+    "description": "The study of basic rights and freedoms to which all humans are considered to be entitled, often examined within Political sciences and civics. [cite: 120]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "International relations",
+    "description": "The study of relationships between countries, including the roles of states, inter-governmental organizations (IGOs), international non-governmental organizations (INGOs), and multinational corporations (MNCs), a major area of Political sciences and civics. [cite: 120]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Peace and conflict studies",
+    "description": "An interdisciplinary field that analyzes violent and nonviolent behaviours as well as the structural mechanisms attending conflicts, with a view towards understanding those processes which lead to a more desirable human condition, studied within Political sciences and civics. [cite: 120]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Political history",
+    "description": "The study of past political events, ideas, movements, leaders, and institutions, a branch of Political sciences and civics. [cite: 120]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Political science",
+    "description": "The systematic study of governance by the application of empirical and generally scientific methods of analysis, the central discipline in Political sciences and civics. [cite: 120]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Public policy studies",
+    "description": "The study of how governments and public authorities develop, implement, and evaluate policies to address societal problems, an area of Political sciences and civics. [cite: 120]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0313
+[
+  {
+    "name": "Psychology",
+    "description": "As part of Social and behavioural sciences, Psychology is the scientific study of the human mind and its functions, especially those affecting behaviour in a given context, considering individual differences, experience, and environment. [cite: 122]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cognitive science",
+    "description": "The interdisciplinary, scientific study of the mind and its processes, often included or closely related to Psychology. [cite: 122]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Psychoanalysis",
+    "description": "A system of psychological theory and therapy which aims to treat mental disorders by investigating the interaction of conscious and unconscious elements in the mind, a specific school within or related to Psychology. [cite: 122]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Psychotherapy",
+    "description": "The use of psychological methods, particularly when based on regular personal interaction, to help a person change behavior and overcome problems in desired ways, often practiced by psychologists. [cite: 122]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0314
+[
+  {
+    "name": "Sociology and cultural studies",
+    "description": "Within Social and behavioural sciences, Sociology is the study of human social relationships and institutions, while Cultural Studies explores the dynamic, diverse, and contested processes through which cultures are produced, performed, and transformed. This field includes ethnology, social anthropology, and human/social geography. [cite: 123, 124, 125]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Criminology",
+    "description": "The scientific study of crime as a social phenomenon, of criminals, and of penal treatment, often considered a subfield of Sociology. [cite: 125]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cultural geography",
+    "description": "A sub-field of geography that studies the cultural products and norms and their variations across spaces and places, part of Sociology and cultural studies. [cite: 125]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cultural studies",
+    "description": "An interdisciplinary field that examines the political dynamics of contemporary culture, as well as its historical foundations, defining features, conflicts, and contingencies. [cite: 125]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Demography/population studies",
+    "description": "The statistical study of populations, especially human beings, including their size, structure, and distribution, and how these change over time, an area within Sociology and cultural studies. [cite: 125]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ethnology",
+    "description": "A branch of anthropology that analyzes and compares the characteristics of different peoples and the relationships between them, included in Sociology and cultural studies. [cite: 124, 125]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Gender studies",
+    "description": "An interdisciplinary academic field devoted to analysing gender identity and gendered representation as central categories of analysis, part of Sociology and cultural studies. [cite: 125]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Social anthropology",
+    "description": "The study of human societies and cultures and their development, closely related to ethnology and sociology, within Sociology and cultural studies. [cite: 124, 125]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Sociology",
+    "description": "The systematic study of society, social relationships, social interaction, and culture, the core discipline in Sociology and cultural studies. [cite: 125]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0321
+[
+  {
+    "name": "Journalism and reporting",
+    "description": "Under Social Sciences, Journalism and Information, this is the study of the theory and practices of gathering, processing, and disseminating news and information to the public, focusing on the wording and content of messages. [cite: 128, 129]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Broadcast journalism",
+    "description": "Journalism that is disseminated through electronic media, such as radio and television, a specialization within Journalism and reporting. [cite: 129]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Editing",
+    "description": "The process of selecting, preparing, and revising written, visual, audible, or cinematic material used by a person or an entity to convey a message or information, a key skill in Journalism and reporting. [cite: 129]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Information (wording and content)",
+    "description": "Focuses on the construction and meaning of messages in communication, central to Journalism and reporting. [cite: 129]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Journalism",
+    "description": "The activity or profession of writing for newspapers, magazines, or news websites or preparing news to be broadcast, the core of Journalism and reporting. [cite: 128, 129]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Mass communication (wording and content)",
+    "description": "The study of how individuals and entities relay information through mass media to large segments of the population at the same time, focusing on message content and wording, within Journalism and reporting. [cite: 129]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "News reporting",
+    "description": "The practice of gathering and presenting information about current events for publication or broadcast, a fundamental aspect of Journalism and reporting. [cite: 129]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0322
+[
+  {
+    "name": "Library, information and archival studies",
+    "description": "Within Social Sciences, Journalism and Information, this field is the study of methods for selecting, acquiring, organizing, preserving, and facilitating the use of collections of information in libraries, archives, and museums. [cite: 134]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Archival sciences",
+    "description": "The study and theory of building and curating archives, which are collections of historical documents or records, a part of Library, information and archival studies. [cite: 134]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Curatorial studies",
+    "description": "The study of the theory and practice of curating, which involves assembling, managing, and presenting collections of art or artifacts in museums or galleries, related to Library, information and archival studies. [cite: 134]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Documentation",
+    "description": "The process of collecting, organizing, storing, and disseminating information, particularly in specialized fields, within Library, information and archival studies. [cite: 134]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Information science",
+    "description": "An interdisciplinary field primarily concerned with the analysis, collection, classification, manipulation, storage, retrieval, movement, dissemination, and protection of information, a core component of Library, information and archival studies. [cite: 134]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Library studies",
+    "description": "The study of the organization, management, and services of libraries, a central part of Library, information and archival studies. [cite: 134]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Museum documentation",
+    "description": "The processes involved in creating and managing records about museum collections, an area within Library, information and archival studies. [cite: 134]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Museum studies",
+    "description": "The interdisciplinary study of museums, their history, functions, and role in society, included in Library, information and archival studies. [cite: 134]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Museology",
+    "description": "The science or practice of organizing, arranging, and managing museums, a key aspect of Museum studies within Library, information and archival studies. [cite: 134]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0411
+[
+  {
+    "name": "Accounting and taxation",
+    "description": "Under Business, Administration and Law / Business and administration, this field is the study of methods for maintaining, auditing, and recording financial transactions, as well as managing and preparing tax returns and strategies. [cite: 137, 138]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Accounting",
+    "description": "The process of recording financial transactions pertaining to a business, a core component of Accounting and taxation. [cite: 138]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Auditing",
+    "description": "The systematic examination of an organization's financial records to determine their accuracy and compliance with applicable standards and regulations, within Accounting and taxation. [cite: 138]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Bookkeeping",
+    "description": "The recording of financial transactions, and is part of the process of accounting in business, studied in Accounting and taxation. [cite: 138]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Tax accounting",
+    "description": "Accounting methods focused on taxes rather than the appearance of public financial statements, a specialization within Accounting and taxation. [cite: 138]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Tax management",
+    "description": "The analysis of a financial situation or plan from a tax perspective, to ensure tax efficiency, part of Accounting and taxation. [cite: 138]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0412
+[
+  {
+    "name": "Finance, banking and insurance",
+    "description": "Within Business and administration, this field is the study of planning, directing, organizing, and controlling financial activities and services, including the management of financial resources and the provision of financial services at corporate and individual levels. [cite: 140, 141]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Bank teller studies",
+    "description": "Training for individuals who work as bank tellers, handling customer transactions in a bank, a part of Finance, banking and insurance. [cite: 141]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Banking and finance",
+    "description": "Covers the operations of banks and financial institutions, and the principles of financial management, a core area of Finance, banking and insurance. [cite: 141]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Finance theory",
+    "description": "The study of the theoretical principles underlying financial decision-making and markets, within Finance, banking and insurance. [cite: 141]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Insurance",
+    "description": "The study of risk management and the business of providing financial protection against potential losses, a component of Finance, banking and insurance. [cite: 141]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Investment analysis",
+    "description": "The study of evaluating investments to determine their suitability for an investor, a key skill in Finance, banking and insurance. [cite: 141]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Investments and securities",
+    "description": "Focuses on the study of various investment instruments and the markets where they are traded, within Finance, banking and insurance. [cite: 141]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Pension insurance",
+    "description": "The study of insurance products designed to provide income during retirement, a part of Finance, banking and insurance. [cite: 141]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Social insurance",
+    "description": "The study of government-sponsored programmes providing financial protection against various social risks, such as unemployment or disability, related to Finance, banking and insurance. [cite: 141]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Stock-broking",
+    "description": "The business of buying and selling stocks and other securities on behalf of clients, studied within Finance, banking and insurance. [cite: 141]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0413
+[
+  {
+    "name": "Management and administration",
+    "description": "Under Business and administration, this is the study of planning, directing, and operating the functions and activities of organizations and institutions. Programmes emphasize management and administration, and may include aspects of economics and finance. [cite: 143, 144]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Administration",
+    "description": "The process or activity of running a business, organization, etc., a core component of Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Educational management",
+    "description": "The study of management principles as applied to educational institutions, a specialization within Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Employment management",
+    "description": "Focuses on the management of human resources within an organization, including recruitment, training, and employee relations, part of Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Entrepreneurship",
+    "description": "The study of designing, launching and running a new business, which is often initially a small business, a key area of Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Health administration",
+    "description": "The management of healthcare facilities and systems, a specialization within Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Logistic management",
+    "description": "The part of supply chain management that plans, implements, and controls the efficient, effective forward and reverse flow and storage of goods, services, and related information between the point of origin and the point of consumption, studied in Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Management science",
+    "description": "The broad interdisciplinary study of problem solving and decision making in human organizations, with strong links to management, economics, business, engineering, management consulting, and other fields, within Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Office management",
+    "description": "The administration and supervision of work in an office environment, ensuring efficiency and productivity, a part of Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Organizational theory and behaviour",
+    "description": "The study of how individuals and groups act within organizations, and how organizations function, a key aspect of Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Personnel administration",
+    "description": "The administrative aspects of managing an organization's workforce, such as record-keeping and compliance, within Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Personnel management",
+    "description": "Focuses on recruiting, selecting, training, and developing employees, also known as human resource management, a core area of Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "'Start your own business' courses",
+    "description": "Practical courses aimed at equipping individuals with the knowledge and skills to start and manage their own business, related to Entrepreneurship within Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Supply change management",
+    "description": "Likely a typo for 'Supply Chain Management', which is the management of the flow of goods and services, involving the movement and storage of raw materials, work-in-process inventory, and finished goods from point of origin to point of consumption, studied in Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Training management",
+    "description": "The planning, organization, and implementation of training programs within an organization, a part of Management and administration. [cite: 145]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0414
+[
+  {
+    "name": "Marketing and advertising",
+    "description": "Within Business and administration, this field is the study of promoting the exchange of goods and services between organizations and individuals, including consumer behaviour, product development, pricing, distribution, promotion, and sales to maximize business performance. [cite: 149, 150]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Advertising",
+    "description": "The practice of creating and disseminating paid messages to promote products, services, or ideas, a key component of Marketing and advertising. [cite: 150]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Consumer behaviour",
+    "description": "The study of how individuals, groups, or organizations select, buy, use, and dispose of goods, services, ideas, or experiences to satisfy their needs and wants, crucial for Marketing and advertising. [cite: 149, 150]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Market research",
+    "description": "The process of gathering, analyzing, and interpreting information about a market, about a product or service to be offered for sale in that market, and about the past, present, and potential customers for the product or service, fundamental to Marketing and advertising. [cite: 150]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Marketing",
+    "description": "The activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large, the core of Marketing and advertising. [cite: 150]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Merchandising",
+    "description": "The promotion of goods and/or services that are available for retail sale, including determining quantities, setting prices for goods and services, creating display designs, developing marketing strategies, and establishing discounts or coupons, within Marketing and advertising. [cite: 150]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Public relations",
+    "description": "The practice of managing the spread of information between an individual or an organization and the public, often to build and maintain a positive image, a field within Marketing and advertising. [cite: 150]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0415
+[
+  {
+    "name": "Secretarial and office work",
+    "description": "Under Business and administration, this field is the study of administrative procedures, office technology, and clerical skills such as shorthand and keyboarding. It includes specialised secretarial programmes if the main objective is secretarial work. [cite: 151, 152, 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Administrative and secretarial services",
+    "description": "Covers a range of tasks supporting business operations, including general office duties and assistance to executives, a core part of Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Clerical programmes",
+    "description": "Training in routine office tasks such as record keeping, filing, and correspondence, within Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Data entry",
+    "description": "The process of inputting data into a computer system, a common skill in Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Foreign language secretary programmes",
+    "description": "Specialized secretarial training that includes proficiency in one or more foreign languages for international business communication, as part of Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Keyboard skills",
+    "description": "The ability to type efficiently and accurately using a keyboard, a fundamental skill in Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Legal secretary programmes",
+    "description": "Specialized secretarial training focused on supporting legal professionals, including knowledge of legal terminology and procedures, within Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical secretary programmes",
+    "description": "Specialized secretarial training for healthcare settings, involving medical terminology, patient records, and appointment scheduling, part of Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Operation of office equipment",
+    "description": "Skills in using various office machines such as photocopiers, printers, and scanners, taught in Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Receptionist training",
+    "description": "Programmes preparing individuals to manage front desk operations, including greeting visitors, answering phones, and providing information, within Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Secretarial programmes",
+    "description": "General training in the duties and skills required of a secretary, forming the core of Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Shorthand",
+    "description": "A system of rapid writing using symbols or abbreviations for letters, words, or phrases, a traditional skill in Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Switchboard operating",
+    "description": "The skill of managing a telephone switchboard to connect calls, often part of receptionist duties in Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Typing",
+    "description": "The skill of writing by means of a typewriter or computer keyboard, a fundamental component of Secretarial and office work. [cite: 153]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0416
+[
+  {
+    "name": "Wholesale and retail sales",
+    "description": "Within Business and administration, this field is the study of buying and selling goods and services, covering stock management, pricing, loss prevention, sales systems, and current industry trends. It includes the selling of buildings and properties. [cite: 155]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Auctioneering",
+    "description": "The business of selling goods or property by means of auction, studied within Wholesale and retail sales. [cite: 156]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Consumer services",
+    "description": "Relates to services provided directly to consumers, often in a retail context, and is part of Wholesale and retail sales. [cite: 156]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Demonstration techniques",
+    "description": "Skills in effectively showcasing products to potential customers, important in Wholesale and retail sales. [cite: 156]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Purchasing",
+    "description": "The process of acquiring goods or services, often in a business context for resale or use, a key aspect of Wholesale and retail sales. [cite: 156]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Real-estate business",
+    "description": "The buying, selling, and management of properties, including land and buildings, a specialized area within Wholesale and retail sales. [cite: 156, 157]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Retailing",
+    "description": "The sale of goods to ultimate consumers, usually in small quantities, the core of the retail part of Wholesale and retail sales. [cite: 156]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Stock-keeping",
+    "description": "The management of inventory, including ordering, storage, and tracking of goods, essential in Wholesale and retail sales. [cite: 156]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ware-housing",
+    "description": "The storage of goods in a warehouse, often part of the logistics of Wholesale and retail sales. [cite: 156]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Wholesaling",
+    "description": "The sale of goods in large quantities, typically to retailers for resale, a major component of Wholesale and retail sales. [cite: 156]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0417
+[
+  {
+    "name": "Work skills",
+    "description": "Under Business and administration, Work skills involves the study of the structure and function of working life, often through staff training programmes related to the workplace and specific job assignments. It is focused on work development rather than personal development. [cite: 158, 159]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Clients' needs",
+    "description": "Understanding and addressing the requirements and expectations of clients, a key component of Work skills, particularly in customer service. [cite: 159]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Company knowledge",
+    "description": "Familiarity with an organization's products, services, policies, and culture, important for effective performance, covered in Work skills training. [cite: 159]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Customer service training",
+    "description": "Programmes designed to improve skills in interacting with and assisting customers, a common type of Work skills training. [cite: 159]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "'Introduction to work' courses",
+    "description": "Orientation programmes for new employees or individuals entering the workforce, providing foundational Work skills and knowledge about the work environment. [cite: 159]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Organization at work",
+    "description": "Understanding the structure, processes, and dynamics of the workplace, a topic within Work skills. [cite: 159]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Quality assurance",
+    "description": "Processes and activities aimed at ensuring products or services meet specified quality standards, often part of Work skills training. [cite: 159]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Trade union courses (general)",
+    "description": "General courses related to the role and function of trade unions, often considered as part of Work skills or industrial relations knowledge. [cite: 159]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Work development",
+    "description": "Focuses on improving job-related skills and competencies to enhance performance and productivity within the workplace, the core of Work skills. [cite: 159]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0421
+[
+  {
+    "name": "Law",
+    "description": "Within Business, Administration and Law, Law is the study of the principles and procedures for formally maintaining social order. This includes training for legal professions such as advocates or for judicial roles. [cite: 164, 165]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Commercial law",
+    "description": "The body of law that applies to the rights, relations, and conduct of persons and businesses engaged in commerce, merchandising, trade, and sales, a specialization within Law. [cite: 165]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Criminal justice studies",
+    "description": "The study of the systems and processes involved in enforcing laws, adjudicating crimes, and correcting criminal conduct, closely related to Law. [cite: 165]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "History of law",
+    "description": "The study of the historical development of legal systems, principles, and institutions, a part of the academic study of Law. [cite: 165]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Indigenous law",
+    "description": "The study of the legal traditions, customs, and rules of indigenous peoples, a specialized area within Law. [cite: 165]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Jurisprudence",
+    "description": "The theory or philosophy of law, exploring the nature of law, legal reasoning, legal systems, and legal institutions, an advanced study within Law. [cite: 165]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Labour law",
+    "description": "The body of laws, administrative rulings, and precedents which address the legal rights of, and restrictions on, working people and their organizations, a field of Law. [cite: 165]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Legal practice",
+    "description": "The application of legal knowledge and skills in representing clients, advising on legal matters, and appearing in court, the professional aspect of Law. [cite: 165]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Notary/Notary's practise",
+    "description": "The study and functions of a notary public, who is authorized to perform certain legal formalities, especially to draw up or certify contracts, deeds, and other documents for use in other jurisdictions, related to Law. [cite: 165]",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Paralegal studies",
+    "description": "Training for individuals who assist lawyers by performing various legal tasks, such as research, drafting documents, and case management, a supportive role within the field of Law. [cite: 165]",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0511
+[
+  {
+    "name": "Biology",
+    "description": "Within Natural Sciences, Mathematics and Statistics, specifically Biological and related sciences, Biology is the study of the structure, function, reproduction, growth, evolution, and behaviour of all living organisms.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Botany",
+    "description": "A branch of Biology focusing on the study of plants, including their structure, genetics, ecology, distribution, classification, and economic importance.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cell biology",
+    "description": "The study of cell structure and function, which is fundamental to understanding life, as part of Biology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Entomology",
+    "description": "The scientific study of insects, a branch of zoology, which itself is part of Biology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Genetics",
+    "description": "The study of genes, genetic variation, and heredity in living organisms, a core field within Biology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Mycology",
+    "description": "The branch of Biology concerned with the study of fungi, including their genetic and biochemical properties.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Zoology",
+    "description": "The branch of Biology that studies the animal kingdom, including the structure, embryology, evolution, classification, habits, and distribution of all animals.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0512
+[
+  {
+    "name": "Biochemistry",
+    "description": "Within Biological and related sciences, Biochemistry (sometimes called Biological chemistry) is the study of the chemical processes within and relating to living organisms, including living matter.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Biological chemistry",
+    "description": "Focuses on the chemical basis of life, studying the molecules and chemical reactions that occur in living organisms, a core aspect of Biochemistry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cell technology",
+    "description": "The application of biological knowledge, particularly at the cellular level, for practical purposes, often involving techniques studied in Biochemistry and biotechnology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Forensic sciences",
+    "description": "The application of scientific methods and principles to criminal and civil investigations, where biochemical analysis can play a significant role.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Genetic code (DNA, RNA) studies",
+    "description": "The study of deoxyribonucleic acid (DNA) and ribonucleic acid (RNA), their structures, functions, and the way they encode genetic information, central to Biochemistry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Genetic engineering",
+    "description": "The direct manipulation of an organism's genes using biotechnology, a field heavily reliant on principles of Biochemistry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Pharmacology",
+    "description": "The branch of medicine and biology concerned with the study of drug action, where a drug can be broadly defined as any man-made, natural, or endogenous molecule which exerts a biochemical or physiological effect on the cell, tissue, organ, or organism. This is closely related to Biochemistry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Tissue culture technology",
+    "description": "Techniques used to grow tissues or cells separate from the organism, often in a laboratory setting, important in Biochemistry and biotechnology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Toxicology",
+    "description": "The branch of science concerned with the nature, effects, and detection of poisons (toxins), often involving biochemical understanding of their mechanisms.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Virology",
+    "description": "The study of viruses – submicroscopic, parasitic particles of genetic material contained in a protein coat – and virus-like agents. This involves understanding their biochemical nature.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0521
+[
+  {
+    "name": "Environmental sciences",
+    "description": "Within the Environment sub-field of Natural Sciences, Environmental sciences are the study of organisms in relation to one another and to their physical surroundings (the environment).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ecology",
+    "description": "The branch of biology that deals with the relations of organisms to one another and to their physical surroundings, a core component of Environmental sciences.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0522
+[
+  {
+    "name": "Natural environments and wildlife",
+    "description": "Within the Environment sub-field of Natural Sciences, this is the study of the relationships between living organisms in natural environments, with a focus on protecting nature and wildlife, including the establishment and maintenance of national parks.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "National parks and wildlife management",
+    "description": "The study and practice of managing national parks and wildlife populations to preserve their natural state and biodiversity, a key area of Natural environments and wildlife.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Nature conservation",
+    "description": "The protection, preservation, management, or restoration of wildlife and natural resources such as forests and water, central to the study of Natural environments and wildlife.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Wildlife",
+    "description": "The study of wild animals collectively; the native fauna of a region, particularly in the context of their conservation and management within Natural environments.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0531
+[
+  {
+    "name": "Chemistry",
+    "description": "Within Physical sciences (under Natural Sciences), Chemistry is the study of substances, their elements, composition, properties, and how they react and change when combined or subjected to different conditions.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Inorganic chemistry",
+    "description": "The branch of chemistry concerned with the properties and behavior of inorganic compounds, which include metals, minerals, and organometallic compounds.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Organic chemistry",
+    "description": "The study of the structure, properties, composition, reactions, and preparation of carbon-containing compounds, which include not only hydrocarbons but also compounds with any number of other elements.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Physical chemistry",
+    "description": "The branch of chemistry concerned with the application of the techniques and theories of physics to the study of chemical systems.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0532
+[
+  {
+    "name": "Earth sciences",
+    "description": "As part of Physical sciences (under Natural Sciences), Earth sciences is the study of the composition, structure, and physical aspects of the Earth, including its hydrosphere and atmosphere.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Climate research",
+    "description": "The scientific study of climate, defined as weather conditions averaged over a period of time, a key area within Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geodesy",
+    "description": "The Earth science of accurately measuring and understanding Earth's geometric shape, orientation in space, and gravitational field.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geography (physical)",
+    "description": "The branch of geography dealing with natural features and processes, as opposed to human or cultural factors, an integral part of Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geology",
+    "description": "The science that deals with the earth's physical structure and substance, its history, and the processes which act on it, a core discipline of Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geomatics",
+    "description": "The science and technology of geographically referencing information, which includes surveying, mapping, remote sensing, GIS, and GPS, within Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geospatial technology",
+    "description": "Refers to equipment used in visualization, measurement, and analysis of earth's features, typically involving GPS, GIS, and remote sensing, a component of Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Meteorology",
+    "description": "The science dealing with the atmosphere and its phenomena, including weather and climate, a branch of Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Oceanography",
+    "description": "The branch of science that deals with the physical and biological properties and phenomena of the sea, an important field within Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Seismology",
+    "description": "The branch of science concerned with earthquakes and related phenomena, studied as part of Earth sciences.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0533
+[
+  {
+    "name": "Physics",
+    "description": "Within Physical sciences (under Natural Sciences), Physics is the study of the properties and interactions of matter and energy. It includes the study of astronomy and space science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Astronomy",
+    "description": "The branch of science that deals with celestial objects, space, and the physical universe as a whole, often considered part of Physics.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Astrophysics",
+    "description": "The branch of astronomy concerned with the physical nature of stars and other celestial bodies, and the application of the laws and theories of physics to the interpretation of astronomical observations.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Chemical physics",
+    "description": "A subdiscipline of chemistry and physics that investigates physicochemical phenomena using techniques from atomic and molecular physics and condensed matter physics.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical physics",
+    "description": "The application of physics concepts, theories, and methods to medicine or healthcare, a specialized area of Physics.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Optics",
+    "description": "The branch of physics which involves the behaviour and properties of light, including its interactions with matter and the construction of instruments that use or detect it.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Space science",
+    "description": "Encompasses all of the scientific disciplines that involve space exploration and study natural phenomena and physical bodies occurring in outer space, such as space medicine and astrobiology, closely related to Physics.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0541
+[
+  {
+    "name": "Mathematics",
+    "description": "Within Natural Sciences, Mathematics and Statistics, Mathematics is the study of abstract deductive systems. It includes topics such as quantity (number theory), structure (algebra), space (geometry), and change (analysis).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Algebra",
+    "description": "A branch of mathematics dealing with symbols and the rules for manipulating those symbols; it is a unifying thread of almost all of mathematics.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geometry",
+    "description": "A branch of mathematics concerned with properties of space such as the distance, shape, size, and relative position of figures.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Numerical analysis",
+    "description": "The study of algorithms that use numerical approximation (as opposed to symbolic manipulations) for the problems of mathematical analysis.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Operational research",
+    "description": "A discipline that deals with the application of advanced analytical methods to help make better decisions, often using mathematical modeling and optimization.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0542
+[
+  {
+    "name": "Statistics",
+    "description": "Within Natural Sciences, Mathematics and Statistics, Statistics is the study of collecting, describing, arranging, analysing, interpreting, and drawing conclusions from numerical data. It includes probability theory and actuarial science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Actuarial science",
+    "description": "The discipline that applies mathematical and statistical methods to assess risk in insurance, finance, and other industries and professions.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Probability theory",
+    "description": "The branch of mathematics concerned with probability, the analysis of random phenomena.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Statistics, applied",
+    "description": "The application of statistical methods to solve real-world problems in various fields such as science, engineering, business, and social sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Survey design",
+    "description": "The process of creating surveys with the goal of obtaining specific information from a particular group of people, a key aspect of applied Statistics.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Survey sampling",
+    "description": "The selection of a subset (a statistical sample) of individuals from within a statistical population to estimate characteristics of the whole population, a technique used in Statistics.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0500
+[
+  {
+    "name": "Natural sciences, mathematics and statistics not further defined",
+    "description": "This category serves as a general classification for programmes within the broad field of Natural Sciences, Mathematics, and Statistics that are not specified in more detailed subfields or narrow fields.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0510
+[
+  {
+    "name": "Biological and related sciences not further defined",
+    "description": "A general category within Biological and related sciences for educational programmes that are not assigned to more specific detailed fields like Biology (0511) or Biochemistry (0512).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0519
+[
+  {
+    "name": "Biological and related sciences not elsewhere classified",
+    "description": "This residual category is for programmes within Biological and related sciences that do not fit into other defined detailed fields such as Biology (0511) or Biochemistry (0512).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0520
+[
+  {
+    "name": "Environment not further defined",
+    "description": "A general classification for educational programmes related to the Environment that are not detailed further into specific areas like Environmental sciences (0521) or Natural environments and wildlife (0522).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0529
+[
+  {
+    "name": "Environment not elsewhere classified",
+    "description": "This residual category covers educational programmes related to the Environment that are not classifiable under other specific detailed fields like Environmental sciences (0521) or Natural environments and wildlife (0522).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0530
+[
+  {
+    "name": "Physical sciences not further defined",
+    "description": "A general category for educational programmes within Physical sciences that are not specified in more detailed fields like Chemistry (0531), Earth sciences (0532), or Physics (0533).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0539
+[
+  {
+    "name": "Physical sciences not elsewhere classified",
+    "description": "This residual category is for educational programmes within Physical sciences that do not fit into other defined detailed fields such as Chemistry (0531), Earth sciences (0532), or Physics (0533).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0540
+[
+  {
+    "name": "Mathematics and statistics not further defined",
+    "description": "A general classification for educational programmes in Mathematics and statistics that are not detailed further into specific areas like Mathematics (0541) or Statistics (0542).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0588
+[
+  {
+    "name": "Inter-disciplinary programmes and qualifications involving natural sciences, mathematics and statistics",
+    "description": "This category includes inter-disciplinary or broad educational programmes where the primary focus of learning time is devoted to a combination of Natural sciences, Mathematics, and Statistics, and which are not classifiable under a single dominant field within this broad area.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0599
+[
+  {
+    "name": "Natural sciences, mathematics and statistics not elsewhere classified",
+    "description": "This residual category is for specific educational programmes within the broader field of Natural Sciences, Mathematics and Statistics that cannot be classified under any of the preceding detailed fields or inter-disciplinary categories.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0611
+[
+  {
+    "name": "Computer use",
+    "description": "Within Information and Communication Technologies (ICTs), Computer use involves the study of utilizing computers and various computer software and applications for different purposes. These programmes are generally of short duration.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Use of software for calculating (spread sheets)",
+    "description": "Focuses on the practical application of spreadsheet software for tasks such as calculation, data analysis, and visualization, as part of general Computer use skills.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Use of software for data processing",
+    "description": "Covers the skills needed to use software for various data processing tasks including input, manipulation, and output of data, within the scope of Computer use.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Use of software for desk top publishing",
+    "description": "Involves learning to use desktop publishing software to create and format documents for print or digital distribution, a specific skill in Computer use.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Use of software for word processing",
+    "description": "Focuses on the effective use of word processing software for creating, editing, and formatting text documents, a fundamental aspect of Computer use.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Use of Internet",
+    "description": "Covers the skills required for navigating, searching, and utilizing the Internet for information, communication, and other online activities, an essential part of Computer use.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0612
+[
+  {
+    "name": "Database and network design and administration",
+    "description": "In the field of Information and Communication Technologies (ICTs), this involves the study of designing, maintaining, and integrating software applications, with a focus on databases and computer networks, including computer media applications.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer administration and management",
+    "description": "Focuses on the overall management and operational administration of computer systems and networks within an organization.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer media applications",
+    "description": "The study and use of software applications designed for creating, editing, and managing digital media content, relevant to database and network environments.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer network installation and maintenance",
+    "description": "Covers the practical skills of setting up, configuring, and maintaining computer networks to ensure their proper functioning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Database administrator studies",
+    "description": "Specialized training for managing and maintaining database systems, including security, performance, and data integrity.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Information technology administration",
+    "description": "Broader administrative roles within IT, encompassing the management of IT resources, including databases and networks.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Information technology security",
+    "description": "Focuses on protecting information systems, databases, and networks from unauthorized access, use, disclosure, alteration, or destruction.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Network administration",
+    "description": "The process of managing and maintaining an organization's computer network infrastructure to ensure connectivity and performance.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Network design",
+    "description": "The planning and design of computer network infrastructures, including hardware, software, and communication protocols.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Web design",
+    "description": "The process of planning, conceptualizing, and arranging content intended for the Internet, often involving aspects of database and network integration.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0613
+[
+  {
+    "name": "Software and applications development and analysis",
+    "description": "Within Information and Communication Technologies (ICTs), this field is the study of the design, development, testing, and maintenance of computer systems, software, and computing environments.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer programming",
+    "description": "The process of writing, testing, and maintaining the source code of computer programs, a core skill in software development.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer science",
+    "description": "The broader scientific and practical approach to computation and its applications, underpinning software development and analysis.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer systems analysis",
+    "description": "The study of existing systems to understand their functionalities and limitations, and to design improved or new systems, often a precursor to software development.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer systems design",
+    "description": "The process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements, crucial in software and applications development.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Informatics",
+    "description": "Often used interchangeably with computer science, it refers to the science of information, the practice of information processing, and the engineering of information systems.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Operating systems",
+    "description": "The study of system software that manages computer hardware, software resources, and provides common services for computer programs, a foundational area for software development.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Programming languages development",
+    "description": "The design and implementation of new programming languages or the enhancement of existing ones, a specialized area within software development.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Software development",
+    "description": "The process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Software programming",
+    "description": "The act of writing and testing computer programs, a key activity in software and applications development.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0619
+[
+  {
+    "name": "Information and Communication Technologies not elsewhere classified",
+    "description": "This residual category within Information and Communication Technologies (ICTs) is for IT studies that do not fit into the detailed fields of Computer use (0611), Database and network design and administration (0612), or Software and applications development and analysis (0613). An example is Artificial intelligence.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Artificial intelligence",
+    "description": "A branch of computer science dealing with the simulation of intelligent behavior in computers, classified under ICTs not elsewhere classified if not part of a more specific program.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0610
+[
+  {
+    "name": "Information and Communication Technologies (ICTs) not further defined",
+    "description": "A general category for educational programmes within the broad field of Information and Communication Technologies (ICTs) that are not specified in more detailed subfields.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0688
+[
+  {
+    "name": "Inter-disciplinary programmes and qualifications involving Information and Communication Technologies (ICTs)",
+    "description": "This category includes inter-disciplinary or broad educational programmes where the primary focus of learning time is devoted to a combination of Information and Communication Technologies (ICTs) with other fields, and which are not classifiable under a single dominant ICT field.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0711
+[
+  {
+    "name": "Chemical engineering and processes",
+    "description": "Within Engineering, Manufacturing and Construction / Engineering and engineering trades, this field is the study of planning, designing, and developing products and processes where chemical and physical changes occur. It includes designing chemical plants and control systems.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Chemical engineering",
+    "description": "The branch of engineering that deals with chemical production and the manufacture of products through chemical processes.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Chemical process engineering",
+    "description": "Focuses on the design, operation, control, and optimization of chemical processes.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Laboratory technology",
+    "description": "The study and application of techniques and equipment used in scientific laboratories, particularly relevant here if the emphasis is not on a specific application like biology or medicine, but on general chemical processes.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Oil/gas/petrochemicals processing",
+    "description": "The study of processes involved in refining crude oil, processing natural gas, and producing petrochemicals.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Plant and machine operation (processing)",
+    "description": "Skills and knowledge related to operating machinery and equipment in chemical processing plants.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Process technology",
+    "description": "The study of the principles and practices involved in industrial processes, particularly in the chemical and manufacturing sectors.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0712
+[
+  {
+    "name": "Environmental protection technology",
+    "description": "Within Engineering and engineering trades, this field is the study of processes designed to minimize discharge and waste, avoid pollution, and control impacts on water, air, and soil.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Air pollution control",
+    "description": "Technologies and strategies aimed at reducing or eliminating the emission of pollutants into the atmosphere.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ecological technology",
+    "description": "The application of ecological principles to the design and management of sustainable technologies and systems.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Energy efficiency",
+    "description": "The study and application of methods to reduce energy consumption while maintaining or improving output, a key aspect of environmental protection technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Environmental engineering",
+    "description": "The branch of engineering concerned with protecting people from adverse environmental effects and improving environmental quality.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Industrial discharge control",
+    "description": "Technologies and methods for managing and treating waste discharged from industrial processes to minimize environmental impact.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Noise pollution control",
+    "description": "Techniques and strategies for reducing unwanted or disturbing sound levels in the environment.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Recycling",
+    "description": "The process of converting waste materials into new materials and objects, a core component of environmental protection technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Water pollution control",
+    "description": "Technologies and strategies aimed at reducing or eliminating the contamination of water bodies.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0713
+[
+  {
+    "name": "Electricity and energy",
+    "description": "Within Engineering and engineering trades, this field covers the study of installing, maintaining, repairing, and diagnosing faults in electrical wiring and related equipment in various settings, as well as the study of energy generation, including electrical power and other energy sources.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Air-conditioning trades",
+    "description": "The study and practice of installing, maintaining, and repairing air-conditioning systems, a specialized trade within Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Climate engineering",
+    "description": "Focuses on engineering solutions related to controlling climate, including heating, ventilation, and air conditioning systems, as part of Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Electrical appliances repairing",
+    "description": "The skills and knowledge required to repair various electrical appliances, a trade within Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Electrical engineering",
+    "description": "A broad field within Electricity and energy dealing with the study and application of electricity, electronics, and electromagnetism.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Electrical fitting",
+    "description": "The trade involving the installation and maintenance of electrical wiring and fixtures, a key part of Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Electrical power generation",
+    "description": "The study of processes and technologies used to produce electrical power from various sources, a component of Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Electrical trades",
+    "description": "Encompasses various skilled professions related to electrical systems installation, maintenance, and repair, within Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Energy studies",
+    "description": "The interdisciplinary study of energy production, consumption, and policy, including various forms of energy, as part of Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Gas distribution",
+    "description": "The study and management of systems for distributing gas as an energy source, included in Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Heating trades",
+    "description": "Skills and knowledge related to the installation, maintenance, and repair of heating systems, a trade within Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Nuclear, hydraulic and thermal energy",
+    "description": "The study of energy generation from nuclear, hydraulic (water), and thermal (heat) sources, a specialized area within Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Power line installation and maintenance",
+    "description": "The trade focused on installing and maintaining overhead and underground electrical power distribution networks, part of Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Power production",
+    "description": "The generation of power, particularly electrical power, from various sources, a core topic in Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Refrigeration",
+    "description": "The study and practice of installing, maintaining, and repairing refrigeration systems, a trade within Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Solar power",
+    "description": "The study and application of technologies to convert sunlight into electricity or thermal energy, a renewable energy focus within Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Wind turbines",
+    "description": "The study, design, installation, and maintenance of wind turbines for generating electricity, part of renewable energy studies within Electricity and energy.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0714
+[
+  {
+    "name": "Electronics and automation",
+    "description": "A field within Engineering and engineering trades that involves the study of planning, designing, developing, maintaining, and monitoring electronic equipment, machinery, and systems, including computer hardware and communication equipment.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Broadcasting electronics",
+    "description": "The study of electronic systems and equipment used in radio and television broadcasting, a specialization within Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Communication systems",
+    "description": "The study and design of systems used for transmitting information, including telecommunications and data networks, as part of Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Communications equipment installation",
+    "description": "The practical skills involved in installing various types of communication equipment, a trade within Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Communications equipment maintenance",
+    "description": "The skills and knowledge required to maintain and repair communication equipment, a key area in Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer engineering",
+    "description": "Focuses on the design, development, and testing of computer hardware and systems, a major component of Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer repairing",
+    "description": "The trade of diagnosing and fixing problems with computer hardware, within Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Control engineering",
+    "description": "The engineering discipline that applies control theory to design systems with desired behaviors in control environments, relevant to Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Data processing technology",
+    "description": "The study of technologies and methods used to process and manage data electronically, part of Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Digital technology",
+    "description": "The study of electronic tools, systems, devices and resources that generate, store or process data, a broad area within Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Electronic engineering",
+    "description": "A discipline that utilizes non-linear and active electrical components to design electronic circuits, devices, integrated circuits and their systems, central to Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Electronic equipment servicing",
+    "description": "The maintenance and repair of various electronic devices and equipment, a practical skill in Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Network technology",
+    "description": "The study of designing, implementing, and managing computer networks, a key aspect of Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Robotics",
+    "description": "An interdisciplinary branch of engineering and science that includes mechanical engineering, electronic engineering, information engineering, computer science, and others, focused on the design, construction, operation, and use of robots, part of Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Telecommunications technology",
+    "description": "The study of technologies used for communication over a distance, including telephone, radio, television, and internet, within Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Television and radio repairing",
+    "description": "The trade of diagnosing and fixing problems with television and radio equipment, a specialized skill in Electronics and automation.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0715
+[
+  {
+    "name": "Mechanics and metal trades",
+    "description": "This field in Engineering and engineering trades covers the study of planning, designing, developing, producing, maintaining, and monitoring machines, mechanical plants, systems, and metal products, with a focus on these items.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Gunsmithing",
+    "description": "The craft of designing, building, modifying, repairing, and servicing firearms, a specialized metal trade within Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Hydraulics",
+    "description": "The study of mechanical properties of liquids and the application of these properties in engineering, relevant to Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Locksmithing and safe repairing",
+    "description": "The trade of designing, making, installing, and repairing locks and safes, a skilled area in Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Mechanical engineering",
+    "description": "A broad engineering discipline that involves the design, production, and operation of machinery and mechanical systems, central to Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Mechanical trades",
+    "description": "Encompasses various skilled professions related to the installation, maintenance, and repair of machinery and mechanical systems, within Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Metal casting and patternmaking",
+    "description": "The processes of creating objects by pouring molten metal into molds (casting) and creating the patterns used to make these molds, key skills in Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Metal fitting, turning and machining",
+    "description": "Trades involving the shaping of metal parts through fitting, operating lathes (turning), and using various machine tools, fundamental to Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Metallurgical engineering",
+    "description": "The branch of engineering concerned with the physical and chemical behavior of metallic elements, their inter-metallic compounds, and their mixtures, which are called alloys, relevant to Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Precision mechanics",
+    "description": "The design and manufacturing of small, highly accurate mechanical components and systems, a specialized area within Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Sheet metal working",
+    "description": "The trade of forming, cutting, and joining sheet metal to create various products, a skill in Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Steel production",
+    "description": "The processes involved in manufacturing steel from raw materials, relevant to metallurgical aspects of Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Tool and die making",
+    "description": "A skilled trade involving the creation and maintenance of tools, dies, jigs, and fixtures used in manufacturing processes, part of Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Welding",
+    "description": "A fabrication process that joins materials, usually metals or thermoplastics, by using high heat to melt the parts together and allowing them to cool, causing fusion, a critical skill in Mechanics and metal trades.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0716
+[
+  {
+    "name": "Motor vehicles, ships and aircraft",
+    "description": "A field in Engineering and engineering trades focused on designing, developing, producing, maintaining, diagnosing faults in, repairing, and servicing motor vehicles (including earth-moving equipment and agricultural machines), ships, trains, and aircraft. It typically combines studies in metal structures and motors.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Aerospace engineering",
+    "description": "The primary field of engineering concerned with the development of aircraft and spacecraft, a major component of Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Aircraft engineering",
+    "description": "Focuses on the design, construction, and testing of aircraft, a specialization within Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Aircraft maintenance",
+    "description": "The performance of tasks required to ensure the continuing airworthiness of an aircraft or aircraft part, including overhaul, repair, inspection, replacement, modification or defect rectification, a key area in Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Automotive electrical systems",
+    "description": "The study and repair of electrical systems in motor vehicles, included within Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Automotive engineering",
+    "description": "A branch of vehicle engineering, incorporating elements of mechanical, electrical, electronic, software, and safety engineering as applied to the design, manufacture and operation of motorcycles, automobiles, and trucks and their respective engineering subsystems, central to Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Avionics",
+    "description": "The electronic systems used on aircraft, artificial satellites, and spacecraft, a specialized field within Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Coachwork",
+    "description": "The design and construction of the bodies of motor vehicles, a trade within Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Marine engineering",
+    "description": "The engineering of boats, ships, submarines, and any other marine vessel or structure, as well as oceanographic engineering or nautical engineering, part of Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Motorcycle engineering",
+    "description": "The design, development, and manufacturing of motorcycles and their components, a specialization within Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Panel beating",
+    "description": "The trade of repairing the bodies of motor vehicles after accidents, often involving shaping and smoothing metal panels, within Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Shipbuilding",
+    "description": "The construction of ships and other floating vessels, a major industry within Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Train repair and maintenance",
+    "description": "The skills and processes involved in keeping railway locomotives and rolling stock in operational condition, part of Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Vehicle building and repairing",
+    "description": "General study of the construction and repair of various types of vehicles, a core aspect of Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Vehicle varnishing/spraying",
+    "description": "The trade of applying paint and protective coatings to vehicles, often as part of repair or manufacturing, within Motor vehicles, ships and aircraft.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0719
+[
+  {
+    "name": "Engineering and engineering trades not elsewhere classified",
+    "description": "This category within Engineering and engineering trades is for engineering studies that do not fit into other specific detailed fields listed under Engineering and engineering trades.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Nanotechnology",
+    "description": "The manipulation of matter on an atomic, molecular, and supramolecular scale, an interdisciplinary field classified under Engineering and engineering trades not elsewhere classified.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0721
+[
+  {
+    "name": "Food processing",
+    "description": "Within Manufacturing and processing, this field is the study of transforming raw ingredients into food, or of transforming food into other forms for consumption, packaging, and distribution, including the equipment and procedures used.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Baking",
+    "description": "The techniques and science of preparing food by dry heat, especially in an oven, a key skill in Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Beer brewing",
+    "description": "The process of making beer, from selecting ingredients to fermentation and packaging, a specialization within Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Butchery",
+    "description": "The trade of slaughtering animals, dressing their flesh, and preparing meat for sale, a part of Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Confectionery",
+    "description": "The art of making confections, which are food items that are rich in sugar and carbohydrates, such as candies and sweets, within Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dairy foods",
+    "description": "The processing of milk to create various dairy products like cheese, yogurt, and butter, a segment of Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Food and drink processing",
+    "description": "A general term for the transformation of agricultural products into food, or of one form of food into other forms, including beverages, central to Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Food preservation",
+    "description": "The methods and techniques used to prevent food spoilage and extend its shelf life, an important aspect of Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Food science and technology",
+    "description": "The application of scientific and engineering principles to the study of food, its processing, preservation, packaging, distribution, and safety, a core discipline in Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Meat processing",
+    "description": "The transformation of raw meat into various meat products through cutting, grinding, curing, smoking, or cooking, a part of Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Pastry cooking",
+    "description": "The art and techniques of making pastries, desserts, and other baked goods, a specialization within Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Tobacco processing",
+    "description": "The methods used to cure and prepare tobacco leaves for use in various tobacco products, classified under Food processing in this context.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Wine production",
+    "description": "The process of making wine, from grape cultivation (viticulture) to fermentation, aging, and bottling, a specialized area of Food processing.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0722
+[
+  {
+    "name": "Materials (glass, paper, plastic and wood)",
+    "description": "A field in Manufacturing and processing focused on the manufacturing of products from materials like glass, paper, plastic, wood, stone, clay, or artificial materials. Programmes emphasize specific material knowledge over general technical knowledge.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Boat building (non-motor)",
+    "description": "The craft and techniques of constructing non-motorized boats, often using materials like wood or composites, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cabinet making",
+    "description": "The skilled trade of making fine furniture, especially cabinets and case goods, primarily from wood, part of Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Carpentry (furniture)",
+    "description": "Focuses on the construction of furniture using wood, a specialization within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ceramics (industrial)",
+    "description": "The large-scale manufacturing of ceramic products, distinct from craft ceramics, using materials like clay, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Furniture making",
+    "description": "The design and construction of furniture using various materials, with an emphasis on the material itself, as part of Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Glass working (industrial)",
+    "description": "The manufacturing of glass products on an industrial scale, as opposed to artistic glass crafting, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Industrial diamond production",
+    "description": "The manufacturing of diamonds for industrial applications, focusing on material properties, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Paper manufacturing and processing",
+    "description": "The industrial processes involved in producing paper from raw materials and converting it into various paper products, part of Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Plastic manufacturing",
+    "description": "The industrial production of plastic materials and products from polymers, a key area in Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Rubber processing",
+    "description": "The transformation of raw rubber into various rubber products through processes like molding and vulcanization, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Timber technology",
+    "description": "The study and application of techniques for processing and utilizing wood (timber) in manufacturing, part of Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Wood machining and turning",
+    "description": "Skills and techniques for shaping wood using machine tools and lathes, a trade within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Woodwork trades",
+    "description": "Encompasses various skilled professions related to working with wood to create products, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0723
+[
+  {
+    "name": "Textiles (clothes, footwear and leather)",
+    "description": "A field in Manufacturing and processing that covers the manufacture of textiles, textile and leather products, clothing, shoes, and other footwear. It focuses on the industrial production aspects.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Clothing trades",
+    "description": "Skilled professions involved in the design, cutting, sewing, and finishing of garments, within Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dressmaking",
+    "description": "The craft of making dresses and other garments, often with a focus on custom fitting and design, part of Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Footwear making",
+    "description": "The design and construction of shoes and other footwear, a specialized trade in Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Fur making",
+    "description": "The trade of processing and crafting garments and accessories from animal furs, within Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Garment production",
+    "description": "The industrial processes involved in manufacturing clothing on a large scale, a key aspect of Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Leather processing",
+    "description": "The transformation of raw animal hides and skins into leather through tanning and other treatments, part of Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Saddlery",
+    "description": "The craft of making saddles and other equipment for horses, typically from leather, within Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Shoemaking",
+    "description": "Synonymous with 'Footwear making', referring to the craft and industry of producing shoes, within Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Skins and leather production",
+    "description": "The processes involved in obtaining and preparing animal skins and transforming them into leather for various uses, part of Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Spinning",
+    "description": "The process of twisting fibers together to create yarn or thread for textile production, within Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Tailoring",
+    "description": "The art and trade of designing, cutting, fitting, and finishing clothes, especially suits and coats, often to individual measurements, within Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Textile trades",
+    "description": "Encompasses various skilled professions related to the production and processing of textiles and textile products, within Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Upholstery",
+    "description": "The craft of providing furniture, especially seats, with padding, springs, webbing, and fabric or leather covers, a trade within Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Weaving (industrial)",
+    "description": "The large-scale manufacturing of fabric by interlacing threads or yarns on looms, distinct from craft weaving, part of Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Wool science",
+    "description": "The study of wool fibers, their properties, processing, and use in textile manufacturing, within Textiles (clothes, footwear and leather).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0724
+[
+  {
+    "name": "Mining and extraction",
+    "description": "Within Manufacturing and processing, this field is the study of assessing, planning, developing, and directing the extraction of minerals, oil, and gas from the earth.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Coal mining",
+    "description": "The process of extracting coal from the ground, a major sector within Mining and extraction.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Mineral technology",
+    "description": "The study of technologies and processes used in the extraction and processing of minerals, part of Mining and extraction.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Mining of minerals",
+    "description": "The general activity of extracting valuable minerals or other geological materials from the Earth, the core of Mining and extraction.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Oil and gas drilling",
+    "description": "The process of drilling wells to explore for and extract petroleum oil and natural gas, a key operation in Mining and extraction.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Oil and gas extraction",
+    "description": "The processes involved in bringing oil and natural gas to the surface after drilling, a major component of Mining and extraction.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Raw material extraction",
+    "description": "The general study and practice of obtaining raw materials (like minerals, oil, gas) from natural sources, central to Mining and extraction.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0731
+[
+  {
+    "name": "Architecture and town planning",
+    "description": "Under Engineering, Manufacturing and Construction / Architecture and construction, Architecture is the art, science, and technique of building design, balancing utilitarian, functional, economic, and aesthetic considerations. Town planning is the study of regulated growth and improvement of towns from functional and aesthetic viewpoints.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Architectural urban design and planning",
+    "description": "Focuses on the design and planning of urban areas at various scales, integrating architectural principles with urban development strategies, within Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Architecture",
+    "description": "The art and science of designing and constructing buildings and other physical structures, a core discipline in Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Building design",
+    "description": "The process of creating designs for new buildings, encompassing aesthetic, functional, and structural aspects, a key part of Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cartography/Land surveying",
+    "description": "Cartography is the study and practice of making maps, while land surveying is the technique, profession, and science of determining the terrestrial or three-dimensional positions of points and the distances and angles between them, relevant to Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "City planning",
+    "description": "The process of designing and managing the physical development of cities and urban areas, a major component of Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Community development",
+    "description": "A process where community members come together to take collective action and generate solutions to common problems, often involving physical planning aspects studied in Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Landscape architecture",
+    "description": "The design of outdoor areas, landmarks, and structures to achieve environmental, social-behavioral, or aesthetic outcomes, a specialization within Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Structural architecture",
+    "description": "Focuses on the structural integrity and engineering aspects of building design, ensuring stability and safety, within Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Surveying",
+    "description": "The science and art of making all essential measurements to determine the relative position of points or physical and cultural details above, on, or beneath the surface of the Earth, and to depict them in a usable form, often supporting Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Town and country planning",
+    "description": "The planning and control of the construction, growth, and development of a town or other urban area, as well as rural areas, a comprehensive field within Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Urban planning",
+    "description": "A technical and political process concerned with the development and design of land use and the built environment, including air, water, and the infrastructure passing into and out of urban areas, such as transportation, communications, and distribution networks, central to Architecture and town planning.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0732
+[
+  {
+    "name": "Building and civil engineering",
+    "description": "Within Architecture and construction, Building is the study of the science, technology, and techniques of assembling, erecting, and maintaining various structures. Civil engineering is the study of planning, designing, testing, and directing the construction of large-scale buildings and infrastructure.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Bricklaying",
+    "description": "The trade of laying bricks and other masonry units to construct walls, foundations, and other structures, a key skill in Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Bridge construction",
+    "description": "The specialized area of civil engineering focused on the design and construction of bridges.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Building construction",
+    "description": "The general process of adding structures to real property, a core activity in Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Building engineering",
+    "description": "The application of engineering principles and technology to building design and construction, part of Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Building technology",
+    "description": "The study of materials, methods, and systems used in building construction, within Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Carpentry and joinery (building)",
+    "description": "Skilled trades involving cutting, shaping, and installing wood components in building construction, such as framing, roofing, and finishing, as part of Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Civil engineering",
+    "description": "A professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewerage systems, pipelines, structural components of buildings, and railways, central to Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Construction equipment",
+    "description": "The study and operation of heavy machinery and equipment used in construction projects, relevant to Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Constructional metalwork (building)",
+    "description": "The fabrication and erection of metal structures and components in building construction, a specialized trade in Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dock and harbour engineering",
+    "description": "A branch of civil engineering focused on the design, construction, and maintenance of docks, harbours, and other coastal structures.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Floor and wall tiling",
+    "description": "The trade of installing tiles on floors and walls, a finishing skill in Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Floor covering",
+    "description": "The installation of various types of flooring materials, such as carpet, vinyl, or wood, within Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "House building",
+    "description": "The specific process of constructing residential houses, a segment of Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Industrial abseiling (commercial)",
+    "description": "The use of rope access techniques for construction, maintenance, and inspection work on high or difficult-to-reach structures, a specialized skill in Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Masonry and tile setting",
+    "description": "Trades involving the construction with stone, brick, or concrete blocks (masonry) and the installation of tiles, key skills in Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Painting and wall covering",
+    "description": "The trades of applying paint, wallpaper, and other finishes to interior and exterior surfaces in building construction, part of Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Plastering",
+    "description": "The trade of applying plaster or stucco to walls and ceilings to create smooth or textured surfaces, a finishing skill in Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Plumbing and pipefitting",
+    "description": "Trades involving the installation and maintenance of water supply, drainage, and gas systems in buildings, essential to Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Road building",
+    "description": "The design, construction, and maintenance of roads and highways, a major area of Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Water engineering and technology",
+    "description": "Focuses on the engineering and technological aspects of water supply, treatment, and management systems, a specialized field within Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Water supply and sewerage engineering",
+    "description": "The design and construction of systems for providing clean water and managing wastewater, a critical part of Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ventilation",
+    "description": "The design and installation of systems for providing fresh air and controlling air quality in buildings, within Building and civil engineering.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0788
+[
+  {
+    "name": "Inter-disciplinary programmes and qualifications involving engineering, manufacturing and construction",
+    "description": "This category is for programmes and qualifications where the primary focus (greatest intended learning time) is on Engineering, manufacturing and construction, but which integrate knowledge from multiple disciplines within or related to these fields.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0811
+[
+  {
+    "name": "Crop and livestock production",
+    "description": "Within Agriculture, this field involves the study of growing, maintaining, and harvesting crops and pastures, as well as grazing and managing animals. It includes farm management and the production of unprocessed plant and animal products, along with soil fertility and irrigation techniques.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Agricultural sciences",
+    "description": "The broad scientific study of agriculture, including aspects of crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Agronomy and crop science",
+    "description": "The science and technology of producing and using plants for food, fuel, fiber, and land reclamation, a key part of Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Animal husbandry",
+    "description": "The branch of agriculture concerned with the care, breeding, and management of livestock, central to Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Crop growing",
+    "description": "The cultivation of plants for food, feed, fiber, or other uses, a fundamental aspect of Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dog breeding",
+    "description": "The practice of mating selected dogs with the intent to maintain or produce specific qualities and characteristics, a specialized area within animal management under Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Farm and ranch management",
+    "description": "The organization and operation of farms and ranches for profit, including decision-making on crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Farming",
+    "description": "The general activity of growing crops and raising livestock, the core of Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Fruit growing",
+    "description": "The cultivation of fruit crops, a specialization within Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Grain growing",
+    "description": "The cultivation of cereal grains like wheat, rice, and corn, a major component of Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Horse breeding",
+    "description": "The practice of mating selected horses to produce offspring with desired traits, part of animal management in Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Pig farming",
+    "description": "The raising of pigs for meat production, a segment of Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Poultry husbandry",
+    "description": "The raising of domesticated birds such as chickens, turkeys, ducks, and geese for meat or eggs, part of Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Rice farming",
+    "description": "The cultivation of rice, a staple grain crop, within Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Rye and wheat growing",
+    "description": "The cultivation of rye and wheat, important cereal crops, as part of Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Sheep farming",
+    "description": "The raising of sheep for wool, meat, or milk, a sector of Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Soil science",
+    "description": "The study of soil as a natural resource on the surface of the Earth including soil formation, classification and mapping; physical, chemical, biological, and fertility properties of soils; and these properties in relation to the use and management of soils, crucial for Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Sugar cane growing",
+    "description": "The cultivation of sugar cane for sugar production, a specialized crop in Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Vegetable planting",
+    "description": "The cultivation of vegetable crops, a significant part of Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Wine growing",
+    "description": "Also known as viticulture, this is the cultivation and harvesting of grapes, especially for wine production, included in Crop and livestock production.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0812
+[
+  {
+    "name": "Horticulture",
+    "description": "Within Agriculture, Horticulture is the study of horticultural technology and management, floriculture, greenhouse methods, nursery management, and landscape gardening. It includes the laying out and construction of urban and domestic parks and gardens.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Floriculture",
+    "description": "A branch of horticulture concerned with the cultivation of flowering and ornamental plants for gardens and for floristry, comprising the floral industry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Gardening",
+    "description": "The practice of growing and cultivating plants as part of horticulture, whether for ornamental purposes or food production in a horticultural context.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Green keeping",
+    "description": "The maintenance of turf grass, especially on golf courses, a specialization within Horticulture.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Horticultural techniques",
+    "description": "The various methods and practices used in the cultivation of horticultural crops, including fruits, vegetables, flowers, and ornamental plants.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Nursery management",
+    "description": "The business and practice of propagating and growing plants in a nursery for sale or for use in landscaping and gardening, a part of Horticulture.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Turf cultivation",
+    "description": "The growing and maintenance of grass for lawns, sports fields, and other recreational areas, a specialized area of Horticulture.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0821
+[
+  {
+    "name": "Forestry",
+    "description": "Under Agriculture, Forestry, Fisheries and Veterinary, Forestry is the science and craft of creating, managing, using, conserving, and repairing forests, woodlands, and associated resources for human and environmental benefits. It also includes the study of hunting and trapping.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Charcoal burning",
+    "description": "The process of producing charcoal by heating wood in the absence of air, a traditional forest product technique within Forestry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Forest keeping",
+    "description": "The management and maintenance of forest areas, ensuring their health and productivity, a part of Forestry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Forest product techniques",
+    "description": "Methods and technologies used in harvesting, processing, and utilizing products from forests, studied within Forestry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Hunting and trapping",
+    "description": "The practice of pursuing, capturing, or killing wild animals for food, recreation, or trade, included in the broader field of Forestry when related to forest management and wildlife.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Logging",
+    "description": "The process of cutting, processing, and moving trees to a location for transport, a key activity in Forestry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Tree felling",
+    "description": "The act of cutting down trees, a fundamental operation in Forestry and logging.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0831
+[
+  {
+    "name": "Fisheries",
+    "description": "Within Agriculture, Forestry, Fisheries and Veterinary, Fisheries is the study of breeding, rearing, and harvesting fish and other seafood. This includes aquaculture and programmes for operating fishing boats.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Aquaculture",
+    "description": "The farming of aquatic organisms such as fish, crustaceans, molluscs, and aquatic plants, a major component of Fisheries.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Fish breeding",
+    "description": "The controlled propagation of fish, often to improve stocks for aquaculture or conservation, part of Fisheries.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Fish farms",
+    "description": "Facilities where fish are raised commercially in controlled environments, central to aquaculture within Fisheries.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Fishery science and technology",
+    "description": "The application of scientific principles and technology to the understanding, management, and exploitation of fisheries resources.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Pearl cultivating",
+    "description": "The farming of pearl oysters or mussels to produce cultured pearls, a specialized form of aquaculture within Fisheries.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Seafood farming",
+    "description": "The cultivation of various types of seafood, including fish and shellfish, through aquaculture methods, as part of Fisheries.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Shellfish breeding",
+    "description": "The controlled propagation of shellfish such as oysters, clams, and mussels, often for aquaculture, within Fisheries.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0841
+[
+  {
+    "name": "Veterinary",
+    "description": "Under Agriculture, Forestry, Fisheries and Veterinary, Veterinary science is the study of preventing, diagnosing, and treating diseases and injuries in animals, and their general care. It includes caring for sick or injured animals in veterinary clinics and providing assistance to veterinary scientists. The science of animal reproduction is also included.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Animal health care",
+    "description": "The provision of medical and preventive care to animals to maintain their health and well-being, a core aspect of Veterinary science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Animal reproduction (science)",
+    "description": "The scientific study of the reproductive processes in animals, including techniques for breeding and managing fertility, part of Veterinary science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Artificial insemination (of animals)",
+    "description": "A technique used in animal reproduction where semen is deliberately introduced into a female's cervix or uterine cavity for the purpose of achieving a pregnancy, studied within Veterinary science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Veterinary assisting",
+    "description": "Providing support to veterinarians in clinical practice, including animal handling, sample collection, and administrative tasks, a role within the Veterinary field.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Veterinary medicine",
+    "description": "The branch of medicine that deals with the prevention, diagnosis, and treatment of disease, disorder, and injury in animals, central to Veterinary science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Veterinary nursing",
+    "description": "Providing nursing care to animals under the direction of a veterinarian, including monitoring patients, administering treatments, and assisting in procedures, a key role in Veterinary science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Veterinary science",
+    "description": "The broad scientific field concerned with animal health, disease, and welfare, encompassing veterinary medicine and related disciplines.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0888
+[
+  {
+    "name": "Inter-disciplinary programmes and qualifications involving agriculture, forestry, fisheries and veterinary",
+    "description": "This category is for programmes where the primary focus (greatest intended learning time) is on Agriculture, forestry, fisheries, and veterinary sciences, but which integrate knowledge from multiple disciplines within or related to these fields.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0911
+[
+  {
+    "name": "Dental studies",
+    "description": "Within Health and Welfare / Health, Dental studies involve diagnosing, treating, and preventing diseases and abnormalities of the teeth and gums. It includes designing, making, and repairing dental prostheses and orthodontic appliances, as well as providing assistance to dentists. Public dental health is also covered.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dental assisting",
+    "description": "Providing support to dentists during dental procedures, managing patient records, and maintaining dental equipment, a role within Dental studies.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dental hygiene",
+    "description": "The practice of preventive oral health care, including cleaning teeth, examining patients for signs of oral diseases, and providing education on oral health, a key part of Dental studies.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dental laboratory technology",
+    "description": "The design, fabrication, and repair of dental prostheses such as dentures, crowns, and bridges, based on prescriptions from dentists, a specialization within Dental studies.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dental nursing",
+    "description": "Assisting dentists with patient care and clinical procedures, similar to dental assisting, within Dental studies.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dental science",
+    "description": "The scientific study of the oral cavity, teeth, gums, and related structures, as well as oral diseases and their treatment, the foundation of Dental studies.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dental surgery",
+    "description": "Surgical procedures performed on the teeth, gums, jaws, and other oral structures, a specialized area of Dental studies.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dental technology",
+    "description": "The application of technical skills and knowledge to create and repair dental appliances, synonymous with dental laboratory technology, within Dental studies.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Odontology",
+    "description": "The scientific study of the structure, development, and abnormalities of the teeth, a core component of Dental studies.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Oral surgery",
+    "description": "A branch of dentistry specializing in surgical treatments of the mouth, jaws, and facial structures, within Dental studies.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Orthodontics",
+    "description": "The branch of dentistry concerned with the diagnosis, prevention, and correction of malpositioned teeth and jaws, a specialization in Dental studies.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0912
+[
+  {
+    "name": "Medicine",
+    "description": "Under Health, this detailed field is the study of principles and procedures used in preventing, diagnosing, caring for, and treating illness, disease, and injury in humans, and the maintenance of general health. It principally consists of training for physicians/doctors.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Anaesthetics",
+    "description": "The branch of medicine concerned with the administration of anaesthetics to induce loss of sensation during surgical or other medical procedures, a specialization within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Forensic medicine",
+    "description": "The application of medical knowledge to legal questions, particularly in relation to crime and death investigation, a field within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Forensic pathology",
+    "description": "A sub-specialty of pathology that focuses on determining the cause of death by examining a corpse, often in legal cases, related to Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "General medicine",
+    "description": "The branch of medicine that deals with the diagnosis and nonsurgical treatment of diseases of the internal organs, a broad area within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Gerontology",
+    "description": "The comprehensive study of aging and the problems of older adults, including medical, social, and psychological aspects, relevant to Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Gynaecology",
+    "description": "The branch of medicine that deals with the functions and diseases specific to women and girls, especially those affecting the reproductive system, a specialization within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical science",
+    "description": "The broad field of scientific study related to human health, disease, and the practice of medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical training",
+    "description": "The education and practical experience required to become a medical professional, particularly a physician, the core of Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Paediatrics",
+    "description": "The branch of medicine dealing with children and their diseases, a specialization within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Psychiatry",
+    "description": "The branch of medicine focused on the diagnosis, treatment and prevention of mental, emotional and behavioral disorders, a specialization within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Surgery",
+    "description": "The branch of medicine that deals with the physical manipulation of a bodily structure to diagnose, prevent, or cure an ailment, a major field within Medicine.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Training of physicians/doctors",
+    "description": "The comprehensive education and practical training programs that prepare individuals to practice as physicians or doctors, the essence of the Medicine field.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0913
+[
+  {
+    "name": "Nursing and midwifery",
+    "description": "Within Health, Nursing is the study of providing health care for the sick, disabled, or infirm, and assisting medical professionals. Midwifery is the study of providing care to childbearing women during pregnancy, labour, birth, and the postpartum period, including newborn care. Care programmes combining health and social care (e.g., for the elderly) are included here.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Assistant nursing",
+    "description": "Providing basic nursing care under the supervision of registered nurses or physicians, a role within Nursing and midwifery.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Basic nursing",
+    "description": "Fundamental skills and knowledge required for providing patient care, forming the foundation of nursing practice, within Nursing and midwifery.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "General nursing",
+    "description": "Comprehensive nursing care for patients across various age groups and health conditions, a broad area within Nursing and midwifery.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Health care of old people",
+    "description": "Specialized nursing care focused on the health needs of elderly individuals, part of Nursing and midwifery.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Heath care of the disabled",
+    "description": "Nursing care tailored to individuals with physical or mental disabilities, ensuring their health and well-being, within Nursing and midwifery. (Note: 'Heath' likely a typo in source, should be 'Health').",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Health care programmes",
+    "description": "General study programmes focused on providing health care, often with an emphasis on nursing practices, within Nursing and midwifery.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Infant hygiene (nursing)",
+    "description": "Nursing practices related to maintaining the health and hygiene of infants, part of Nursing and midwifery.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Midwifery",
+    "description": "The health profession that deals with pregnancy, childbirth, and the postpartum period (including care of the newborn), as well as sexual and reproductive health of women throughout their lives, a key component of Nursing and midwifery.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Nursing aide/Orderly",
+    "description": "Providing assistance to patients with daily living activities and supporting nursing staff in healthcare settings, a role within Nursing and midwifery.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Psychiatric nursing",
+    "description": "Specialized nursing care for individuals with mental health disorders, focusing on their psychological and emotional well-being, within Nursing and midwifery.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Specialised nursing",
+    "description": "Nursing practice focused on specific patient populations, health conditions, or areas of care, within Nursing and midwifery.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0914
+[
+  {
+    "name": "Medical diagnostic and treatment technology",
+    "description": "A field in Health concerned with the study and application of a wide range of technologies used for diagnosing and treating diseases and handicaps.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ambulance technology",
+    "description": "The equipment and procedures used by ambulance personnel to provide emergency medical care and transportation, a part of Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Hearing aid technology",
+    "description": "The design, fitting, and maintenance of hearing aids and other assistive listening devices, within Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical laboratory technology",
+    "description": "The performance of laboratory tests on patient samples to aid in the diagnosis, treatment, and monitoring of diseases, a key area in Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Optical technology",
+    "description": "The design, manufacturing, and fitting of eyeglasses, contact lenses, and other optical devices to correct vision problems, part of Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Prosthetic technology",
+    "description": "The design, fabrication, and fitting of artificial limbs (prostheses) and other assistive devices for individuals with disabilities, within Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Radiology technology",
+    "description": "The use of medical imaging techniques, such as X-rays, CT scans, and MRI, to diagnose diseases and injuries, a major component of Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Radiotherapy",
+    "description": "The use of ionizing radiation to treat cancer and other diseases, a specialized treatment technology within Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "X-ray technology (medical)",
+    "description": "The specific use of X-rays for medical imaging to diagnose various conditions, a fundamental part of Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0915
+[
+  {
+    "name": "Therapy and rehabilitation",
+    "description": "Within Health, this field is the study of restoring normal physical and functional conditions to those incapacitated by temporary or permanent disability, through various therapeutic interventions.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dietician programmes",
+    "description": "Training for professionals who assess nutritional needs, plan dietary interventions, and provide nutrition counseling to promote health and manage disease, part of Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical massage",
+    "description": "The application of massage techniques for therapeutic purposes to address specific health conditions or injuries, within Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Nutrition/Dietetics",
+    "description": "The science of food and its effects on health, and the application of this knowledge to plan diets and promote healthy eating habits, a core component of Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Occupational therapy",
+    "description": "A client-centered health profession concerned with promoting health and well-being through occupation, enabling people to participate in the activities of everyday life, a key area in Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Physiotherapy",
+    "description": "The treatment of disease, injury, or deformity by physical methods such as massage, heat treatment, and exercise rather than by drugs or surgery, a major field within Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Rehabilitation",
+    "description": "The process of helping a person who has suffered an illness or injury restore lost skills and so regain maximum self-sufficiency, the overarching goal of Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Speech therapy",
+    "description": "The treatment of speech and language disorders, helping individuals improve their communication skills, a specialization within Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0916
+[
+  {
+    "name": "Pharmacy",
+    "description": "A field in Health involving the study of drugs and their effects on humans, including their preparation, dispensing, and administration.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dispensing pharmacy",
+    "description": "The practice of preparing and providing medications to patients according to prescriptions from healthcare professionals, a core function of Pharmacy.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0917
+[
+  {
+    "name": "Traditional and complementary medicine and therapy",
+    "description": "Within Health, this field is the study of alternative medical systems and practices that are not part of standard Western medical care, but are used alongside or instead of it.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Acupuncture and oriental medicine",
+    "description": "A system of traditional medicine originating in China, involving techniques like acupuncture (inserting fine needles into the skin) and herbal remedies, part of Traditional and complementary medicine and therapy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Aromatherapy",
+    "description": "The use of aromatic plant extracts and essential oils for healing and cosmetic purposes, a therapy within Traditional and complementary medicine and therapy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ayurvedic medicine",
+    "description": "A traditional system of medicine originating in India, emphasizing a holistic approach to health through diet, herbal remedies, yoga, and meditation, part of Traditional and complementary medicine and therapy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Herbalism",
+    "description": "The study and use of medicinal plants to treat diseases and enhance general health and wellbeing, a key component of Traditional and complementary medicine and therapy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Herbology",
+    "description": "Synonymous with Herbalism, focusing on the study and application of herbs for medicinal purposes, within Traditional and complementary medicine and therapy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Holistic medicine",
+    "description": "An approach to healthcare that emphasizes treating the whole person—body, mind, and spirit—rather than just the symptoms of a disease, often incorporating Traditional and complementary medicine and therapy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Homeopathic medicine",
+    "description": "A system of alternative medicine based on the principle of 'like cures like,' using highly diluted substances to stimulate the body's healing processes, part of Traditional and complementary medicine and therapy.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Traditional medicine, for example Chinese",
+    "description": "Encompasses ancient healing practices and knowledge passed down through generations within various cultures, such as Traditional Chinese Medicine, studied in Traditional and complementary medicine and therapy.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0921
+[
+  {
+    "name": "Care of elderly and of disabled adults",
+    "description": "Under Health and Welfare / Welfare, this field is the study of non-medical care for elderly individuals and disabled adults, focusing on their daily living needs and well-being.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Care of the elderly",
+    "description": "Providing non-medical support and assistance to older adults to help them with daily activities and maintain their quality of life, a core part of Care of elderly and of disabled adults.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Non-medical care of disabled adults",
+    "description": "Assisting adults with disabilities in their daily living, focusing on personal care and support rather than medical treatment, within Care of elderly and of disabled adults.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Personal care of adults",
+    "description": "Providing assistance with personal hygiene, mobility, and other daily tasks for adults who require support, including the elderly and disabled, as part of Care of elderly and of disabled adults.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0922
+[
+  {
+    "name": "Child care and youth services",
+    "description": "A field in Welfare focused on the study of the development and non-medical care of children and youths. It includes recreation and leisure activities as a social service for school children and young adults.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Child care",
+    "description": "Providing supervision and non-medical care for children, typically in daycare centers, preschools (non-educational focus), or homes, a core component of Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Child recreation programmes",
+    "description": "Organized activities and programmes designed to provide recreation and leisure opportunities for children, part of Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Day care",
+    "description": "Supervision and care provided for children or other dependents during the day, often while parents are working, a key service within Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Non-medical care of disabled children",
+    "description": "Providing support and assistance for children with disabilities in their daily living and development, focusing on non-medical aspects, within Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Youth services",
+    "description": "Programmes and activities aimed at supporting the development, well-being, and engagement of young people, a part of Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Youth worker programmes",
+    "description": "Training for individuals who work with young people in various settings, providing guidance, support, and organizing activities, within Child care and youth services.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0923
+[
+  {
+    "name": "Social work and counselling",
+    "description": "Within Welfare, this field is the study of the welfare needs of communities, specific groups, and individuals, and the appropriate ways of meeting these needs. The focus is on social welfare, policy, and practice.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Alcohol and drug abuse counselling",
+    "description": "Providing therapeutic support and guidance to individuals struggling with alcohol or drug addiction, a specialization within Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Alcohol, tobacco, drugs (knowledge about)",
+    "description": "Study of the effects, risks, and societal impacts of alcohol, tobacco, and drug use, relevant for Social work and counselling professionals.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Crisis support",
+    "description": "Providing immediate assistance and counselling to individuals experiencing acute emotional distress or crisis situations, a key skill in Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Family and marriage counselling",
+    "description": "Therapeutic services aimed at helping families and couples resolve conflicts, improve communication, and strengthen relationships, a part of Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Mobbing and maltreatment (knowledge about)",
+    "description": "Understanding the dynamics, effects, and interventions related to workplace mobbing (bullying) and other forms of maltreatment, relevant for Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Parole officer training",
+    "description": "Training for professionals who supervise offenders released from prison on parole, ensuring compliance with conditions and supporting reintegration, related to Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Probation officer training",
+    "description": "Training for officers who supervise offenders serving probation sentences in the community, monitoring compliance and providing support, related to Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Social policy",
+    "description": "The study of societal responses to social needs and problems, including the development, implementation, and evaluation of social programs and policies, a core area of Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Social practice",
+    "description": "The application of social work theories and methods in direct service to individuals, families, groups, and communities, a key aspect of Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Social theory (applied)",
+    "description": "The application of sociological and social psychological theories to understand and address social issues in practical settings, relevant to Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Social work (welfare)",
+    "description": "A profession concerned with helping individuals, families, groups and communities to enhance their individual and collective well-being, the central discipline in Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Vocational counselling",
+    "description": "Providing guidance and support to individuals in making career choices, developing job skills, and navigating the world of work, a specialization within Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Vocational guidance",
+    "description": "Assisting individuals in choosing and pursuing appropriate careers based on their interests, abilities, and job market opportunities, closely related to vocational counselling within Social work and counselling.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0988
+[
+  {
+    "name": "Inter-disciplinary programmes and qualifications involving health and welfare",
+    "description": "This category is for programmes and qualifications where the primary focus (greatest intended learning time) is on Health and Welfare, but which integrate knowledge from multiple disciplines within or related to these broad fields.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0700
+[
+  {
+    "name": "Engineering, manufacturing and construction not further defined",
+    "description": "This category within the broad field of Engineering, Manufacturing and Construction is for programmes and qualifications that are not specifically detailed under its narrower or detailed fields. It represents a general or undefined scope within this domain.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0710
+[
+  {
+    "name": "Engineering and engineering trades not further defined",
+    "description": "Within the narrow field of Engineering and engineering trades, this classification is for programmes and qualifications that are not further specified into detailed categories like chemical engineering or electronics. It covers general or undefined aspects of engineering and related trades.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0720
+[
+  {
+    "name": "Manufacturing and processing not further defined",
+    "description": "This category within the narrow field of Manufacturing and processing is for programmes and qualifications that are not specifically detailed, such as food processing or materials. It encompasses general or undefined studies related to manufacturing and processing industries.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0729
+[
+  {
+    "name": "Manufacturing and processing not elsewhere classified",
+    "description": "This category within Manufacturing and processing is for specific programmes and qualifications that do not fit into any of the other detailed fields (like Food processing, Materials, Textiles, Mining). It serves as a residual category for unique manufacturing or processing studies.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0730
+[
+  {
+    "name": "Architecture and construction not further defined",
+    "description": "Within the narrow field of Architecture and construction, this classification is for programmes and qualifications that are not further specified into detailed categories like architecture and town planning or building and civil engineering. It covers general or undefined aspects of these domains.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0799
+[
+  {
+    "name": "Engineering, manufacturing and construction not elsewhere classified",
+    "description": "This category is for specific programmes and qualifications within the broad field of Engineering, Manufacturing and Construction that do not fit into any of the defined narrow or detailed fields. It acts as a residual category for unique or specialized interdisciplinary studies within this broad domain that are not primarily inter-disciplinary (0788).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0800
+[
+  {
+    "name": "Agriculture, forestry, fisheries and veterinary not further defined",
+    "description": "This category within the broad field of Agriculture, Forestry, Fisheries and Veterinary is for programmes and qualifications that are not specifically detailed under its narrower or detailed fields. It represents a general or undefined scope within this domain.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0810
+[
+  {
+    "name": "Agriculture not further defined",
+    "description": "Within the narrow field of Agriculture, this classification is for programmes and qualifications that are not further specified into detailed categories like crop and livestock production or horticulture. It covers general or undefined aspects of agricultural studies.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0819
+[
+  {
+    "name": "Agriculture not elsewhere classified",
+    "description": "This category within Agriculture is for specific programmes and qualifications that do not fit into any of the other detailed fields (like Crop and livestock production, Horticulture). It serves as a residual category for unique agricultural studies.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0899
+[
+  {
+    "name": "Agriculture, forestry, fisheries and veterinary not elsewhere classified",
+    "description": "This category is for specific programmes and qualifications within the broad field of Agriculture, Forestry, Fisheries and Veterinary that do not fit into any of the defined narrow or detailed fields. It acts as a residual category for unique or specialized interdisciplinary studies within this broad domain that are not primarily inter-disciplinary (0888).",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0900
+[
+  {
+    "name": "Health and welfare not further defined",
+    "description": "This category within the broad field of Health and Welfare is for programmes and qualifications that are not specifically detailed under its narrower or detailed fields. It represents a general or undefined scope within this domain.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0910
+[
+  {
+    "name": "Health not further defined",
+    "description": "Within the narrow field of Health, this classification is for programmes and qualifications that are not further specified into detailed categories like dental studies or medicine. It covers general or undefined aspects of health-related studies.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0919
+[
+  {
+    "name": "Health not elsewhere classified",
+    "description": "This category within Health is for specific programmes and qualifications that do not fit into any of the other detailed fields (like Dental studies, Medicine, Nursing, etc.). It serves as a residual category for unique health-related studies.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0920
+[
+  {
+    "name": "Welfare not further defined",
+    "description": "Within the narrow field of Welfare, this classification is for programmes and qualifications that are not further specified into detailed categories like care of the elderly or social work. It covers general or undefined aspects of welfare-related studies.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0929
+[
+  {
+    "name": "Welfare not elsewhere classified",
+    "description": "This category within Welfare is for specific programmes and qualifications that do not fit into any of the other detailed fields (like Care of elderly, Child care, Social work). It serves as a residual category for unique welfare-related studies.",
+    "wiki": "",
+    "resources": []
+  }
+]
+%0999
+[
+  {
+    "name": "Health and welfare not elsewhere classified",
+    "description": "This category is for specific programmes and qualifications within the broad field of Health and Welfare that do not fit into any of the defined narrow or detailed fields. It acts as a residual category for unique or specialized interdisciplinary studies within this broad domain that are not primarily inter-disciplinary (0988).",
+    "wiki": "",
+    "resources": []
+  }
+]

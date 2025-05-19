@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Chemistry",
+    "description": "Within Physical sciences (under Natural Sciences), Chemistry is the study of substances, their elements, composition, properties, and how they react and change when combined or subjected to different conditions.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Inorganic chemistry",
+    "description": "The branch of chemistry concerned with the properties and behavior of inorganic compounds, which include metals, minerals, and organometallic compounds.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Organic chemistry",
+    "description": "The study of the structure, properties, composition, reactions, and preparation of carbon-containing compounds, which include not only hydrocarbons but also compounds with any number of other elements.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Physical chemistry",
+    "description": "The branch of chemistry concerned with the application of the techniques and theories of physics to the study of chemical systems.",
+    "wiki": "",
+    "resources": []
+  }
+]

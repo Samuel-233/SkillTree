@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Therapy and rehabilitation",
+    "description": "Within Health, this field is the study of restoring normal physical and functional conditions to those incapacitated by temporary or permanent disability, through various therapeutic interventions.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dietician programmes",
+    "description": "Training for professionals who assess nutritional needs, plan dietary interventions, and provide nutrition counseling to promote health and manage disease, part of Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical massage",
+    "description": "The application of massage techniques for therapeutic purposes to address specific health conditions or injuries, within Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Nutrition/Dietetics",
+    "description": "The science of food and its effects on health, and the application of this knowledge to plan diets and promote healthy eating habits, a core component of Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Occupational therapy",
+    "description": "A client-centered health profession concerned with promoting health and well-being through occupation, enabling people to participate in the activities of everyday life, a key area in Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Physiotherapy",
+    "description": "The treatment of disease, injury, or deformity by physical methods such as massage, heat treatment, and exercise rather than by drugs or surgery, a major field within Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Rehabilitation",
+    "description": "The process of helping a person who has suffered an illness or injury restore lost skills and so regain maximum self-sufficiency, the overarching goal of Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Speech therapy",
+    "description": "The treatment of speech and language disorders, helping individuals improve their communication skills, a specialization within Therapy and rehabilitation.",
+    "wiki": "",
+    "resources": []
+  }
+]
