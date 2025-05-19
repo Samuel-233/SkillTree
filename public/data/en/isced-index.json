@@ -1,1097 +1,878 @@
 [
   {
     "id": "00",
-    "label": "Generic programmes and qualifications",
-    "childFile": ""
+    "label": "Generic programmes and qualifications"
   },
   {
     "id": "000",
-    "label": "Generic programmes and qualifications not further defined",
-    "childFile": ""
+    "label": "Generic programmes and qualifications not further defined"
   },
   {
     "id": "0000",
-    "label": "Generic programmes and qualifications not further defined",
-    "childFile": "0000.json"
+    "label": "Generic programmes and qualifications not further defined"
   },
   {
     "id": "001",
-    "label": "Basic programmes and qualifications",
-    "childFile": ""
+    "label": "Basic programmes and qualifications"
   },
   {
     "id": "0011",
-    "label": "Basic programmes and qualifications",
-    "childFile": "0011.json"
+    "label": "Basic programmes and qualifications"
   },
   {
     "id": "002",
-    "label": "Literacy and numeracy",
-    "childFile": ""
+    "label": "Literacy and numeracy"
   },
   {
     "id": "0021",
-    "label": "Literacy and numeracy",
-    "childFile": "0021.json"
+    "label": "Literacy and numeracy"
   },
   {
     "id": "003",
-    "label": "Personal skills and development",
-    "childFile": ""
+    "label": "Personal skills and development"
   },
   {
     "id": "0031",
-    "label": "Personal skills and development",
-    "childFile": "0031.json"
+    "label": "Personal skills and development"
   },
   {
     "id": "009",
-    "label": "Generic programmes and qualifications not elsewhere classified",
-    "childFile": ""
+    "label": "Generic programmes and qualifications not elsewhere classified"
   },
   {
     "id": "0099",
-    "label": "Generic programmes and qualifications not elsewhere classified",
-    "childFile": "0099.json"
+    "label": "Generic programmes and qualifications not elsewhere classified"
   },
   {
     "id": "01",
-    "label": "Education",
-    "childFile": ""
+    "label": "Education"
   },
   {
     "id": "011",
-    "label": "Education",
-    "childFile": ""
+    "label": "Education"
   },
   {
     "id": "0110",
-    "label": "Education not further defined",
-    "childFile": "0110.json"
+    "label": "Education not further defined"
   },
   {
     "id": "0111",
-    "label": "Education science",
-    "childFile": "0111.json"
+    "label": "Education science"
   },
   {
     "id": "0112",
-    "label": "Training for pre-school teachers",
-    "childFile": "0112.json"
+    "label": "Training for pre-school teachers"
   },
   {
     "id": "0113",
-    "label": "Teacher training without subject specialisation",
-    "childFile": "0113.json"
+    "label": "Teacher training without subject specialisation"
   },
   {
     "id": "0114",
-    "label": "Teacher training with subject specialisation",
-    "childFile": "0114.json"
+    "label": "Teacher training with subject specialisation"
   },
   {
     "id": "0119",
-    "label": "Education not elsewhere classified",
-    "childFile": "0119.json"
+    "label": "Education not elsewhere classified"
   },
   {
     "id": "018",
-    "label": "Inter-disciplinary programmes and qualifications involving education",
-    "childFile": ""
+    "label": "Inter-disciplinary programmes and qualifications involving education"
   },
   {
     "id": "0188",
-    "label": "Inter-disciplinary programmes and qualifications involving education",
-    "childFile": "0188.json"
+    "label": "Inter-disciplinary programmes and qualifications involving education"
   },
   {
     "id": "02",
-    "label": "Arts and humanities",
-    "childFile": ""
+    "label": "Arts and humanities"
   },
   {
     "id": "020",
-    "label": "Arts and humanities not further defined",
-    "childFile": ""
+    "label": "Arts and humanities not further defined"
   },
   {
     "id": "0200",
-    "label": "Arts and humanities not further defined",
-    "childFile": "0200.json"
+    "label": "Arts and humanities not further defined"
   },
   {
     "id": "021",
-    "label": "Arts",
-    "childFile": ""
+    "label": "Arts"
   },
   {
     "id": "0210",
-    "label": "Arts not further defined",
-    "childFile": "0210.json"
+    "label": "Arts not further defined"
   },
   {
     "id": "0211",
-    "label": "Audio-visual techniques and media production",
-    "childFile": "0211.json"
+    "label": "Audio-visual techniques and media production"
   },
   {
     "id": "0212",
-    "label": "Fashion, interior and industrial design",
-    "childFile": "0212.json"
+    "label": "Fashion, interior and industrial design"
   },
   {
     "id": "0213",
-    "label": "Fine arts",
-    "childFile": "0213.json"
+    "label": "Fine arts"
   },
   {
     "id": "0214",
-    "label": "Handicrafts",
-    "childFile": "0214.json"
+    "label": "Handicrafts"
   },
   {
     "id": "0215",
-    "label": "Music and performing arts",
-    "childFile": "0215.json"
+    "label": "Music and performing arts"
   },
   {
     "id": "0219",
-    "label": "Arts not elsewhere classified",
-    "childFile": "0219.json"
+    "label": "Arts not elsewhere classified"
   },
   {
     "id": "022",
-    "label": "Humanities (except languages)",
-    "childFile": ""
+    "label": "Humanities (except languages)"
   },
   {
     "id": "0220",
-    "label": "Humanities (except languages) not further defined",
-    "childFile": "0220.json"
+    "label": "Humanities (except languages) not further defined"
   },
   {
     "id": "0221",
-    "label": "Religion and theology",
-    "childFile": "0221.json"
+    "label": "Religion and theology"
   },
   {
     "id": "0222",
-    "label": "History and archaeology",
-    "childFile": "0222.json"
+    "label": "History and archaeology"
   },
   {
     "id": "0223",
-    "label": "Philosophy and ethics",
-    "childFile": "0223.json"
+    "label": "Philosophy and ethics"
   },
   {
     "id": "0229",
-    "label": "Humanities (except languages) not elsewhere classified",
-    "childFile": "0229.json"
+    "label": "Humanities (except languages) not elsewhere classified"
   },
   {
     "id": "023",
-    "label": "Languages",
-    "childFile": ""
+    "label": "Languages"
   },
   {
     "id": "0230",
-    "label": "Languages not further defined",
-    "childFile": "0230.json"
+    "label": "Languages not further defined"
   },
   {
     "id": "0231",
-    "label": "Language acquisition",
-    "childFile": "0231.json"
+    "label": "Language acquisition"
   },
   {
     "id": "0232",
-    "label": "Literature and linguistics",
-    "childFile": "0232.json"
+    "label": "Literature and linguistics"
   },
   {
     "id": "0239",
-    "label": "Languages not elsewhere classified",
-    "childFile": "0239.json"
+    "label": "Languages not elsewhere classified"
   },
   {
     "id": "028",
-    "label": "Inter-disciplinary programmes and qualifications involving arts and humanities",
-    "childFile": ""
+    "label": "Inter-disciplinary programmes and qualifications involving arts and humanities"
   },
   {
     "id": "0288",
-    "label": "Inter-disciplinary programmes and qualifications involving arts and humanities",
-    "childFile": "0288.json"
+    "label": "Inter-disciplinary programmes and qualifications involving arts and humanities"
   },
   {
     "id": "029",
-    "label": "Arts and humanities not elsewhere classified",
-    "childFile": ""
+    "label": "Arts and humanities not elsewhere classified"
   },
   {
     "id": "0299",
-    "label": "Arts and humanities not elsewhere classified",
-    "childFile": "0299.json"
+    "label": "Arts and humanities not elsewhere classified"
   },
   {
     "id": "03",
-    "label": "Social sciences, journalism and information",
-    "childFile": ""
+    "label": "Social sciences, journalism and information"
   },
   {
     "id": "030",
-    "label": "Social sciences, journalism and information not further defined",
-    "childFile": ""
+    "label": "Social sciences, journalism and information not further defined"
   },
   {
     "id": "0300",
-    "label": "Social sciences, journalism and information not further defined",
-    "childFile": "0300.json"
+    "label": "Social sciences, journalism and information not further defined"
   },
   {
     "id": "031",
-    "label": "Social and behavioural sciences",
-    "childFile": ""
+    "label": "Social and behavioural sciences"
   },
   {
     "id": "0310",
-    "label": "Social and behavioural sciences not further defined",
-    "childFile": "0310.json"
+    "label": "Social and behavioural sciences not further defined"
   },
   {
     "id": "0311",
-    "label": "Economics",
-    "childFile": "0311.json"
+    "label": "Economics"
   },
   {
     "id": "0312",
-    "label": "Political sciences and civics",
-    "childFile": "0312.json"
+    "label": "Political sciences and civics"
   },
   {
     "id": "0313",
-    "label": "Psychology",
-    "childFile": "0313.json"
+    "label": "Psychology"
   },
   {
     "id": "0314",
-    "label": "Sociology and cultural studies",
-    "childFile": "0314.json"
+    "label": "Sociology and cultural studies"
   },
   {
     "id": "0319",
-    "label": "Social and behavioural sciences not elsewhere classified",
-    "childFile": "0319.json"
+    "label": "Social and behavioural sciences not elsewhere classified"
   },
   {
     "id": "032",
-    "label": "Journalism and information",
-    "childFile": ""
+    "label": "Journalism and information"
   },
   {
     "id": "0320",
-    "label": "Journalism and information not further defined",
-    "childFile": "0320.json"
+    "label": "Journalism and information not further defined"
   },
   {
     "id": "0321",
-    "label": "Journalism and reporting",
-    "childFile": "0321.json"
+    "label": "Journalism and reporting"
   },
   {
     "id": "0322",
-    "label": "Library, information and archival studies",
-    "childFile": "0322.json"
+    "label": "Library, information and archival studies"
   },
   {
     "id": "0329",
-    "label": "Journalism and information not elsewhere classified",
-    "childFile": "0329.json"
+    "label": "Journalism and information not elsewhere classified"
   },
   {
     "id": "038",
-    "label": "Inter-disciplinary programmes and qualifications involving social sciences, journalism and information",
-    "childFile": ""
+    "label": "Inter-disciplinary programmes and qualifications involving social sciences, journalism and information"
   },
   {
     "id": "0388",
-    "label": "Inter-disciplinary programmes and qualifications involving social sciences, journalism and information",
-    "childFile": "0388.json"
+    "label": "Inter-disciplinary programmes and qualifications involving social sciences, journalism and information"
   },
   {
     "id": "039",
-    "label": "Social sciences, journalism and information not elsewhere classified",
-    "childFile": ""
+    "label": "Social sciences, journalism and information not elsewhere classified"
   },
   {
     "id": "0399",
-    "label": "Social sciences, journalism and information not elsewhere classified",
-    "childFile": "0399.json"
+    "label": "Social sciences, journalism and information not elsewhere classified"
   },
   {
     "id": "04",
-    "label": "Business, administration and law",
-    "childFile": ""
+    "label": "Business, administration and law"
   },
   {
     "id": "040",
-    "label": "Business, administration and law not further defined",
-    "childFile": ""
+    "label": "Business, administration and law not further defined"
   },
   {
     "id": "0400",
-    "label": "Business, administration and law not further defined",
-    "childFile": "0400.json"
+    "label": "Business, administration and law not further defined"
   },
   {
     "id": "041",
-    "label": "Business and administration",
-    "childFile": ""
+    "label": "Business and administration"
   },
   {
     "id": "0410",
-    "label": "Business and administration not further defined",
-    "childFile": "0410.json"
+    "label": "Business and administration not further defined"
   },
   {
     "id": "0411",
-    "label": "Accounting and taxation",
-    "childFile": "0411.json"
+    "label": "Accounting and taxation"
   },
   {
     "id": "0412",
-    "label": "Finance, banking and insurance",
-    "childFile": "0412.json"
+    "label": "Finance, banking and insurance"
   },
   {
     "id": "0413",
-    "label": "Management and administration",
-    "childFile": "0413.json"
+    "label": "Management and administration"
   },
   {
     "id": "0414",
-    "label": "Marketing and advertising",
-    "childFile": "0414.json"
+    "label": "Marketing and advertising"
   },
   {
     "id": "0415",
-    "label": "Secretarial and office work",
-    "childFile": "0415.json"
+    "label": "Secretarial and office work"
   },
   {
     "id": "0416",
-    "label": "Wholesale and retail sales",
-    "childFile": "0416.json"
+    "label": "Wholesale and retail sales"
   },
   {
     "id": "0417",
-    "label": "Work skills",
-    "childFile": "0417.json"
+    "label": "Work skills"
   },
   {
     "id": "0419",
-    "label": "Business and administration not elsewhere classified",
-    "childFile": "0419.json"
+    "label": "Business and administration not elsewhere classified"
   },
   {
     "id": "042",
-    "label": "Law",
-    "childFile": ""
+    "label": "Law"
   },
   {
     "id": "0421",
-    "label": "Law",
-    "childFile": "0421.json"
+    "label": "Law"
   },
   {
     "id": "048",
-    "label": "Inter-disciplinary programmes and qualifications involving business, administration and law",
-    "childFile": ""
+    "label": "Inter-disciplinary programmes and qualifications involving business, administration and law"
   },
   {
     "id": "0488",
-    "label": "Inter-disciplinary programmes and qualifications involving business, administration and law",
-    "childFile": "0488.json"
+    "label": "Inter-disciplinary programmes and qualifications involving business, administration and law"
   },
   {
     "id": "049",
-    "label": "Business, administration and law not elsewhere classified",
-    "childFile": ""
+    "label": "Business, administration and law not elsewhere classified"
   },
   {
     "id": "0499",
-    "label": "Business, administration and law not elsewhere classified",
-    "childFile": "0499.json"
+    "label": "Business, administration and law not elsewhere classified"
   },
   {
     "id": "05",
-    "label": "Natural sciences, mathematics and statistics",
-    "childFile": ""
+    "label": "Natural sciences, mathematics and statistics"
   },
   {
     "id": "050",
-    "label": "Natural sciences, mathematics and statistics not further defined",
-    "childFile": ""
+    "label": "Natural sciences, mathematics and statistics not further defined"
   },
   {
     "id": "0500",
-    "label": "Natural sciences, mathematics and statistics not further defined",
-    "childFile": "0500.json"
+    "label": "Natural sciences, mathematics and statistics not further defined"
   },
   {
     "id": "051",
-    "label": "Biological and related sciences",
-    "childFile": ""
+    "label": "Biological and related sciences"
   },
   {
     "id": "0510",
-    "label": "Biological and related sciences not further defined",
-    "childFile": "0510.json"
+    "label": "Biological and related sciences not further defined"
   },
   {
     "id": "0511",
-    "label": "Biology",
-    "childFile": "0511.json"
+    "label": "Biology"
   },
   {
     "id": "0512",
-    "label": "Biochemistry",
-    "childFile": "0512.json"
+    "label": "Biochemistry"
   },
   {
     "id": "0519",
-    "label": "Biological and related sciences not elsewhere classified",
-    "childFile": "0519.json"
+    "label": "Biological and related sciences not elsewhere classified"
   },
   {
     "id": "052",
-    "label": "Environment",
-    "childFile": ""
+    "label": "Environment"
   },
   {
     "id": "0520",
-    "label": "Environment not further defined",
-    "childFile": "0520.json"
+    "label": "Environment not further defined"
   },
   {
     "id": "0521",
-    "label": "Environmental sciences",
-    "childFile": "0521.json"
+    "label": "Environmental sciences"
   },
   {
     "id": "0522",
-    "label": "Natural environments and wildlife",
-    "childFile": "0522.json"
+    "label": "Natural environments and wildlife"
   },
   {
     "id": "0529",
-    "label": "Environment not elsewhere classified",
-    "childFile": "0529.json"
+    "label": "Environment not elsewhere classified"
   },
   {
     "id": "053",
-    "label": "Physical sciences",
-    "childFile": ""
+    "label": "Physical sciences"
   },
   {
     "id": "0530",
-    "label": "Physical sciences not further defined",
-    "childFile": "0530.json"
+    "label": "Physical sciences not further defined"
   },
   {
     "id": "0531",
-    "label": "Chemistry",
-    "childFile": "0531.json"
+    "label": "Chemistry"
   },
   {
     "id": "0532",
-    "label": "Earth sciences",
-    "childFile": "0532.json"
+    "label": "Earth sciences"
   },
   {
     "id": "0533",
-    "label": "Physics",
-    "childFile": "0533.json"
+    "label": "Physics"
   },
   {
     "id": "0539",
-    "label": "Physical sciences not elsewhere classified",
-    "childFile": "0539.json"
+    "label": "Physical sciences not elsewhere classified"
   },
   {
     "id": "054",
-    "label": "Mathematics and statistics",
-    "childFile": ""
+    "label": "Mathematics and statistics"
   },
   {
     "id": "0540",
-    "label": "Mathematics and statistics not further defined",
-    "childFile": "0540.json"
+    "label": "Mathematics and statistics not further defined"
   },
   {
     "id": "0541",
-    "label": "Mathematics",
-    "childFile": "0541.json"
+    "label": "Mathematics"
   },
   {
     "id": "0542",
-    "label": "Statistics",
-    "childFile": "0542.json"
+    "label": "Statistics"
   },
   {
     "id": "058",
-    "label": "Inter-disciplinary programmes and qualifications involving natural sciences, mathematics and statistics",
-    "childFile": ""
+    "label": "Inter-disciplinary programmes and qualifications involving natural sciences, mathematics and statistics"
   },
   {
     "id": "0588",
-    "label": "Inter-disciplinary programmes and qualifications involving natural sciences, mathematics and statistics",
-    "childFile": "0588.json"
+    "label": "Inter-disciplinary programmes and qualifications involving natural sciences, mathematics and statistics"
   },
   {
     "id": "059",
-    "label": "Natural sciences, mathematics and statistics not elsewhere classified",
-    "childFile": ""
+    "label": "Natural sciences, mathematics and statistics not elsewhere classified"
   },
   {
     "id": "0599",
-    "label": "Natural sciences, mathematics and statistics not elsewhere classified",
-    "childFile": "0599.json"
+    "label": "Natural sciences, mathematics and statistics not elsewhere classified"
   },
   {
     "id": "06",
-    "label": "Information and Communication Technologies (ICTs)",
-    "childFile": ""
+    "label": "Information and Communication Technologies (ICTs)"
   },
   {
     "id": "061",
-    "label": "Information and Communication Technologies (ICTs)",
-    "childFile": ""
+    "label": "Information and Communication Technologies (ICTs)"
   },
   {
     "id": "0610",
-    "label": "Information and Communication Technologies (ICTs) not further defined",
-    "childFile": "0610.json"
+    "label": "Information and Communication Technologies (ICTs) not further defined"
   },
   {
     "id": "0611",
-    "label": "Computer use",
-    "childFile": "0611.json"
+    "label": "Computer use"
   },
   {
     "id": "0612",
-    "label": "Database and network design and administration",
-    "childFile": "0612.json"
+    "label": "Database and network design and administration"
   },
   {
     "id": "0613",
-    "label": "Software and applications development and analysis",
-    "childFile": "0613.json"
+    "label": "Software and applications development and analysis"
   },
   {
     "id": "0619",
-    "label": "Information and Communication Technologies (ICTs) not elsewhere classified",
-    "childFile": "0619.json"
+    "label": "Information and Communication Technologies (ICTs) not elsewhere classified"
   },
   {
     "id": "068",
-    "label": "Inter-disciplinary programmes and qualifications involving Information and Communication Technologies (ICTs)",
-    "childFile": ""
+    "label": "Inter-disciplinary programmes and qualifications involving Information and Communication Technologies (ICTs)"
   },
   {
     "id": "0688",
-    "label": "Inter-disciplinary programmes and qualifications involving Information and Communication Technologies (ICTs)",
-    "childFile": "0688.json"
+    "label": "Inter-disciplinary programmes and qualifications involving Information and Communication Technologies (ICTs)"
   },
   {
     "id": "07",
-    "label": "Engineering, manufacturing and construction",
-    "childFile": ""
+    "label": "Engineering, manufacturing and construction"
   },
   {
     "id": "070",
-    "label": "Engineering, manufacturing and construction not further defined",
-    "childFile": ""
+    "label": "Engineering, manufacturing and construction not further defined"
   },
   {
     "id": "0700",
-    "label": "Engineering, manufacturing and construction not further defined",
-    "childFile": "0700.json"
+    "label": "Engineering, manufacturing and construction not further defined"
   },
   {
     "id": "071",
-    "label": "Engineering and engineering trades",
-    "childFile": ""
+    "label": "Engineering and engineering trades"
   },
   {
     "id": "0710",
-    "label": "Engineering and engineering trades not further defined",
-    "childFile": "0710.json"
+    "label": "Engineering and engineering trades not further defined"
   },
   {
     "id": "0711",
-    "label": "Chemical engineering and processes",
-    "childFile": "0711.json"
+    "label": "Chemical engineering and processes"
   },
   {
     "id": "0712",
-    "label": "Environmental protection technology",
-    "childFile": "0712.json"
+    "label": "Environmental protection technology"
   },
   {
     "id": "0713",
-    "label": "Electricity and energy",
-    "childFile": "0713.json"
+    "label": "Electricity and energy"
   },
   {
     "id": "0714",
-    "label": "Electronics and automation",
-    "childFile": "0714.json"
+    "label": "Electronics and automation"
   },
   {
     "id": "0715",
-    "label": "Mechanics and metal trades",
-    "childFile": "0715.json"
+    "label": "Mechanics and metal trades"
   },
   {
     "id": "0716",
-    "label": "Motor vehicles, ships and aircraft",
-    "childFile": "0716.json"
+    "label": "Motor vehicles, ships and aircraft"
   },
   {
     "id": "0719",
-    "label": "Engineering and engineering trades not elsewhere classified",
-    "childFile": "0719.json"
+    "label": "Engineering and engineering trades not elsewhere classified"
   },
   {
     "id": "072",
-    "label": "Manufacturing and processing",
-    "childFile": ""
+    "label": "Manufacturing and processing"
   },
   {
     "id": "0720",
-    "label": "Manufacturing and processing not further defined",
-    "childFile": "0720.json"
+    "label": "Manufacturing and processing not further defined"
   },
   {
     "id": "0721",
-    "label": "Food processing",
-    "childFile": "0721.json"
+    "label": "Food processing"
   },
   {
     "id": "0722",
-    "label": "Materials (glass, paper, plastic and wood)",
-    "childFile": "0722.json"
+    "label": "Materials (glass, paper, plastic and wood)"
   },
   {
     "id": "0723",
-    "label": "Textiles (clothes, footwear and leather)",
-    "childFile": "0723.json"
+    "label": "Textiles (clothes, footwear and leather)"
   },
   {
     "id": "0724",
-    "label": "Mining and extraction",
-    "childFile": "0724.json"
+    "label": "Mining and extraction"
   },
   {
     "id": "0729",
-    "label": "Manufacturing and processing not elsewhere classified",
-    "childFile": "0729.json"
+    "label": "Manufacturing and processing not elsewhere classified"
   },
   {
     "id": "073",
-    "label": "Architecture and construction",
-    "childFile": ""
+    "label": "Architecture and construction"
   },
   {
     "id": "0730",
-    "label": "Architecture and construction not further defined",
-    "childFile": "0730.json"
+    "label": "Architecture and construction not further defined"
   },
   {
     "id": "0731",
-    "label": "Architecture and town planning",
-    "childFile": "0731.json"
+    "label": "Architecture and town planning"
   },
   {
     "id": "0732",
-    "label": "Building and civil engineering",
-    "childFile": "0732.json"
+    "label": "Building and civil engineering"
   },
   {
     "id": "078",
-    "label": "Inter-disciplinary programmes and qualifications involving engineering, manufacturing and construction",
-    "childFile": ""
+    "label": "Inter-disciplinary programmes and qualifications involving engineering, manufacturing and construction"
   },
   {
     "id": "0788",
-    "label": "Inter-disciplinary programmes and qualifications involving engineering, manufacturing and construction",
-    "childFile": "0788.json"
+    "label": "Inter-disciplinary programmes and qualifications involving engineering, manufacturing and construction"
   },
   {
     "id": "079",
-    "label": "Engineering, manufacturing and construction not elsewhere classified",
-    "childFile": ""
+    "label": "Engineering, manufacturing and construction not elsewhere classified"
   },
   {
     "id": "0799",
-    "label": "Engineering, manufacturing and construction not elsewhere classified",
-    "childFile": "0799.json"
+    "label": "Engineering, manufacturing and construction not elsewhere classified"
   },
   {
     "id": "08",
-    "label": "Agriculture, forestry, fisheries and veterinary",
-    "childFile": ""
+    "label": "Agriculture, forestry, fisheries and veterinary"
   },
   {
     "id": "080",
-    "label": "Agriculture, forestry, fisheries and veterinary not further defined",
-    "childFile": ""
+    "label": "Agriculture, forestry, fisheries and veterinary not further defined"
   },
   {
     "id": "0800",
-    "label": "Agriculture, forestry, fisheries and veterinary not further defined",
-    "childFile": "0800.json"
+    "label": "Agriculture, forestry, fisheries and veterinary not further defined"
   },
   {
     "id": "081",
-    "label": "Agriculture",
-    "childFile": ""
+    "label": "Agriculture"
   },
   {
     "id": "0810",
-    "label": "Agriculture not further defined",
-    "childFile": "0810.json"
+    "label": "Agriculture not further defined"
   },
   {
     "id": "0811",
-    "label": "Crop and livestock production",
-    "childFile": "0811.json"
+    "label": "Crop and livestock production"
   },
   {
     "id": "0812",
-    "label": "Horticulture",
-    "childFile": "0812.json"
+    "label": "Horticulture"
   },
   {
     "id": "0819",
-    "label": "Agriculture not elsewhere classified",
-    "childFile": "0819.json"
+    "label": "Agriculture not elsewhere classified"
   },
   {
     "id": "082",
-    "label": "Forestry",
-    "childFile": ""
+    "label": "Forestry"
   },
   {
     "id": "0821",
-    "label": "Forestry",
-    "childFile": "0821.json"
+    "label": "Forestry"
   },
   {
     "id": "083",
-    "label": "Fisheries",
-    "childFile": ""
+    "label": "Fisheries"
   },
   {
     "id": "0831",
-    "label": "Fisheries",
-    "childFile": "0831.json"
+    "label": "Fisheries"
   },
   {
     "id": "084",
-    "label": "Veterinary",
-    "childFile": ""
+    "label": "Veterinary"
   },
   {
     "id": "0841",
-    "label": "Veterinary",
-    "childFile": "0841.json"
+    "label": "Veterinary"
   },
   {
     "id": "088",
-    "label": "Inter-disciplinary programmes and qualifications involving agriculture, forestry, fisheries and veterinary",
-    "childFile": ""
+    "label": "Inter-disciplinary programmes and qualifications involving agriculture, forestry, fisheries and veterinary"
   },
   {
     "id": "0888",
-    "label": "Inter-disciplinary programmes and qualifications involving agriculture, forestry, fisheries and veterinary",
-    "childFile": "0888.json"
+    "label": "Inter-disciplinary programmes and qualifications involving agriculture, forestry, fisheries and veterinary"
   },
   {
     "id": "089",
-    "label": "Agriculture, forestry, fisheries and veterinary not elsewhere classified",
-    "childFile": ""
+    "label": "Agriculture, forestry, fisheries and veterinary not elsewhere classified"
   },
   {
     "id": "0899",
-    "label": "Agriculture, forestry, fisheries and veterinary not elsewhere classified",
-    "childFile": "0899.json"
+    "label": "Agriculture, forestry, fisheries and veterinary not elsewhere classified"
   },
   {
     "id": "09",
-    "label": "Health and welfare",
-    "childFile": ""
+    "label": "Health and welfare"
   },
   {
     "id": "090",
-    "label": "Health and welfare not further defined",
-    "childFile": ""
+    "label": "Health and welfare not further defined"
   },
   {
     "id": "0900",
-    "label": "Health and welfare not further defined",
-    "childFile": "0900.json"
+    "label": "Health and welfare not further defined"
   },
   {
     "id": "091",
-    "label": "Health",
-    "childFile": ""
+    "label": "Health"
   },
   {
     "id": "0910",
-    "label": "Health not further defined",
-    "childFile": "0910.json"
+    "label": "Health not further defined"
   },
   {
     "id": "0911",
-    "label": "Dental studies",
-    "childFile": "0911.json"
+    "label": "Dental studies"
   },
   {
     "id": "0912",
-    "label": "Medicine",
-    "childFile": "0912.json"
+    "label": "Medicine"
   },
   {
     "id": "0913",
-    "label": "Nursing and midwifery",
-    "childFile": "0913.json"
+    "label": "Nursing and midwifery"
   },
   {
     "id": "0914",
-    "label": "Medical diagnostic and treatment technology",
-    "childFile": "0914.json"
+    "label": "Medical diagnostic and treatment technology"
   },
   {
     "id": "0915",
-    "label": "Therapy and rehabilitation",
-    "childFile": "0915.json"
+    "label": "Therapy and rehabilitation"
   },
   {
     "id": "0916",
-    "label": "Pharmacy",
-    "childFile": "0916.json"
+    "label": "Pharmacy"
   },
   {
     "id": "0917",
-    "label": "Traditional and complementary medicine and therapy",
-    "childFile": "0917.json"
+    "label": "Traditional and complementary medicine and therapy"
   },
   {
     "id": "0919",
-    "label": "Health not elsewhere classified",
-    "childFile": "0919.json"
+    "label": "Health not elsewhere classified"
   },
   {
     "id": "092",
-    "label": "Welfare",
-    "childFile": ""
+    "label": "Welfare"
   },
   {
     "id": "0920",
-    "label": "Welfare not further defined",
-    "childFile": "0920.json"
+    "label": "Welfare not further defined"
   },
   {
     "id": "0921",
-    "label": "Care of the elderly and of disabled adults",
-    "childFile": "0921.json"
+    "label": "Care of the elderly and of disabled adults"
   },
   {
     "id": "0922",
-    "label": "Child care and youth services",
-    "childFile": "0922.json"
+    "label": "Child care and youth services"
   },
   {
     "id": "0923",
-    "label": "Social work and counselling",
-    "childFile": "0923.json"
+    "label": "Social work and counselling"
   },
   {
     "id": "0929",
-    "label": "Welfare not elsewhere classified",
-    "childFile": "0929.json"
+    "label": "Welfare not elsewhere classified"
   },
   {
     "id": "098",
-    "label": "Inter-disciplinary programmes and qualifications involving health and welfare",
-    "childFile": ""
+    "label": "Inter-disciplinary programmes and qualifications involving health and welfare"
   },
   {
     "id": "0988",
-    "label": "Inter-disciplinary programmes and qualifications involving health and welfare",
-    "childFile": "0988.json"
+    "label": "Inter-disciplinary programmes and qualifications involving health and welfare"
   },
   {
     "id": "099",
-    "label": "Health and welfare not elsewhere classified",
-    "childFile": ""
+    "label": "Health and welfare not elsewhere classified"
   },
   {
     "id": "0999",
-    "label": "Health and welfare not elsewhere classified",
-    "childFile": "0999.json"
+    "label": "Health and welfare not elsewhere classified"
   },
   {
     "id": "10",
-    "label": "Services",
-    "childFile": ""
+    "label": "Services"
   },
   {
     "id": "100",
-    "label": "Services not further defined",
-    "childFile": ""
+    "label": "Services not further defined"
   },
   {
     "id": "1000",
-    "label": "Services not further defined",
-    "childFile": "1000.json"
+    "label": "Services not further defined"
   },
   {
     "id": "101",
-    "label": "Personal services",
-    "childFile": ""
+    "label": "Personal services"
   },
   {
     "id": "1010",
-    "label": "Personal services not further defined",
-    "childFile": "1010.json"
+    "label": "Personal services not further defined"
   },
   {
     "id": "1011",
-    "label": "Domestic services",
-    "childFile": "1011.json"
+    "label": "Domestic services"
   },
   {
     "id": "1012",
-    "label": "Hair and beauty services",
-    "childFile": "1012.json"
+    "label": "Hair and beauty services"
   },
   {
     "id": "1013",
-    "label": "Hotel, restaurants and catering",
-    "childFile": "1013.json"
+    "label": "Hotel, restaurants and catering"
   },
   {
     "id": "1014",
-    "label": "Sports",
-    "childFile": "1014.json"
+    "label": "Sports"
   },
   {
     "id": "1015",
-    "label": "Travel, tourism and leisure",
-    "childFile": "1015.json"
+    "label": "Travel, tourism and leisure"
   },
   {
     "id": "1019",
-    "label": "Personal services not elsewhere classified",
-    "childFile": "1019.json"
+    "label": "Personal services not elsewhere classified"
   },
   {
     "id": "102",
-    "label": "Hygiene and occupational health services",
-    "childFile": ""
+    "label": "Hygiene and occupational health services"
   },
   {
     "id": "1020",
-    "label": "Hygiene and occupational health services not further defined",
-    "childFile": "1020.json"
+    "label": "Hygiene and occupational health services not further defined"
   },
   {
     "id": "1021",
-    "label": "Community sanitation",
-    "childFile": "1021.json"
+    "label": "Community sanitation"
   },
   {
     "id": "1022",
-    "label": "Occupational health and safety",
-    "childFile": "1022.json"
+    "label": "Occupational health and safety"
   },
   {
     "id": "1029",
-    "label": "Hygiene and occupational health services not elsewhere classified",
-    "childFile": "1029.json"
+    "label": "Hygiene and occupational health services not elsewhere classified"
   },
   {
     "id": "103",
-    "label": "Security services",
-    "childFile": ""
+    "label": "Security services"
   },
   {
     "id": "1030",
-    "label": "Security services not further defined",
-    "childFile": "1030.json"
+    "label": "Security services not further defined"
   },
   {
     "id": "1031",
-    "label": "Military and defence",
-    "childFile": "1031.json"
+    "label": "Military and defence"
   },
   {
     "id": "1032",
-    "label": "Protection of persons and property",
-    "childFile": "1032.json"
+    "label": "Protection of persons and property"
   },
   {
     "id": "1039",
-    "label": "Security services not elsewhere classified",
-    "childFile": "1039.json"
+    "label": "Security services not elsewhere classified"
   },
   {
     "id": "104",
-    "label": "Transport services",
-    "childFile": ""
+    "label": "Transport services"
   },
   {
     "id": "1041",
-    "label": "Transport services",
-    "childFile": "1041.json"
+    "label": "Transport services"
   },
   {
     "id": "108",
-    "label": "Inter-disciplinary programmes and qualifications involving services",
-    "childFile": ""
+    "label": "Inter-disciplinary programmes and qualifications involving services"
   },
   {
     "id": "1088",
-    "label": "Inter-disciplinary programmes and qualifications involving services",
-    "childFile": "1088.json"
+    "label": "Inter-disciplinary programmes and qualifications involving services"
   },
   {
     "id": "109",
-    "label": "Services not elsewhere classified",
-    "childFile": ""
+    "label": "Services not elsewhere classified"
   },
   {
     "id": "1099",
-    "label": "Services not elsewhere classified",
-    "childFile": "1099.json"
+    "label": "Services not elsewhere classified"
   },
   {
     "id": "99",
-    "label": "Field unknown",
-    "childFile": ""
+    "label": "Field unknown"
   },
   {
     "id": "999",
-    "label": "Field unknown",
-    "childFile": ""
+    "label": "Field unknown"
   },
   {
     "id": "9999",
-    "label": "Field unknown",
-    "childFile": "9999.json"
+    "label": "Field unknown"
   }
 ]

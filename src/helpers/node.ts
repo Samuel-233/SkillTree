@@ -1,5 +1,5 @@
 import type { ElementsDefinition, NodeSingular } from 'cytoscape';
-
+import { availableLanguages, type LanguageCode } from '../config';
 /* ---------- 接口 ---------- */
 
 export interface CategoryNode {
@@ -32,8 +32,8 @@ export interface FoundNode {
 }
 /* ---------- 对外函数 ---------- */
 
-export async function loadIndexGraph(): Promise<ElementsDefinition> {
-  const res = await fetch('/data/en/isced-index.json');
+export async function loadIndexGraph(language: LanguageCode): Promise<ElementsDefinition> {
+  const res = await fetch(`/data/${language}/isced-index.json`);
   if (!res.ok) throw new Error('无法加载顶层分类数据');
   const allCategories: CategoryNode[] = await res.json();
   return categoriesToElements(allCategories);
@@ -248,11 +248,12 @@ function fanOut(
 export async function loadChildGraph(
   parentId: string,
   parentPos: { x: number; y: number }, // Position of the clicked parent node
-  grandParentPos: { x: number; y: number }
+  grandParentPos: { x: number; y: number },
+  language: LanguageCode
 ): Promise<ElementsDefinition> {
-  const res = await fetch(`/data/en/${parentId}.json`); // Assumes filename is parentId.json
+  const res = await fetch(`/data/${language}/${parentId}.json`); // Assumes filename is parentId.json
   if (!res.ok) {
-    throw new Error(`Could not load child data from file: ${parentId}.json. Status: ${res.status}`);
+    throw new Error(`Could not load child data from file: ${language}/${parentId}.json. Status: ${res.status}`);
   }
   const loadedSkills: SkillNode[] = await res.json();
   return childGraphToElements(loadedSkills, parentId, parentPos, grandParentPos);
@@ -288,6 +289,7 @@ function childGraphToElements(
 
     nodes.push({
       group: 'nodes',
+      classes: 'skill-node',
       data: {
         id: newNodeId,
         label: skill.name,

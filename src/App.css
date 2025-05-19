@@ -126,3 +126,62 @@
   background-color: #e9ecef;
   font-weight: 500;
 }
+
+.settings-container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1010; /* Above other UI elements like search panel */
+}
+
+.settings-gear-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.settings-gear-button:hover {
+  background-color: #e0e0e0;
+}
+
+.settings-menu {
+  position: absolute;
+  bottom: 50px; /* Position above the gear icon */
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: max-content; /* Adjust width as needed */
+  min-width: 200px;
+}
+
+.settings-menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.settings-menu-item:last-child {
+  margin-bottom: 0;
+}
+
+.settings-menu-item label {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.settings-menu-item select {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  flex-grow: 1;
+}

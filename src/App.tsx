@@ -4,16 +4,12 @@ import cytoscape from 'cytoscape';
 import type { ElementDefinition, NodeSingular, NodeCollection, Stylesheet } from 'cytoscape';
 // @ts-ignore
 import coseBilkent from 'cytoscape-cose-bilkent'; // If you use this layout
-import { loadIndexGraph, loadChildGraph, type SkillNode } from './helpers/node';
+import { loadIndexGraph, loadChildGraph, type SkillNode , type FoundNode} from './helpers/node';
 import { SearchPanel } from './components/SearchPanel.tsx'; // Import the new component
+import { SettingsMenu } from './components/setting.tsx';
+import { availableLanguages, type LanguageCode } from './config';
 import './App.css'; // Import the CSS file
 
-// Define FoundNode here or in a separate types.ts file and import it in both App.tsx and SearchPanel.tsx
-interface FoundNode {
-  id: string;
-  label: string;
-  node: NodeSingular;
-}
 
 // Default Cytoscape styles (this is for Cytoscape elements, not HTML)
 const defaultCytoscapeStyles: Stylesheet[] = [
@@ -23,6 +19,7 @@ const defaultCytoscapeStyles: Stylesheet[] = [
   { selector: '.highlighted', style: { 'background-color': 'yellow', 'border-color': '#ffc107', 'border-width': 2, 'z-index': 98 } }
 ];
 
+const LOCAL_STORAGE_LANGUAGE_KEY = 'graphAppLanguage';
 
 export const App: React.FC = () => {
   const [elements, setElements] = useState<ElementDefinition[]>([]);
@@ -33,18 +30,62 @@ export const App: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [searchResults, setSearchResults] = useState<FoundNode[]>([]);
 
+  // Initialize currentLanguage from localStorage or default to 'en'
+  const [currentLanguage, setCurrentLanguage] = useState<LanguageCode>(() => {
+    const savedLanguage = localStorage.getItem(LOCAL_STORAGE_LANGUAGE_KEY);
+    // Ensure the saved language is one of the available languages
+    if (savedLanguage && availableLanguages.some(lang => lang.code === savedLanguage)) {
+      return savedLanguage as LanguageCode;
+    }
+    return 'en'; // Default language
+  });
+
+
   cytoscape.use(coseBilkent); // Make sure to register layout extensions
 
   useEffect(() => {
-    loadIndexGraph().then(({ nodes, edges }) => {
-      setElements(CytoscapeComponent.normalizeElements([...nodes, ...edges]));
+    console.log(`Loading index graph for language: ${currentLanguage}`);
+    // Pass currentLanguage to loadIndexGraph
+    loadIndexGraph(currentLanguage).then(({ nodes, edges }) => {
+      if (cyRef.current) {
+        cyRef.current.elements().remove(); // Clear old elements before adding new ones
+      }
+      const newElements = CytoscapeComponent.normalizeElements([...nodes, ...edges]);
+      setElements(newElements);
+
+      // Fit graph after new elements are set and graph instance is available
+      // Use a timeout to ensure Cytoscape has processed new elements
+      setTimeout(() => {
+        if (cyRef.current && cyRef.current.elements().length > 0) {
+          cyRef.current.fit(undefined, 50);
+        }
+      }, 0);
+
+    }).catch(error => {
+        console.error(`Error loading index graph for language ${currentLanguage}:`, error);
     });
-    fetch('/data/cy-style.json') // Your custom stylesheet
+
+    fetch(`/data/${currentLanguage}/cy-style.json`)
       .then(res => res.json())
       .then(styleJson => setStylesheet(styleJson))
-      .catch(() => setStylesheet(defaultCytoscapeStyles)); // Fallback to default
-  }, []);
+      .catch(() => setStylesheet(defaultCytoscapeStyles));
+  }, [currentLanguage]); // Re-run this effect when currentLanguage changes
 
+
+  const handleLanguageChange = (newLanguage: LanguageCode) => {
+    if (newLanguage !== currentLanguage) {
+      console.log(`Language changed to: ${newLanguage}`);
+      localStorage.setItem(LOCAL_STORAGE_LANGUAGE_KEY, newLanguage); // Save to localStorage
+      
+      // Clear elements and search state immediately for responsiveness
+      setElements([]); 
+      setSearchResults([]);
+      setSearchTerm('');
+      // Expanded states are on node data, will be reset when new elements load
+      
+      setCurrentLanguage(newLanguage); // This will trigger the useEffect above
+    }
+  };
 
   const clearAnimations = useCallback(() => {
     if (cyRef.current) {
@@ -88,7 +129,7 @@ export const App: React.FC = () => {
       try {
         // Call loadChildGraph with the parentId (nodeId) and the constructed childFileName
         // The loadChildGraph function provided in your prompt expects these two arguments.
-        const childElements = await loadChildGraph(nodeId, node.position(), parentNodePos);
+        const childElements = await loadChildGraph(nodeId, node.position(), parentNodePos, currentLanguage);
 
         node.data('expanded', true); // Mark the node as expanded in its data store
 
@@ -111,7 +152,8 @@ export const App: React.FC = () => {
 
         focusNode(node, cy); // Focus on the parent node after loading children
       } catch (error) {
-        console.error(`Failed to load child graph for node ${nodeId} using file ${childFileName}:`, error);
+        console.error(`Failed to load child graph for node ${nodeId}`, error);
+        focusNode(node, cy);
         // Optional: handle the error, e.g., by showing a notification to the user
         // or resetting node.data('expanded') to false if you want to allow retrying.
         // node.data('expanded', false);
@@ -123,7 +165,7 @@ export const App: React.FC = () => {
     }
     // Add dependencies for useCallback. These would include any external functions or state setters used.
     // e.g., [clearAnimations, focusNode, setElements]
-  }, [clearAnimations, focusNode, setElements]);
+  }, [currentLanguage, clearAnimations, focusNode, setElements]);
 
   const handleFitGraph = useCallback(() => {
     if (cyRef.current) {
@@ -228,6 +270,11 @@ export const App: React.FC = () => {
         }}
         stylesheet={stylesheet.length ? stylesheet : defaultCytoscapeStyles}
         // layout={{ name: 'cose-bilkent', idealEdgeLength: 100, nodeRepulsion: 4500 }} // Example layout options
+      />
+      <SettingsMenu
+        currentLanguage={currentLanguage}
+        availableLanguages={availableLanguages}
+        onLanguageChange={handleLanguageChange}
       />
     </div>
   );
