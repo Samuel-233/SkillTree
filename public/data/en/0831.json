@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Fisheries",
+    "description": "Within Agriculture, Forestry, Fisheries and Veterinary, Fisheries is the study of breeding, rearing, and harvesting fish and other seafood. This includes aquaculture and programmes for operating fishing boats.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Aquaculture",
+    "description": "The farming of aquatic organisms such as fish, crustaceans, molluscs, and aquatic plants, a major component of Fisheries.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Fish breeding",
+    "description": "The controlled propagation of fish, often to improve stocks for aquaculture or conservation, part of Fisheries.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Fish farms",
+    "description": "Facilities where fish are raised commercially in controlled environments, central to aquaculture within Fisheries.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Fishery science and technology",
+    "description": "The application of scientific principles and technology to the understanding, management, and exploitation of fisheries resources.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Pearl cultivating",
+    "description": "The farming of pearl oysters or mussels to produce cultured pearls, a specialized form of aquaculture within Fisheries.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Seafood farming",
+    "description": "The cultivation of various types of seafood, including fish and shellfish, through aquaculture methods, as part of Fisheries.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Shellfish breeding",
+    "description": "The controlled propagation of shellfish such as oysters, clams, and mussels, often for aquaculture, within Fisheries.",
+    "wiki": "",
+    "resources": []
+  }
+]

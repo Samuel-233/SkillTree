@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Biochemistry",
+    "description": "Within Biological and related sciences, Biochemistry (sometimes called Biological chemistry) is the study of the chemical processes within and relating to living organisms, including living matter.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Biological chemistry",
+    "description": "Focuses on the chemical basis of life, studying the molecules and chemical reactions that occur in living organisms, a core aspect of Biochemistry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cell technology",
+    "description": "The application of biological knowledge, particularly at the cellular level, for practical purposes, often involving techniques studied in Biochemistry and biotechnology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Forensic sciences",
+    "description": "The application of scientific methods and principles to criminal and civil investigations, where biochemical analysis can play a significant role.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Genetic code (DNA, RNA) studies",
+    "description": "The study of deoxyribonucleic acid (DNA) and ribonucleic acid (RNA), their structures, functions, and the way they encode genetic information, central to Biochemistry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Genetic engineering",
+    "description": "The direct manipulation of an organism's genes using biotechnology, a field heavily reliant on principles of Biochemistry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Pharmacology",
+    "description": "The branch of medicine and biology concerned with the study of drug action, where a drug can be broadly defined as any man-made, natural, or endogenous molecule which exerts a biochemical or physiological effect on the cell, tissue, organ, or organism. This is closely related to Biochemistry.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Tissue culture technology",
+    "description": "Techniques used to grow tissues or cells separate from the organism, often in a laboratory setting, important in Biochemistry and biotechnology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Toxicology",
+    "description": "The branch of science concerned with the nature, effects, and detection of poisons (toxins), often involving biochemical understanding of their mechanisms.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Virology",
+    "description": "The study of viruses – submicroscopic, parasitic particles of genetic material contained in a protein coat – and virus-like agents. This involves understanding their biochemical nature.",
+    "wiki": "",
+    "resources": []
+  }
+]

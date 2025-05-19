@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Food processing",
+    "description": "Within Manufacturing and processing, this field is the study of transforming raw ingredients into food, or of transforming food into other forms for consumption, packaging, and distribution, including the equipment and procedures used.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Baking",
+    "description": "The techniques and science of preparing food by dry heat, especially in an oven, a key skill in Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Beer brewing",
+    "description": "The process of making beer, from selecting ingredients to fermentation and packaging, a specialization within Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Butchery",
+    "description": "The trade of slaughtering animals, dressing their flesh, and preparing meat for sale, a part of Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Confectionery",
+    "description": "The art of making confections, which are food items that are rich in sugar and carbohydrates, such as candies and sweets, within Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Dairy foods",
+    "description": "The processing of milk to create various dairy products like cheese, yogurt, and butter, a segment of Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Food and drink processing",
+    "description": "A general term for the transformation of agricultural products into food, or of one form of food into other forms, including beverages, central to Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Food preservation",
+    "description": "The methods and techniques used to prevent food spoilage and extend its shelf life, an important aspect of Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Food science and technology",
+    "description": "The application of scientific and engineering principles to the study of food, its processing, preservation, packaging, distribution, and safety, a core discipline in Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Meat processing",
+    "description": "The transformation of raw meat into various meat products through cutting, grinding, curing, smoking, or cooking, a part of Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Pastry cooking",
+    "description": "The art and techniques of making pastries, desserts, and other baked goods, a specialization within Food processing.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Tobacco processing",
+    "description": "The methods used to cure and prepare tobacco leaves for use in various tobacco products, classified under Food processing in this context.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Wine production",
+    "description": "The process of making wine, from grape cultivation (viticulture) to fermentation, aging, and bottling, a specialized area of Food processing.",
+    "wiki": "",
+    "resources": []
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Earth sciences",
+    "description": "As part of Physical sciences (under Natural Sciences), Earth sciences is the study of the composition, structure, and physical aspects of the Earth, including its hydrosphere and atmosphere.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Climate research",
+    "description": "The scientific study of climate, defined as weather conditions averaged over a period of time, a key area within Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geodesy",
+    "description": "The Earth science of accurately measuring and understanding Earth's geometric shape, orientation in space, and gravitational field.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geography (physical)",
+    "description": "The branch of geography dealing with natural features and processes, as opposed to human or cultural factors, an integral part of Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geology",
+    "description": "The science that deals with the earth's physical structure and substance, its history, and the processes which act on it, a core discipline of Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geomatics",
+    "description": "The science and technology of geographically referencing information, which includes surveying, mapping, remote sensing, GIS, and GPS, within Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geospatial technology",
+    "description": "Refers to equipment used in visualization, measurement, and analysis of earth's features, typically involving GPS, GIS, and remote sensing, a component of Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Meteorology",
+    "description": "The science dealing with the atmosphere and its phenomena, including weather and climate, a branch of Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Oceanography",
+    "description": "The branch of science that deals with the physical and biological properties and phenomena of the sea, an important field within Earth sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Seismology",
+    "description": "The branch of science concerned with earthquakes and related phenomena, studied as part of Earth sciences.",
+    "wiki": "",
+    "resources": []
+  }
+]

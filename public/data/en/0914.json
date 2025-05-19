@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Medical diagnostic and treatment technology",
+    "description": "A field in Health concerned with the study and application of a wide range of technologies used for diagnosing and treating diseases and handicaps.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ambulance technology",
+    "description": "The equipment and procedures used by ambulance personnel to provide emergency medical care and transportation, a part of Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Hearing aid technology",
+    "description": "The design, fitting, and maintenance of hearing aids and other assistive listening devices, within Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Medical laboratory technology",
+    "description": "The performance of laboratory tests on patient samples to aid in the diagnosis, treatment, and monitoring of diseases, a key area in Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Optical technology",
+    "description": "The design, manufacturing, and fitting of eyeglasses, contact lenses, and other optical devices to correct vision problems, part of Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Prosthetic technology",
+    "description": "The design, fabrication, and fitting of artificial limbs (prostheses) and other assistive devices for individuals with disabilities, within Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Radiology technology",
+    "description": "The use of medical imaging techniques, such as X-rays, CT scans, and MRI, to diagnose diseases and injuries, a major component of Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Radiotherapy",
+    "description": "The use of ionizing radiation to treat cancer and other diseases, a specialized treatment technology within Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "X-ray technology (medical)",
+    "description": "The specific use of X-rays for medical imaging to diagnose various conditions, a fundamental part of Medical diagnostic and treatment technology.",
+    "wiki": "",
+    "resources": []
+  }
+]

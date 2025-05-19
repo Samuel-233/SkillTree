@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Database and network design and administration",
+    "description": "In the field of Information and Communication Technologies (ICTs), this involves the study of designing, maintaining, and integrating software applications, with a focus on databases and computer networks, including computer media applications.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer administration and management",
+    "description": "Focuses on the overall management and operational administration of computer systems and networks within an organization.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer media applications",
+    "description": "The study and use of software applications designed for creating, editing, and managing digital media content, relevant to database and network environments.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer network installation and maintenance",
+    "description": "Covers the practical skills of setting up, configuring, and maintaining computer networks to ensure their proper functioning.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Database administrator studies",
+    "description": "Specialized training for managing and maintaining database systems, including security, performance, and data integrity.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Information technology administration",
+    "description": "Broader administrative roles within IT, encompassing the management of IT resources, including databases and networks.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Information technology security",
+    "description": "Focuses on protecting information systems, databases, and networks from unauthorized access, use, disclosure, alteration, or destruction.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Network administration",
+    "description": "The process of managing and maintaining an organization's computer network infrastructure to ensure connectivity and performance.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Network design",
+    "description": "The planning and design of computer network infrastructures, including hardware, software, and communication protocols.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Web design",
+    "description": "The process of planning, conceptualizing, and arranging content intended for the Internet, often involving aspects of database and network integration.",
+    "wiki": "",
+    "resources": []
+  }
+]

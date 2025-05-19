@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Statistics",
+    "description": "Within Natural Sciences, Mathematics and Statistics, Statistics is the study of collecting, describing, arranging, analysing, interpreting, and drawing conclusions from numerical data. It includes probability theory and actuarial science.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Actuarial science",
+    "description": "The discipline that applies mathematical and statistical methods to assess risk in insurance, finance, and other industries and professions.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Probability theory",
+    "description": "The branch of mathematics concerned with probability, the analysis of random phenomena.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Statistics, applied",
+    "description": "The application of statistical methods to solve real-world problems in various fields such as science, engineering, business, and social sciences.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Survey design",
+    "description": "The process of creating surveys with the goal of obtaining specific information from a particular group of people, a key aspect of applied Statistics.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Survey sampling",
+    "description": "The selection of a subset (a statistical sample) of individuals from within a statistical population to estimate characteristics of the whole population, a technique used in Statistics.",
+    "wiki": "",
+    "resources": []
+  }
+]

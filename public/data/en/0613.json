@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Software and applications development and analysis",
+    "description": "Within Information and Communication Technologies (ICTs), this field is the study of the design, development, testing, and maintenance of computer systems, software, and computing environments.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer programming",
+    "description": "The process of writing, testing, and maintaining the source code of computer programs, a core skill in software development.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer science",
+    "description": "The broader scientific and practical approach to computation and its applications, underpinning software development and analysis.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer systems analysis",
+    "description": "The study of existing systems to understand their functionalities and limitations, and to design improved or new systems, often a precursor to software development.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Computer systems design",
+    "description": "The process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements, crucial in software and applications development.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Informatics",
+    "description": "Often used interchangeably with computer science, it refers to the science of information, the practice of information processing, and the engineering of information systems.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Operating systems",
+    "description": "The study of system software that manages computer hardware, software resources, and provides common services for computer programs, a foundational area for software development.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Programming languages development",
+    "description": "The design and implementation of new programming languages or the enhancement of existing ones, a specialized area within software development.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Software development",
+    "description": "The process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Software programming",
+    "description": "The act of writing and testing computer programs, a key activity in software and applications development.",
+    "wiki": "",
+    "resources": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mathematics",
+    "description": "Within Natural Sciences, Mathematics and Statistics, Mathematics is the study of abstract deductive systems. It includes topics such as quantity (number theory), structure (algebra), space (geometry), and change (analysis).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Algebra",
+    "description": "A branch of mathematics dealing with symbols and the rules for manipulating those symbols; it is a unifying thread of almost all of mathematics.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Geometry",
+    "description": "A branch of mathematics concerned with properties of space such as the distance, shape, size, and relative position of figures.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Numerical analysis",
+    "description": "The study of algorithms that use numerical approximation (as opposed to symbolic manipulations) for the problems of mathematical analysis.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Operational research",
+    "description": "A discipline that deals with the application of advanced analytical methods to help make better decisions, often using mathematical modeling and optimization.",
+    "wiki": "",
+    "resources": []
+  }
+]

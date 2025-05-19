@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Materials (glass, paper, plastic and wood)",
+    "description": "A field in Manufacturing and processing focused on the manufacturing of products from materials like glass, paper, plastic, wood, stone, clay, or artificial materials. Programmes emphasize specific material knowledge over general technical knowledge.",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Boat building (non-motor)",
+    "description": "The craft and techniques of constructing non-motorized boats, often using materials like wood or composites, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Cabinet making",
+    "description": "The skilled trade of making fine furniture, especially cabinets and case goods, primarily from wood, part of Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Carpentry (furniture)",
+    "description": "Focuses on the construction of furniture using wood, a specialization within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Ceramics (industrial)",
+    "description": "The large-scale manufacturing of ceramic products, distinct from craft ceramics, using materials like clay, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Furniture making",
+    "description": "The design and construction of furniture using various materials, with an emphasis on the material itself, as part of Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Glass working (industrial)",
+    "description": "The manufacturing of glass products on an industrial scale, as opposed to artistic glass crafting, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Industrial diamond production",
+    "description": "The manufacturing of diamonds for industrial applications, focusing on material properties, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Paper manufacturing and processing",
+    "description": "The industrial processes involved in producing paper from raw materials and converting it into various paper products, part of Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Plastic manufacturing",
+    "description": "The industrial production of plastic materials and products from polymers, a key area in Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Rubber processing",
+    "description": "The transformation of raw rubber into various rubber products through processes like molding and vulcanization, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Timber technology",
+    "description": "The study and application of techniques for processing and utilizing wood (timber) in manufacturing, part of Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Wood machining and turning",
+    "description": "Skills and techniques for shaping wood using machine tools and lathes, a trade within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  },
+  {
+    "name": "Woodwork trades",
+    "description": "Encompasses various skilled professions related to working with wood to create products, within Materials (glass, paper, plastic, wood).",
+    "wiki": "",
+    "resources": []
+  }
+]
