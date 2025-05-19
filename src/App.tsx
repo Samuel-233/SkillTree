@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useCallback, useRef } from 'react';
 import CytoscapeComponent from 'react-cytoscapejs';
 import cytoscape from 'cytoscape';
+// @ts-ignore
 import type { ElementDefinition, NodeSingular, NodeCollection, Stylesheet } from 'cytoscape';
 // @ts-ignore
 import coseBilkent from 'cytoscape-cose-bilkent';
