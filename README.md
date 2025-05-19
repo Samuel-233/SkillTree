@@ -1,7 +1,7 @@
 # SkillTree: Visualizing All Human Knowledge Based on ISCED
 
 This project aims to visualize all human occupations and educational fields using the official  
-[**ISCED-F 2013** classification](public\international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf)  
+[**ISCED-F 2013** classification](public/international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf)  
 from UNESCO (International Standard Classification of Education – Fields of Education and Training).
 
 [中文版README](README_ZH.md)

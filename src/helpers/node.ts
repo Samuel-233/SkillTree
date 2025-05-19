@@ -52,6 +52,15 @@ export interface FoundNode {
   label: string;       // Display label of the found node (often id + name)
   node: NodeSingular;  // The Cytoscape node object itself
 }
+function getPath(fileName: string): string {
+  let baseUrl = import.meta.env.BASE_URL;
+  // 确保 baseUrl 以 / 结尾 (如果不是根路径 '/')
+  if (baseUrl !== '/' && !baseUrl.endsWith('/')) {
+    baseUrl += '/';
+  }
+  return `${baseUrl}${fileName}`;
+}
+
 
 /* ---------- Exported Functions ---------- */
 
@@ -63,7 +72,8 @@ export interface FoundNode {
  * @throws {Error} If fetching or parsing the data fails.
  */
 export async function loadIndexGraph(language: string /* LanguageCode */): Promise<ElementsDefinition> {
-  const res = await fetch(`/data/${language}/isced-index.json`);
+
+  const res = await fetch(getPath(`data/${language}/isced-index.json`));
   if (!res.ok) {
     throw new Error(`Failed to load top-level category data for language ${language}. Status: ${res.status}`);
   }
@@ -266,7 +276,7 @@ export async function loadChildGraph(
   language: string /* LanguageCode */
 ): Promise<ElementsDefinition> {
   // Assumes child data file is named parentId.json (e.g., "0110.json")
-  const res = await fetch(`/data/${language}/${parentId}.json`); 
+  const res = await fetch(getPath(`data/${language}/${parentId}.json`)); 
   if (!res.ok) {
     throw new Error(`Could not load child skill data from file: ${language}/${parentId}.json. Status: ${res.status}`);
   }
