@@ -1,58 +1,79 @@
-# Skill Tree
+# SkillTree: Visualizing All Human Knowledge Based on ISCED
 
+This project aims to visualize all human occupations and educational fields using the official  
+[**ISCED-F 2013** classification](public\international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf)  
+from UNESCO (International Standard Classification of Education – Fields of Education and Training).
 
+[中文版README](README_ZH.md)
+---
 
-# React + TypeScript + Vite
+## What is This?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- A **visual skill tree** that shows the global structure of knowledge and occupational domains.
+- Based on the ISCED-F hierarchy: from **broad fields (0–9)** to **detailed subfields**.
+- Designed to be **community-driven**: detailed nodes are manually contributed by users.
+- Built in **TypeScript** (my first time using it!) — most of the code was generated with the help of AI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Why Community Contribution?
 
-## Expanding the ESLint configuration
+The classification contains **hundreds of small subfields**, and each one may include dozens of tiny subcategories.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+For example:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- `0611.json` corresponds to the "Computer use" subfield, which includes:
+  - Use of spreadsheets
+  - Use of software for data processing
+  - Use of software for word processing
+  - Use of the Internet
+  - And more...
+
+These details **must be filled manually**, with:
+
+- Name of the micro-topic
+- Short description
+- Reference link (e.g., Wikipedia)
+- Optional: learning resources, courses, videos, etc.
+
+---
+
+## How to Contribute?
+
+We welcome any kind of contribution! Especially:
+
+- Filling out JSON files in the `data/en/` or `data/zh/` folders
+- Improving TypeScript code or UI logic
+- Helping write better documentation
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions.
+
+You don't need to be an expert — if you're willing to explore a topic and organize information, your help is already extremely valuable.
+
+---
+
+## Local Development
+
+To run the project locally:
+
+```bash
+git clone https://github.com/Samuel-233/SkillTree.git
+cd SkillTree
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## A Note from the Author
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+This is my **first open-source project**.
+
+- The code is not perfect.
+- The structure may be rough.
+- I’m new to TypeScript.
+- But the idea matters — and I’m committed to improving it over time.
+
+Please don’t hesitate to join, contribute, or give feedback. Every small help counts.
+
+---
