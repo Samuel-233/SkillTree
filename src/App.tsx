@@ -72,19 +72,6 @@ export const App: React.FC = () => {
       const newElements = CytoscapeComponent.normalizeElements([...nodes, ...edges]);
       setElements(newElements);
 
-      if (cyRef.current) {
-        const cy = cyRef.current;
-        // Delay fit to ensure elements are rendered
-        const fitTimeoutId = setTimeout(() => {
-          if (cy && !cy.destroyed() && cy.elements().length > 0) {
-            cy.fit(undefined, 50); // Fit with 50px padding
-          }
-        }, 100);
-        // Optional: Cleanup timeout on unmount or re-run
-        // return () => clearTimeout(fitTimeoutId);
-      } else {
-        console.warn("cyRef not available for initial fit immediately after setting elements.");
-      }
     }).catch(error => {
         console.error(`Error loading index graph for language ${currentLanguage}:`, error);
     });
